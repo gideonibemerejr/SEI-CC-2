@@ -48,7 +48,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
     </tr>
     <tr>
       <td align="center">3</td>
-      <td>Project Week<br>Project Deployment to GitHub Pages</td>
+      <td>CS Topics<br>Project Week<br>Project Deployment to GitHub Pages</td>
     </tr>
     <tr>
       <td rowspan="3">Full-stack Development</td>
@@ -62,7 +62,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
     </tr>
     <tr>
       <td align="center">6</td>
-      <td>Project Week<br>Project Deployment to Heroku</td>
+      <td>CS Topics<br>Project Week<br>Project Deployment to Heroku</td>
     </tr>
     <tr>
       <td rowspan="3">Second Language & Web Framework</td>
@@ -76,7 +76,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
     </tr>
     <tr>
       <td align="center">9</td>
-      <td>Project Week<br>Project Deployment to Heroku</td>
+      <td>CS Topics<br>Project Week<br>Project Deployment to Heroku</td>
     </tr>
     <tr>
       <td rowspan="3">Developing Single-page Apps</td>
@@ -90,7 +90,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
     </tr>
     <tr>
       <td align="center">12</td>
-      <td>Project Week<br>Project Deployment to Heroku</td>
+      <td>CS Topics<br>Project Week<br>Project Deployment to Heroku</td>
     </tr>
   </tbody>
 </table>
@@ -192,6 +192,14 @@ Once you have resolved these merge conflicts by editing the code and removing th
 #### Important
 
 **"Nested" repos are never permitted**.  Therefore, if you have important code, such as your projects, that belongs in its own repo, **be sure to put that code in folders outside of the class repo**.
+
+### Daily JavaScript Code Challenges
+
+There are 30 required code challenges that will help you get the necessary practice of writing code, as well as teach you new methods and techniques.
+
+Just as with the class repo, you will fork & clone [the code challenges repo](https://git.generalassemb.ly/SEI-CC/daily-js-code-challenges).
+
+These coding challenges start with day 1 and will continue through week 8 (excluding project week).
 
 ### Videos of Lessons
 
