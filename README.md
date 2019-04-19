@@ -139,7 +139,7 @@ Note that by convention, the remote that points to the GitHub repo it was cloned
 However, in order to get the updates that the instructors push to the GA class repo, you will need to create another **remote** that points to GA's class repo that you forked:
 
 ```
-$ git remote add upstream https://git.generalassemb.ly/SEI-CC/SEI-CC-2
+$ git remote add upstream https://git.generalassemb.ly/SEI-CC/SEI-CC-2.git
 ```
 
 Note that by convention, the remote that points to the *original* GitHub repo that was forked is named **upstream**.
