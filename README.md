@@ -214,7 +214,7 @@ For your convenience, recordings of the lessons will be available to review at
 |Local Instructor - Austin | Shahzad Khan | @Shahzad | shahzad.khan@generalassemb.ly 
 |Local Instructor - Dallas | Daniel Scott | @Daniel Scott | daniel.scott@generalassemb.ly | |
 |Local Instructor - Santa Monica (LA) |  |  | @generalassemb.ly |
-|Local Instructor - San Fransisco | Brock Whitbread | Brock Whitbread-Cole | brock.whitbread@generalassemb.ly |
+|Local Instructor - San Fransisco | Brock Whitbread-Cole | @brock | brock.whitbread@generalassemb.ly |
 
 ### Course Information
 
