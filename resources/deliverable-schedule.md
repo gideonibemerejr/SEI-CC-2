@@ -13,8 +13,4 @@ It is a requirement to complete at least **80%** of the following to to receive:
 |Ongoing|[Daily Code Challenges](https://git.generalassemb.ly/SEI-CC/daily-js-code-challenges)|
 | Tue 4/23 | [JS Functions Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w01/d2/04-js-functions-lab) |
 | Wed 4/24 | [JS Objects Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w01/d3/04-js-objects-lab.md) |
-
-
-
-
-
+| Fri 4/26<br>(Due Mon 4/29) | [Tic-Tac-Toe Weekend](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w01/d5/tic-tac-toe-weekend) |
