@@ -204,7 +204,7 @@ These coding challenges start with day 1 and will continue through week 8 (exclu
 ### Videos of Lessons
 
 For your convenience, recordings of the lessons will be available to review at 
- [this link]().
+ [this YouTube channel](https://www.youtube.com/playlist?list=PLt-s1HdZuBB1MWc8IVHiRL2z1QsUKwthT).
 
 ### Instructional Team
 
