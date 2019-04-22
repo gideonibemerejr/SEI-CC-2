@@ -385,7 +385,7 @@
 
 - To edit a specific file in VS Code, we can simply type the file after `code`.
 
-- Let's add an _alias_ (shortcut) command that will change to your class repo directory by simply typing `repo`.  We will this by editing the hidden `.bash_profile` file.
+- Let's add an _alias_ (shortcut) command that will change to your class repo directory by simply typing `repo`.  We can do this by editing the hidden `.bash_profile` file.
 
 	```sh
 	$ code ~/.bash_profile
