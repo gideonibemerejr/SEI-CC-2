@@ -212,8 +212,8 @@ For your convenience, recordings of the lessons will be available to review at
 |:--         | :--             | :--         | :-- |
 |Global Instructor  | Jim Clark       | @Jim Clark  | jim.clark@generalassemb.ly |
 |Local Instructor - Austin | Shahzad Khan | @Shahzad | shahzad.khan@generalassemb.ly 
-|Local Instructor - Dallas | Daniel Scott | @Daniel Scott | daniel.scott@generalassemb.ly | |
-|Local Instructor - Santa Monica (LA) |  |  | @generalassemb.ly |
+|Local Instructor - Dallas | Daniel Scott | @Daniel Scott | daniel.scott@generalassemb.ly |
+|Local Instructor - Santa Monica (LA) | Alex Rowland<br>James Newman |  @Alexander Rowland<br>@James Newman  | alexander.rowland@generalassemb.ly<br>james.newman@generalassemb.ly |
 |Local Instructor - San Fransisco | Brock Whitbread | Brock Whitbread-Cole | brock.whitbread@generalassemb.ly |
 
 ### Course Information
