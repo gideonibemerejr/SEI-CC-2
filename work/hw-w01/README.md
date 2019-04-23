@@ -1,10 +1,10 @@
-# GA SEI Homework Area
+# GA SEI Homework and Labs 
 
 ---
 
 ### Introduction
 
-I've created this directory to make uploading homework easier to do and easier to find.  Each week's deliverables will be uploaded here __unless otherwise instructed__.
+I've created this directory to make uploading homework and labs easier to do and easier to find.  Each week's deliverables will be uploaded here __unless otherwise instructed__.
 
 ### Documentation (How you can do it too)
 #### macOS Setup
