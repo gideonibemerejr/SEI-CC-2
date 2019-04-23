@@ -34,7 +34,10 @@ I've created this directory to make uploading homework easier to do and easier t
             /05-topic
             /hw-topic
     ```
-6. You are going to create a directory on the same level as /w01 called */hw-01*. Run: 
+6. You are going to create a directory inside the work/ (on the same level as /w01) called */hw-01*. Run: 
+   ```
+   $ cd work
+   ```
    ```
    $ mkdir hw-w01 && cd hw-w01
    ```
