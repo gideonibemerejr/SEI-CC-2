@@ -51,3 +51,4 @@
 | Tatty | SF | [link](https://git.generalassemb.ly/tattyklass/daily-code-challenges) |
 | Thuy | SF | [link](https://git.generalassemb.ly/hellothuy/daily-code-challenges) |
 | Timothy | SF | [link](https://git.generalassemb.ly/DesignAway2Play/daily-js-code-challenges) |
+| Trenton | SF | [link](https://git.generalassemb.ly/trentblackwell/daily-code-challenges) |
