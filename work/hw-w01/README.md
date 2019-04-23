@@ -33,5 +33,5 @@ I've created this directory to make uploading homework easier to do and easier t
             /hw-topic
     ```
 5. 
-6. You can also follow the **Repo Structure** section in our [SEI-CC-22](https://git.generalassemb.ly/gideonjr/SEI-CC-2) README file
+6. You can also follow the **Repo Structure** section in our <a href="https://git.generalassemb.ly/gideonjr/SEI-CC-2 " target="_blank">SEI-CC-22 </a> README file
 7. 
