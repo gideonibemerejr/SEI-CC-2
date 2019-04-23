@@ -390,10 +390,7 @@ Basically, when a line of code accesses a variable (or function), JS will traver
 
 If the JS runtime engine gets to the _global scope_ (which is the top of the food chain in the scope hierarchy) and still can't find what it's looking for, that's when your program ceases due to a **ReferenceError**.
 
-
 **Does the function `foo` have access to the variable `c`?**
-
-**Off topic question: Does anyone see a slight flaw in the above code?**
 
 ##### Global Scope
 
@@ -409,6 +406,12 @@ If we define a variable within the global scope, it becomes a property on the `w
 
 > Although using both `var` and `let` in the global scope results in a global variable being created, interestingly, those created using `let` do not appear as properties on the `window` object.
 
+**Any questions before moving on the lab where you'll practice writing several functions?**
+
+### 6. Local Review & Further Study
+
+##### Immediately Invoked Function Expressions (IIFE)
+
 One way we can prevent our code from leaking into the global scope is by wrapping it with a construct known as an **Immediately Invoked Function Expression**, or "IIFE" (pronounced "iffy").  It looks like this:
 
 ```js
@@ -420,8 +423,6 @@ One way we can prevent our code from leaking into the global scope is by wrappin
 })();
 ```
 **? - Why does this construct virtually prevent variables and functions from being created in the global scope?**
-
-One day, when _modules_ are fully implemented in JavaScript, we won't have to screw around with IIFE's :)
 
 ##### Block Scope
 
@@ -481,10 +482,6 @@ function hoist() {
 	console.log(x);  // outputs 25
 }
 ```
-
-**Any questions before moving on the lab where you'll practice writing several functions?**
-
-### 6. Further Study
 
 #### Nesting Functions
 
