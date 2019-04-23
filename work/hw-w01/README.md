@@ -18,7 +18,7 @@ I've created this directory to make uploading homework easier to do and easier t
     ```
     $ brew install tree
     ```
-4. cd into your SEI-CC-22 directory and run the following:
+4. Go ahead and `cd` into your /SEI-CC-22 directory and run the following:
    ```
    $ cd work
    ```
@@ -47,10 +47,10 @@ I've created this directory to make uploading homework easier to do and easier t
 7. Nice job! You've just made the first week's homework directory and the first day's directory. Now you can use the touch command to create the file(s) for d1 homework. 
 8. When you want to create the next day's files, you'll just have to run:
    ```
-   $ mkdir d(num) && cd d(num)
+   $ mkdir d<number> && cd d<number>
    $ touch // your homework deliverable file(s)
    ```
-   Where instead of (num) you would use the day number. Here is an example of creating the fifth day's directory:
+   Where instead of `<number>` you would use the day number. Here is an example of creating the fifth day's directory:
    ```
    $ mkdir d5 && cd d5
    $ touch index.html && touch someStyles.css
