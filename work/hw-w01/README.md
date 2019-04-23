@@ -18,7 +18,10 @@ I've created this directory to make uploading homework easier to do and easier t
     ```
     $ brew install tree
     ```
-4. cd into your SEI-CC-22 directory, cd into the work directory and run:
+4. cd into your SEI-CC-22 directory and run the following:
+   ```
+   $ cd work
+   ```
    ```
    $ tree
    ```
@@ -35,9 +38,6 @@ I've created this directory to make uploading homework easier to do and easier t
             /hw-topic
     ```
 6. You are going to create a directory inside the work/ (on the same level as /w01) called */hw-01*. Run: 
-   ```
-   $ cd work
-   ```
    ```
    $ mkdir hw-w01 && cd hw-w01
    ```
