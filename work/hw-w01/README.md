@@ -44,7 +44,23 @@ I've created this directory to make uploading homework and labs easier to do and
    ```
    $ mkdir d1 && cd d1
    ```
-7. Nice job! You've just made the first week's homework directory and the first day's directory. Now you can use the touch command to create the file(s) for d1 homework. 
+7. Nice job! You've just made the first week's homework directory and the first day's directory. Now you can use the touch command to create the file(s) for d1 homework. If you run `$ tree` in your work directory you should see something like this:
+    ```
+    /work
+        /hw-w01
+            /d1
+                <filename>
+        /w01
+            /d1
+                /01-topic
+                /02-topic
+                /03-topic
+                /04-topic
+                /05-topic
+                /hw-topic
+            ...
+    ```
+
 8. When you want to create the next day's files, you'll just have to run:
    ```
    $ mkdir d<number> && cd d<number>
