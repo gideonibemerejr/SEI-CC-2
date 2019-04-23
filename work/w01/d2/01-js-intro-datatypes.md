@@ -40,7 +40,7 @@ The primary responsibility of JavaScript is to provide behavior to our web appli
 - Not to be confused with Java (although both have syntaxes based upon the "C" programming language).
 - JavaScript is an implementation of ECMAScript, a standard maintained by the European Computer Manufacturers Association).
 - The version of ECMAScript currently implemented in most modern browsers is ES2015 (formerly named ES6). [This website](http://kangax.github.io/compat-table/es6/) reports the implementation status in all major browsers. ES2015 represents a major update, adding lots of new features, from its predecessor, ES5.  During SEI, we will start with the basics but will gradually learn ES2015 and beyond.
-- Contrary to what you may have heard or read, JavaScript is an object oriented programming (OOP) language. We use "objects" heavily in JS and these objects have properties and methods like in other OOP languages.  However, JS is not considered to be a "classical" OOP language thanks to its use of [prototypal  inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain).  Yes, thanks to ES2015, JS now has _classes_ that are used to create objects, but the implementation of _classes_ in JS is just "syntactic sugar" on its prototypal paradigm. BTW, we'll learn more about _classes_ next week.
+- Contrary to what you may have heard or read, JavaScript is an object oriented programming (OOP) language. We use "objects" heavily in JS and these objects have properties and methods like in other OOP languages.  However, JS is not considered to be a "classical" OOP language thanks to its use of [prototypal  inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain).  Yes, thanks to ES2015, JS now has _classes_ that are used to create objects, but the implementation of _classes_ in JS is just "syntactic sugar" on its prototypal paradigm. We'll learn more about _classes_ next week.
 
 > Don't let all of these buzzwords confuse or scare you. By the end of the course, you too will be dropping this vocab!
 
@@ -118,7 +118,7 @@ Whereas strings and numbers can have a virtually unlimited number of different v
 
 For example, in a Social Gaming app, we would represent a Gamer's Handle using a **string**.
 
-Before moving on to review the other data types, let's pair up with a partner and identify a couple of examples for each of the three common data types that would be used to represent information in that gaming and one other application of your choice:
+Before moving on to review the other data types, let's pair up with a partner and identify a couple of examples for each of the three common data types that would be used to represent information in that gaming app:
 
 <table>
 	<thead>
@@ -126,9 +126,6 @@ Before moving on to review the other data types, let's pair up with a partner an
 	</thead>
 	<tbody>
 		<tr><td rowspan="3">Social Gaming App</td><td>String</td><td>Gamer's Handle, ?</td></tr>
-		<tr><td>Number</td><td>?, ?</td></tr>
-		<tr><td>Boolean</td><td>?, ?</td></tr>
-		<tr><td rowspan="3">? App</td><td>String</td><td>?, ?</td></tr>
 		<tr><td>Number</td><td>?, ?</td></tr>
 		<tr><td>Boolean</td><td>?, ?</td></tr>
 	</tbody>
@@ -139,9 +136,7 @@ In a few minutes, I'll ask some of you to share what you've come up with...
 
 <hr>
 
-**? - If we needed to store a person's _social security number_, would you use a number or a string? Why?**
-
-Let's continue looking at the other data types...
+Now let's continue looking at the other data types...
 
 ##### null
 
@@ -176,7 +171,7 @@ Lastly, you will see _undefined_ a lot in the console when it evaluates a statem
 
 ##### object
 
-Most programming languages have the concept of two classifications of data types:
+Most programming languages have two major classifications of data types:
 
 - **Primitive/Value** data types
 - **Complex/Reference** data types
@@ -312,7 +307,7 @@ let town = 'Bedrock';
 
 ##### Naming Variables
 
-In JavaScript, when naming variables, the convention is to name the identifiers using _lowerCamelCase_, e.g.,  `myLittleHouse`.
+In JavaScript, when naming variables, the convention is to name the identifiers using lowerCamelCase, e.g.,  `myLittleHouse`.
 
 Identifiers in JS:
 
