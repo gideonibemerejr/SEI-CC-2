@@ -219,7 +219,7 @@ Invoke the function a couple of times to test it!
 
 **How many different ways are there to define a function?**
 
-**What's the only practical difference between a function expression and a function expression?**
+**What's the only practical difference between a function definition and a function expression?**
 
 ### 4. Parameters/Arguments
 
