@@ -13,6 +13,7 @@ const game = {
     this.secretNum = Math.floor(Math.random() * 
       (this.biggestNum - this.smallestNum + 1)) + this.smallestNum;
       this.prevGuesses = [];
+      feedback.innerHTML = `Enter a guess between ${this.smallestNum} and ${this.biggestNum}:.  ${this.secretNum}`
       let guess = NaN;
       while (guess !== this.secretNum){
         guess = this.getGuess();
@@ -22,11 +23,9 @@ const game = {
       }
   },
   getGuess: function() {
-    let guess = userInput;
+    let guess = NaN;
     while (isNaN(guess) || guess > this.biggestNum || guess < this.smallestNum) {
-      feedback.innerHTML = `Enter a guess between ${this.smallestNum} and ${this.biggestNum}:.  ${this.secretNum}`
-      
-    
+      guess = parseInt(prompt());
       // prompt the player to enter guess of what the secret number is until they guess correctly
       // feedback.innerHTML = `Enter a guess between ${this.smallestNum} and ${this.biggestNum}:.  ${this.secretNum}
     }
@@ -43,6 +42,8 @@ const game = {
       message = `Your guess is too low. Here are your previous guesses: ${this.prevGuesses.join(', ')}` 
     };
     feedback.innerHTML = message;
+    console.log(message);
+    console.log(this.prevGuesses);
   }
 
 };
@@ -51,9 +52,7 @@ startGame.addEventListener('click', function () {
   game.play()
 
 })
-
-console.log(game.secretNum);
-console.log(game.prevGuesses);
+console.log(message);
 
 
 
