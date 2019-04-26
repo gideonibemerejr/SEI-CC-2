@@ -1,7 +1,7 @@
 const startGame = document.getElementById('startGame'),
       feedback = document.getElementById('feedback'),
       sumbitButton = document.getElementById('submitButton'),
-      userInput = document.getElementById('userInput').value;
+      userInput = document.getElementById('userInput');
 
 const game = {
   title: 'Guess the Number!',
@@ -12,49 +12,32 @@ const game = {
   play: function() {
     this.secretNum = Math.floor(Math.random() * 
       (this.biggestNum - this.smallestNum + 1)) + this.smallestNum;
-      this.prevGuesses = [];
       feedback.innerHTML = `Enter a guess between ${this.smallestNum} and ${this.biggestNum}:.  ${this.secretNum}`
-      let guess = NaN;
-      while (guess !== this.secretNum){
-        guess = this.getGuess();
-        this.prevGuesses.push(guess);
-        this.render(guess);
-        if (guess === this.secretNum) return;
-      }
+      this.prevGuesses = [];
   },
   getGuess: function() {
-    let guess = NaN;
-    while (isNaN(guess) || guess > this.biggestNum || guess < this.smallestNum) {
-      guess = parseInt(prompt());
-      // prompt the player to enter guess of what the secret number is until they guess correctly
-      // feedback.innerHTML = `Enter a guess between ${this.smallestNum} and ${this.biggestNum}:.  ${this.secretNum}
+    guess = parseInt(userInput.value);
+    if (isNaN(guess) || guess > this.biggestNum || guess < this.smallestNum) {
+      feedback.innerHTML = `C'mon guess a NUMBER`;
+    } else {
+      game.prevGuesses.push(guess);
+      if (guess == this.secretNum) {
+        feedback.innerHTML = `Congrats! You guessed the number in ${this.prevGuesses.length} guesses!`
+        startGame.innerHTML = "PLAY AGAIN";
+      } if (guess > this.secretNum) {
+        feedback.innerHTML = `Your guess is too high. Here are your previous guesses: ${this.prevGuesses.join(', ')}`    
+      } if (guess < this.secretNum) {
+        feedback.innerHTML = `Your guess is too low. Here are your previous guesses: ${this.prevGuesses.join(', ')}` 
+      };
     }
-    return guess; 
   },
-  render: function(guess) {
-    let message = '';
-    if (guess == this.secretNum) {
-      message = `Congrats! You guessed the number in ${this.prevGuesses.length} guesses!`
-      startGame.innerHTML = "PLAY AGAIN";
-    } if (guess > this.secretNum) {
-      message = `Your guess is too high. Here are your previous guesses: ${this.prevGuesses.join(', ')}`    
-    } else if (guess < this.secretNum) {
-      message = `Your guess is too low. Here are your previous guesses: ${this.prevGuesses.join(', ')}` 
-    };
-    feedback.innerHTML = message;
-    console.log(message);
-    console.log(this.prevGuesses);
-  }
-
 };
-
 startGame.addEventListener('click', function () {
   game.play()
+});
+sumbitButton.addEventListener('click', game.getGuess);
 
-})
-console.log(message);
-
-
+ 
 
 // let guess = 0;
 // function addGuess(prevGuess) {
