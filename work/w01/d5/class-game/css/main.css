@@ -1,6 +1,18 @@
 *, *:after, *:before {box-sizing: border-box;}
+
 body {
     height: 100vh;
-    background-color: #b32090;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+h1, h3 {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(7, 10vmin) ;
+    grid-template-rows: repeat(6, 10vmin);;
+}
+
