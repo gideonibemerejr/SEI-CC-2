@@ -1,7 +1,8 @@
-const startGame = document.getElementById('startGame'),
-      feedback = document.getElementById('feedback'),
-      sumbitButton = document.getElementById('submitButton'),
-      userInput = document.getElementById('userInput');
+const start = document.getElementById('start-game'),
+      feedback = document.querySelector('p'),
+      buttons = document.getElementById('buttons'),
+      submit = document.getElementById('submit-button'),
+      input = document.querySelector('input');
 
 const game = {
   title: 'Guess the Number!',
@@ -13,29 +14,48 @@ const game = {
     this.secretNum = Math.floor(Math.random() * 
       (this.biggestNum - this.smallestNum + 1)) + this.smallestNum;
       feedback.innerHTML = `Enter a guess between ${this.smallestNum} and ${this.biggestNum}:.  ${this.secretNum}`
+      start.innerHTML = "START"
+      resetInput();
       this.prevGuesses = [];
   },
   getGuess: function() {
-    guess = parseInt(userInput.value);
+    guess = parseInt(input.value);
     if (isNaN(guess) || guess > this.biggestNum || guess < this.smallestNum) {
       feedback.innerHTML = `C'mon guess a NUMBER`;
+      resetInput();
     } else {
       game.prevGuesses.push(guess);
       if (guess == this.secretNum) {
         feedback.innerHTML = `Congrats! You guessed the number in ${this.prevGuesses.length} guesses!`
-        startGame.innerHTML = "PLAY AGAIN";
+        start.innerHTML = "PLAY AGAIN";
       } if (guess > this.secretNum) {
-        feedback.innerHTML = `Your guess is too high. Here are your previous guesses: ${this.prevGuesses.join(', ')}`    
+        feedback.innerHTML = `Your guess is too high. Here are your previous guesses: ${this.prevGuesses.join(', ')}`  
+        resetInput();  
       } if (guess < this.secretNum) {
         feedback.innerHTML = `Your guess is too low. Here are your previous guesses: ${this.prevGuesses.join(', ')}` 
+        resetInput();
       };
     }
+    return guess
   },
 };
-startGame.addEventListener('click', function () {
-  game.play()
+
+function resetInput() {
+  input.value = '';
+}
+
+
+
+start.addEventListener('click', function(){
+  game.play();
 });
-sumbitButton.addEventListener('click', game.getGuess);
+
+submit.addEventListener('click', function(){
+  game.getGuess();
+});
+
+
+
 
  
 

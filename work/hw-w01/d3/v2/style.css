@@ -1,4 +1,22 @@
-div {
+body {
+    font-family: Helvetica, sans-serif;
+    
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section {
     margin: 0 auto;
     text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 40px;
 }
