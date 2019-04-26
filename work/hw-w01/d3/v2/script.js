@@ -2,7 +2,8 @@ const start = document.getElementById('start-game'),
       feedback = document.querySelector('p'),
       buttons = document.getElementById('buttons'),
       submit = document.getElementById('submit-button'),
-      input = document.querySelector('input');
+      input = document.querySelector('input'),
+      image = document.querySelector('img');
 
 const game = {
   title: 'Guess the Number!',
@@ -17,15 +18,18 @@ const game = {
       start.innerHTML = "START"
       resetInput();
       this.prevGuesses = [];
+      submit.style.display = 'inline-block'
+      image.style.display = 'none';
   },
   getGuess: function() {
     guess = parseInt(input.value);
     if (isNaN(guess) || guess > this.biggestNum || guess < this.smallestNum) {
-      feedback.innerHTML = `C'mon guess a NUMBER`;
+      feedback.innerHTML = `That aint it, c'mon mane`;
       resetInput();
     } else {
       game.prevGuesses.push(guess);
       if (guess == this.secretNum) {
+        image.style.display = 'inline-block';
         feedback.innerHTML = `Congrats! You guessed the number in ${this.prevGuesses.length} guesses!`
         start.innerHTML = "AGAIN?";
       } if (guess > this.secretNum) {

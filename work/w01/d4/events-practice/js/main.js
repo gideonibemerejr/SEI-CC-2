@@ -16,5 +16,4 @@ ul.addEventListener('click', handleClick);
 function handleClick(evt) {
     evt.target.style.color = 'red';
     evt.target.style.fontSize = "30px";
-
 }
