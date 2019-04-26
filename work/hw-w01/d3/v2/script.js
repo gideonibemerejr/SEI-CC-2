@@ -13,7 +13,7 @@ const game = {
   play: function() {
     this.secretNum = Math.floor(Math.random() * 
       (this.biggestNum - this.smallestNum + 1)) + this.smallestNum;
-      feedback.innerHTML = `Enter a guess between ${this.smallestNum} and ${this.biggestNum}:.  ${this.secretNum}`
+      feedback.innerHTML = `Enter a guess between ${this.smallestNum} and ${this.biggestNum}:`
       start.innerHTML = "START"
       resetInput();
       this.prevGuesses = [];
@@ -27,7 +27,7 @@ const game = {
       game.prevGuesses.push(guess);
       if (guess == this.secretNum) {
         feedback.innerHTML = `Congrats! You guessed the number in ${this.prevGuesses.length} guesses!`
-        start.innerHTML = "PLAY AGAIN";
+        start.innerHTML = "AGAIN?";
       } if (guess > this.secretNum) {
         feedback.innerHTML = `Your guess is too high. Here are your previous guesses: ${this.prevGuesses.join(', ')}`  
         resetInput();  
