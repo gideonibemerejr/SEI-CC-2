@@ -17,11 +17,18 @@ const feedback = document.getElementById('feedback');
 init();
 // render the game to the DOM with this function
 function render() {
+    // display the board
+    board.forEach(function(colArr, colIdx) {
+        colArr.forEach(function(cell, rowIdx){
+            // access the correct div in the section
+            const div = document.getElementById(`c${colIdx}r${rowIdx}`);
+            div.style.backgroundColor = `${colors[cell]}`;
+        });
+    });
     // display feedback
     if(winner) {
         if(winner === 'T'){
             feedback.textContent = "LMAO that's wild, y'all tied...";
-
         }
     } else {
         feedback.textContent = `${colors[turn].toUpperCase()}'s turn!`
