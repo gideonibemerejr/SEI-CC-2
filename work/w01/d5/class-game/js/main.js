@@ -98,7 +98,6 @@ function checkCol(colIdx) {
     sum = 0;
     board[colIdx].forEach(function(element){
         console.log(element);
-       
     });
           
 };
