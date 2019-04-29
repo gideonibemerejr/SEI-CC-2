@@ -1,7 +1,7 @@
 /*----- constants -----*/
 const markers = {
-    '1': 'X',
-    '-1': 'O',
+    '1': 'red',
+    '-1': 'blue',
     '0': ''
 }
 
@@ -18,25 +18,22 @@ document.getElementById('game-board').addEventListener('click', handleClick);
 
 init();
 
-
 function handleClick(event) {
     const marker = event.target;
-    console.log(marker);
-    // const rowIdx = parseInt(marker.id.replace('r',''));
-    // const colIdx = board[rowIdx].indexOf(0);
-    // console.log(colIdx);
-    // board[colIdx][rowIdx] = turn;
-    // turn *= -1;
-    // render();
+    const colIdx = marker.id.replace('r', '').slice(1, 2);
+    if (isNaN(colIdx)) return;
+    const rowIdx = marker.id.replace('c','').slice(-1);
+    if (rowIdx === 1) return;
+    board[colIdx][rowIdx] = turn;
+    turn *= -1;
+    render();
 };
 
 function render() {
     board.forEach(function (colArr, colIdx){
-        console.log('column' + " " + colIdx)
         colArr.forEach(function(cell, rowIdx){
-            console.log('rowIdx' + " " +rowIdx);
-            // const div = document.getElementById(`r${colIdx}`);
-            // div.textContent = `${markers[cell]}`;
+            const div = document.getElementById(`c${colIdx}r${rowIdx}`);
+            div.style.backgroundColor = `${markers[cell]}`;
         });
         
         if(winner) {
