@@ -110,7 +110,6 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 > Note: Games are listed in approximate order of increasing difficulty.
 
-1. **Connect Four**
 1. **War** (the card game)
 1. **Blackjack**
 1. **Simon** (warning: will require asynchronous timing)
