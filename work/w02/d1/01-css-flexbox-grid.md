@@ -58,7 +58,7 @@
 
 - As a front-end developer, you will be required to precisely layout the elements on web pages.
 
-- Prior to Flexbox & CSS Grid, laying the parts of a web page from basic navigation headers to complex full-page layouts has not been as straightforward as it could be - Flexbox & Grid, however, are game changers.
+- Prior to Flexbox & CSS Grid, laying out the parts of a web page from basic navigation headers to complex full-page layouts has not been as straightforward as it could be - Flexbox & Grid, however, are game changers.
 
 - The capabilities of Flexbox & CSS Grid complement each other and using both side-by-side and even nesting one within the other is possible.
 
@@ -92,7 +92,7 @@
 
 	```css
 	section {
-		display: flex;
+	  display: flex;
 	}
 	```
 	The above would make all `<section>` elements **flex containers** and all direct children would automatically become **flex items**.
@@ -109,10 +109,10 @@
 
 	```html
 	<nav>
-		<div>HOME</div>
-		<div>ABOUT</div>
-		<div>WIDGETS</div>
-		<div>LOG OUT</div>
+	  <div>HOME</div>
+	  <div>ABOUT</div>
+	  <div>WIDGETS</div>
+	  <div>LOG OUT</div>
 	</nav>
 	```
 
@@ -124,7 +124,7 @@
 
 - Use DevTools to verify that the `<nav>` & `<div>` elements are block elements that take up all available width. We're getting an inside look at how Repl.it does it's magic by using of an `<iframe>` element.
 
-- **Which element do we need to make the flexbox?**
+- **Which element do we need to make the flex container?**
 
 ---
 ### Your First Flexbox
@@ -149,10 +149,10 @@
 - This just in... Our client has informed us that:
 	- The navigation bar must:
 		- Be `50px` in height
-		- A background color of `#a2cbb6`.
+		- Have a background color of `#a2cbb6`.
 	- The menu items in the nav bar need:
 		- A font size of `20px`
-		- Margin of `10px` on all 4 sides
+		- A margin of `10px` on all 4 sides
 		- A text color of `#f3dba8`
 
 - Add the CSS to make the client happy!
@@ -175,7 +175,7 @@
 ### Your First Flexbox
 <br>
 
-- In addition to the concept of a **main axis**, a **flex container** has a **cross axis** which, of course, represents the opposite direction of its **main axis**.
+- In addition to the concept of a **main axis**, a **flex container** has a **cross axis** which represents the opposite direction of its **main axis**.
 
 - For example, if the `flex-direction` is set to `row` (the default), the:
 	- **main axis** is **horizontal**
@@ -191,9 +191,9 @@
 
 - The concepts of **main axis** & **cross axis** come into play when it comes to sizing and layout properties, such as:
 
-- `justify-content`: Controls alignment for the main axis
+- `justify-content`: Controls alignment for the **main axis**
 
-- `align-items`: Controls alignment for the cross axis
+- `align-items`: Controls alignment for the **cross axis**
 
 - Let's refer to the Guide to Flexbox we opened to see the amazing options we have and experiment a bit!
 
@@ -244,7 +244,7 @@
 
 - **What value is the default for the `flex-direction` property?**
 
-- **Is it `justify-content` or `align-items` that control the alignment along the _cross axis_?**
+- **Is it `justify-content` or `align-items` that controls the alignment along the _cross axis_?**
 
 ---
 ## CSS Grid
@@ -253,10 +253,10 @@
 ### Why use CSS Grid?
 <br>
 
-- Quite simply, **CSS Grid** is a great option when you have:
-	- A page layout like this, or as complex as you want:
+- **CSS Grid** is a great option when you have:
+	1. A page layout like this (or as complex as you'd like):
 	<img src="https://i.imgur.com/tkBPUd0.png">
-	- Any other "components" that would benefit from a grid-type layout such as a "profile card", in other words, CSS Grid doesn't have to apply to the whole page - it can be useful for laying out smaller sections as well.
+	2. Any other "components" that would benefit from a grid-type layout such as a "profile card", in other words, CSS Grid doesn't have to apply to the whole page - it can be useful for laying out smaller sections as well.
 
 ---
 ### CSS Grid Fundamentals
@@ -264,7 +264,7 @@
 
 - Unlike Flexbox, **CSS Grid** lays out its **grid items** in **two-dimensions**.
 
-- They call it **Grid** because it has the concept of:
+- **CSS Grids** have the concept of the following:
 	- **Tracks**
 	- **Cells**
 	- **Areas**
@@ -320,15 +320,15 @@
 
 	```html
 	<body>
-		<nav>
-			<div>HOME</div>
-			<div>ABOUT</div>
-			<div>WIDGETS</div>
-			<div>LOG OUT</div>
-		</nav>
-		<aside>SIDE BAR</aside>
-		<main>MAIN CONTENT</main>
-		<footer>FOOTER</footer>
+	  <nav>
+	    <div>HOME</div>
+	    <div>ABOUT</div>
+	    <div>WIDGETS</div>
+	    <div>LOG OUT</div>
+	  </nav>
+	  <aside>SIDE BAR</aside>
+	  <main>MAIN CONTENT</main>
+	  <footer>FOOTER</footer>
 	</body>
 	```
 
@@ -360,7 +360,7 @@
 
 - One more stylistic touch. What if we want to center the text in those elements both horizontally and vertically?
 
-- Wanting to center/center content is so common, let's see how we can create a class that will make any element with that class a Flexbox:
+- Wanting to center/center content is so common, let's create a class that will make any element with that class a Flexbox:
 
 	```css
 	.flex-ctr {
@@ -398,7 +398,7 @@
 	  ...
 	```
 
-- The new `fr` unit is used by CSS Grid to represent a _fraction_ of the available space. So in our layout, the first column will be 1/5th the width of the window.
+- The `fr` unit is used by CSS Grid to represent a _fraction_ of the available space. So in our layout, the first column will be 1/5th the width of the window.
 
 ---
 ### Your First CSS Grid
@@ -412,11 +412,11 @@
 ### Your First CSS Grid
 <br>
 
-- As usual, there are a couple of ways to make **grid items** cover rectangular grid **areas**.
+- There are a couple of ways to make **grid items** cover rectangular grid **areas**.
 
 - One way is by defining `grid-template-areas` on the grid container; then using  the `grid-area` property on the **grid item**.
 
-- However, for this lesson, we'll look at another option...
+- However, in this lesson, we'll look at another option...
 
 ---
 ### Your First CSS Grid
@@ -446,7 +446,7 @@
 	}
 	```
 
-- There is, of course, a `grid-row` property as well.
+- Unsurprisingly, there's a `grid-row` property as well.
 
 - Both `grid-column` & `grid-row` are shorthand for `grid-column-start` & `grid-column-end`, and `grid-row-start` & `grid-row-end`, respectively.
 
