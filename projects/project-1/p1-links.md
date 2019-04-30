@@ -17,7 +17,7 @@
 | Omar (ATX) |  |  |  |
 | Peter (ATX) |  |  |  |
 | Ricardo (ATX) |  |  |  |
-| Ronelle (ATX) |  |  |  |
+| Rain (ATX) |  |  |  |
 | Somjit (ATX) |  |  |  |
 | Albert (DAL) |  |  |  |
 | Amber (DAL) |  |  |  |
