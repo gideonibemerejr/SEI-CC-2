@@ -166,9 +166,9 @@ var cohort = {
 
 	```js
 	class Math {
-		static abs(n) {
-			return n < 0 ? n * -1 : n;
-		}
+	  static abs(n) {
+	    return n < 0 ? n * -1 : n;
+	  }
 	}
 	
 	Math.abs(-123); // returns 123

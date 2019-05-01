@@ -27,7 +27,7 @@ Create a new HTML, CSS, JS Repl and name it **Callback Functions**.
 
 A **callback function**, or simply **callback**, is a function being passed to another function as an argument.
 
-Many of you've have used the array `forEach` method before, Well, you've already used a callback!
+Since you've already used the array `forEach` method before, you've already used a callback!
 
 Don't run the following, let's just read the code...
 
@@ -35,7 +35,7 @@ Don't run the following, let's just read the code...
 const colors = ['red', 'green', 'blue'];
 
 colors.forEach(function(color, idx) {
-	console.log(`${idx + 1} - ${color}`);
+  console.log(`${idx + 1} - ${color}`);
 });
 ```
 
@@ -49,15 +49,15 @@ Now let's look at a more comprehensive example of how we can use callbacks by tr
 
 ```js
 function add(a, b) {
-	return a + b;
+  return a + b;
 }
 
 function subtract(a, b) {
- return a - b;
+  return a - b;
 }
 
 function compute(a, b, op) {
-	return op(a, b);
+  return op(a, b);
 }
 
 let result1 = compute(10, 5, add);
@@ -66,17 +66,17 @@ let result2 = compute(10, 5, subtract);
 
 **Q: Identify the callback function(s) above.**
 
-> Be careful not to invoke the callback when passing it as an argument - in other words, do not put parens after it! Otherwise, you'll be passing the _result_ of calling that function instead of the function itself.
-
 In the code above, note that we are passing _named functions_ (**add** & **sum**) instead of using an _anonymous inline function_ like with the `forEach` earlier.
 
-Lastly, you also used callback functions when you added event listeners in your Tic-Tac-Toe project like so:
+In addition to using callbacks functions with `forEach`, you also used them when you added event listeners in your Tic-Tac-Toe app like so:
 
 ```js
 boardEl.addEventListener('click', function(evt) {
   console.log(evt);  
 });
 ```
+
+> Be careful not to invoke the callback when passing it as an argument - in other words, do not put parens after it! Otherwise, you'll be passing the _result_ of calling that function instead of the function itself.
 
 ### 3. When are Callbacks Used?
 
@@ -107,7 +107,7 @@ The `forEach` method is designed to:
 const flowers = ['rose', 'orchid', 'daisy'];
 	
 flowers.forEach(function(flower, idx) {
-	console.log(`${idx + 1}) ${flower}`);
+  console.log(`${idx + 1}) ${flower}`);
 });
 ```
 
@@ -184,7 +184,7 @@ console.log('Code after the asynchronous function call');
 
 ##### Why do Asynchronous Functions exist?
 
-Asynchronous functions are necessary in JavaScript because JS runs on a single CPU thread dedicated to doing everything, including handling events, running your code, painting the screen, etc.
+Asynchronous functions are necessary in JavaScript because JS runs on a single CPU thread dedicated to handling events, running your code, painting the screen, etc.
 
 Now imagine calling a function that gets data from a database. From the CPU point of view, the database will take an eternity to return the data.
 
@@ -198,7 +198,7 @@ How does the browser know when an image has been retrieved and is ready to be pa
 
 ##### Using Callbacks to Work with Asynchronous Code
 
-JavaScript provides two ways to run a function **after** an asynchronous function is done with its long running process:
+JavaScript provides two ways to run a function **after** an asynchronous operation completes its long running process:
 
 - **Callbacks**
 - **Promises**
@@ -225,13 +225,13 @@ friends.forEach(function(friend) {
 });
 ``` 
 
-Now let's use a `setTimeout` within `getFriends()` to simulate a long-running async function:
+Now let's use a `setTimeout` within `getFriends()` to simulate a long-running asynchronous function (as if we were fetching the data across a network):
 
 ```js
 // asynchronous function
 function getFriendsAsync() {
   // using setTimeout to make getFriendsAsync
-  // behave like an asynchronous function
+  // behave like a long-running database operation
   setTimeout(function() {
     return ['Fred', 'Barney'];
   }, 0);
@@ -277,7 +277,7 @@ Now that the `getFriendsAsync` function has been refactored to accept a callback
 
 Note how `getFriendsAsync` calls the callback passed to it and provides it with the array of friends as an argument - good stuff!
 
-To work, an asynchronous function must be **designed** to:
+Functions that are asynchronous must be **designed** to either:
 
 - Accept a callback function, or
 - Return a promise (again, more later in the course)
@@ -300,7 +300,7 @@ function step3(cb) {
 }
 ```
 
-The above functions are working asynchronous functions - DO NOT change any of their code. They are what we call "black boxes" because we do not need to know anything that goes on in them.
+The above functions are working asynchronous functions - DO NOT change any of their code. They are what we call "black boxes" because we do not need to know anything that goes on inside of them.
 
 Each of the three functions, **step1**, **step2** & **step3**, accept a single argument - a callback function.
 
@@ -315,6 +315,7 @@ FINISHED
 
 Hints:
 
+- Call `step1` first.
 - You cannot call `step2` until after `step1` has "finished", similarly, you cannot call `step3` until `step2` has "finished".
 - You must console.log the last line of the output, `FINISHED`, after `step3` has "finished".
 
@@ -324,5 +325,5 @@ Hints:
 
 **If asked in a job interview, "What's a callback function?" - what would a good answer be?**
 
-**What happens if we invoke the callback when passing it to the higher-order function?**
+**What happens if we invoke a callback when passing it as an argument to a higher-order function?**
 
