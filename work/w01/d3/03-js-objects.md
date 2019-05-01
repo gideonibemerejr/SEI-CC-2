@@ -288,7 +288,7 @@ Students Will Be Able To:
 	  sku = prompt('Enter SKU or "quit" to exit: ');
 	  if (sku in catalog) {
 	    let price = catalog[sku];
-	    if (sku !== 'quit') alert(`The price of ${sku} is ${price}`);
+	    alert(`The price of ${sku} is ${price}`);
 	  } else if (sku !== 'quit') {
 	    alert('Invalid SKU - try again');
 	  }
