@@ -46,12 +46,12 @@ Let's take the above's advice and add our `app.js` **after** jQuery:
 
 ```html
 <head>
-	 <!-- other stuff above -->
-    <script
-  		src="https://code.jquery.com/jquery-3.2.1.min.js"
-  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  		crossorigin="anonymous"></script>
-    <script defer src="js/app.js"></script>
+  <!-- other stuff above -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script defer src="js/app.js"></script>
 </head>
 ```
 
@@ -67,11 +67,11 @@ Here's what we should have so far:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Intro to jQuery</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- scripts below -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Intro to jQuery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- scripts below -->
 </head>
 <body>
     
@@ -287,7 +287,7 @@ Here is how we can add a _click_ event listener to the _Add Home_ button:
 
 ```js
 $('#addHome').on('click', function(evt) {
-	console.log(evt, this);
+  console.log(evt, this);
 });
 ```
 
@@ -303,7 +303,7 @@ When googling, you will find plenty of jQuery code using a different syntax for 
 
 ```js
 $('#addHome').click(function(evt){
-	console.log(evt, this);
+  console.log(evt, this);
 });
 ```
 
@@ -325,7 +325,7 @@ For example, if you would like to listen for clicks on only `<div>` elements wit
 
 ```js
 $('body').on('click', 'div.circle', function() {
-	// 'this' will be a <div> with a class of 'circle'
+  // 'this' will be a <div> with a class of 'circle'
 });
 ```
 
@@ -341,7 +341,7 @@ Our best bet would be the `<tbody>` element within the `<table>` because it's th
 
 ```js
 $('#homes tbody').on('click', 'button', function() {
-	console.log(this);
+  console.log(this);
 });
 ```
 
@@ -353,7 +353,7 @@ If our users click on the _Remove_ button, we obviously want to remove that home
 
 ```js
 $('#homes tbody').on('click', 'button', function() {
-	$(this).closest('tr').remove();
+  $(this).closest('tr').remove();
 });
 ```
 
@@ -369,10 +369,10 @@ Currently, the sudden disappearance of the home's row is a little harsh. Let's u
 
 ```js
 $('#homes tbody').on('click', 'button', function() {
-	$(this).closest('tr').fadeOut(1000, function() {
-  	// now that the tr is hidden, let's completely remove it from the DOM
-		$(this).remove();
-	});
+  $(this).closest('tr').fadeOut(1000, function() {
+    // now that the tr is hidden, let's completely remove it from the DOM
+    $(this).remove();
+  });
 });
 ```
 
