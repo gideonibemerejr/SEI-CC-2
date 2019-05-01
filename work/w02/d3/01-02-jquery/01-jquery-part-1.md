@@ -38,9 +38,11 @@ BTW, you'll see the terms _library_ and _framework_ often used interchangably. Y
 
 ### Why Use jQuery?
 
-- **Browser Incompatibility**: jQuery provides a layer of abstraction that allows us not to worry about cross-browser compatibility issues. This, more than anything else, led to the widespread adoption of jQuery.  Developers no longer had to detect what browser their app was running in and code a bunch of if-else statements containing different code to do the same thing. The advancement of browsers, HTML, CSS and JS, have made compatibility issues less of a problem, but they still exist.
+- **Browser Incompatibility**: jQuery provides a layer of abstraction that allows us not to worry about cross-browser compatibility issues. This, more than anything else, led to the widespread adoption of jQuery.  Developers no longer had to detect what browser their app was running in and code a bunch of if-else statements containing different code to do the same thing. However, today's modern browsers's Web APIs are very compatible.
 - **Productivity**: jQuery makes us more productive developers. jQuery's motto is:<br>_"write less, do more"_
 - **Satisfaction**: Many developers consider using jQuery to be more "fun" than writing plain vanilla JS.
+
+> Today's vanilla JS, the Fetch API, CSS animations, and the popularity of front-end frameworks such as React have resulted in a huge decline in jQuery's usage on new projects.  However, as of now, it's still a skill that you want on your resume.
 
 ### What Can jQuery Do?
 
@@ -113,10 +115,10 @@ Let's use a CDN to load the jQuery library:
 
 ```html
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Intro to jQuery</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Intro to jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 ```
 
@@ -271,7 +273,7 @@ Instead of `forEach()`, jQuery provides the `each()` method on the jQuery set th
 
 ```js
 $('li').each(function(idx) {
-	console.log( idx + ': ' + this.innerHTML );
+  console.log( idx + ': ' + this.innerHTML );
 });
 ```
 
