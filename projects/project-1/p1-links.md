@@ -34,7 +34,6 @@
 | Jessica (LA) |  |  |  |
 | Jose (LA) |  |  |  |
 | Joseph (LA) |  |  |  |
-| Kay (LA) |  |  |  |
 | Lyndsay (LA) |  |  |  |
 | Mike (LA) |  |  |  |
 | Mohammad (LA) |  |  |  |
