@@ -74,12 +74,12 @@ Imagine a poorly written class that constructs sprites for a game:
 
 ```js
 class Sprite {
-  constructor(color, pos) {
-    this.color = color;
-    this.pos = pos;
-    this.move = function(direction) {...};
-    this.rotate = function(direction) {...};
-    this.accelerate = function() {...};
+constructor(color, pos) {
+  this.color = color;
+  this.pos = pos;
+  this.move = function(direction) {...};
+  this.rotate = function(direction) {...};
+  this.accelerate = function() {...};
     this.checkCollision = function() {...};
   }
 }
@@ -221,7 +221,7 @@ Let's look at examples for each of these four scenarios:
 	      }
 	    }, 500);
 	  }
-	};
+	}
 		
 	const ninja = new Ninja('JS Ninja');
 	ninja.chop(2);  //  undefined chop! / then an error
@@ -248,7 +248,7 @@ Let's look at examples for each of these four scenarios:
 	      }
 	    }, 500);
 	  }
-	};
+	}
 		
 	const ninja = new Ninja('JS Ninja');
 	ninja.chop(2);  //  undefined chop! / then an error
@@ -331,7 +331,7 @@ I'll give you a moment to review these with a pair:
 
 **What is `this` bound to when a class or constructor function is invoked?**
 
-**What is `this` bound within a method invoked on an object?**
+**What is `this` bound to within a method invoked on an object?**
 
 **In this code:**
 
