@@ -57,10 +57,10 @@ The example below demonstrates how `this` provides a way for methods to access t
 
 ```js
 const person = {
-	firstName: 'Katie',
-	intro: function() {
-		console.log(`Hello, I'm ${this.firstName}!`);
-	}
+  firstName: 'Katie',
+  intro: function() {
+    console.log(`Hello, I'm ${this.firstName}!`);
+  }
 };
 ```
 
@@ -74,14 +74,14 @@ Imagine a poorly written class that constructs sprites for a game:
 
 ```js
 class Sprite {
-	constructor(color, pos) {
-		this.color = color;
-		this.pos = pos;
-		this.move = function(direction) {...};
-		this.rotate = function(direction) {...};
-		this.accelerate = function() {...};
-		this.checkCollision = function() {...};
-	}
+constructor(color, pos) {
+  this.color = color;
+  this.pos = pos;
+  this.move = function(direction) {...};
+  this.rotate = function(direction) {...};
+  this.accelerate = function() {...};
+    this.checkCollision = function() {...};
+  }
 }
 ```
 
@@ -91,21 +91,21 @@ However, we can ensure, by defining methods more correctly as shown below, there
 
 ```js
 class Sprite {
-	constructor(color, pos) {
-		this.color = color;
-		this.pos = pos;
-	}
+  constructor(color, pos) {
+    this.color = color;
+    this.pos = pos;
+  }
 	
-	move(direction) {
-		switch (direction.toUpperCase()) {
-			case 'R':
-				this.pos.x < 999 ? this.pos.x++ : this.pos.x = 0;
-				break;
-			case 'D':
-			...additional code
-		}
-	}
-	...other methods
+  move(direction) {
+    switch (direction.toUpperCase()) {
+      case 'R':
+        this.pos.x < 999 ? this.pos.x++ : this.pos.x = 0;
+        break;
+      case 'D':
+        ...additional code
+    }
+  }
+  ...other methods
 }
 ```
 
@@ -147,7 +147,7 @@ Let's look at examples for each of these four scenarios:
 
 	```js
 	function thisCheck() {
-		console.log(this);
+	  console.log(this);
 	}
 	thisCheck();  // window {...} or 
 	```
@@ -155,8 +155,8 @@ Let's look at examples for each of these four scenarios:
 	
 	```js
 	function thisCheck() {
-		'use strict';
-		console.log(this);
+	  'use strict';
+	  console.log(this);
 	}
 	thisCheck();  // undefined
 	```
@@ -167,11 +167,11 @@ Let's look at examples for each of these four scenarios:
 
 	```js
 	const ninja = {
-		name: 'JS Ninja',
-		f: thisCheck
+	  name: 'JS Ninja',
+	  f: thisCheck
 	};
 	function thisCheck() { console.log(this); }
-	
+		
 	// call thisCheck() as a method
 	ninja.f();  // Object {name: "JS Ninja"}
 	```
@@ -192,7 +192,7 @@ Let's look at examples for each of these four scenarios:
 	```js
 	const myDiv = document.getElementById('my-div');
 	myDiv.addEventListener('click', function() {
-		console.log(this);
+	  console.log(this);
 	});
 	// <div id="my-div">...
 	```
@@ -209,18 +209,18 @@ Let's look at examples for each of these four scenarios:
 
 	```js
 	class Ninja {
-		constructor(name) {
-			this.ninjaName = name;
-		}
-		chop(numChops) {
-			setTimeout(function() {
-				if (numChops > 0) {
-					console.log(`${this.ninjaName} chop!`);
-					// recursion coming up!
-					this.chop(--numChops);
-				}
-			}, 500);
-		}
+	  constructor(name) {
+	    this.ninjaName = name;
+	  }
+	  chop(numChops) {
+	    setTimeout(function() {
+	      if (numChops > 0) {
+	        console.log(`${this.ninjaName} chop!`);
+	        // recursion coming up!
+	        this.chop(--numChops);
+	      }
+	    }, 500);
+	  }
 	};
 		
 	const ninja = new Ninja('JS Ninja');
@@ -235,19 +235,19 @@ Let's look at examples for each of these four scenarios:
 
 	```js
 	class Ninja {
-		constructor(name) {
-			this.ninjaName = name;
-		}
-		chop(numChops) {
-			const _this = this;
-			setTimeout(function() {
-				if (numChops > 0) {
-					console.log(`${_this.ninjaName} chop!`);
-					// recursion coming up!
-					_this.chop(--numChops);
-				}
-			}, 500);
-		}
+	  constructor(name) {
+	    this.ninjaName = name;
+	  }
+	  chop(numChops) {
+	    const _this = this;
+	    setTimeout(function() {
+	      if (numChops > 0) {
+	        console.log(`${_this.ninjaName} chop!`);
+	        // recursion coming up!
+	        _this.chop(--numChops);
+	      }
+	    }, 500);
+	  }
 	};
 		
 	const ninja = new Ninja('JS Ninja');
@@ -264,8 +264,8 @@ Let's look at examples for each of these four scenarios:
 
 	```js
 	const checkThis = () => {
-		'use strict';
-		console.log(this);
+	  'use strict';
+	  console.log(this);
 	};
 	
 	checkThis();  // window {...}
@@ -277,7 +277,7 @@ Let's look at examples for each of these four scenarios:
 	
 	```js
 	const obj = {
-		foo: checkThis
+	  foo: checkThis
 	};
 	
 	obj.foo();  // window {...}
@@ -288,15 +288,15 @@ Let's look at examples for each of these four scenarios:
 	
 	```js
 	var ninja = {
-		ninjaName: 'JS Ninja',
-		chop: function(numChops) {
-			setTimeout(() => {
-				if (numChops > 0) {
-					console.log(`${this.ninjaName} chop!`);
-					this.chop(--numChops);
-				}
-			}, 500);
-		}
+	  ninjaName: 'JS Ninja',
+	  chop: function(numChops) {
+	    setTimeout(() => {
+	      if (numChops > 0) {
+	        console.log(`${this.ninjaName} chop!`);
+	        this.chop(--numChops);
+	      }
+	    }, 500);
+	  }
 	};
 	
 	ninja.chop(2);  //  JS Ninja chop! (two times)
