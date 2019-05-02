@@ -74,12 +74,12 @@ Imagine a poorly written class that constructs sprites for a game:
 
 ```js
 class Sprite {
-constructor(color, pos) {
-  this.color = color;
-  this.pos = pos;
-  this.move = function(direction) {...};
-  this.rotate = function(direction) {...};
-  this.accelerate = function() {...};
+  constructor(color, pos) {
+    this.color = color;
+    this.pos = pos;
+    this.move = function(direction) {...};
+    this.rotate = function(direction) {...};
+    this.accelerate = function() {...};
     this.checkCollision = function() {...};
   }
 }
