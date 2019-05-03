@@ -21,7 +21,7 @@
 | Somjit (ATX) |  |  |  |
 | Albert (DAL) |  |  |  |
 | Amber (DAL) |  |  |  |
-| Andrea (DAL) | Choose Your Own Apocalyse |  |  |
+| Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
 | Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
 | Eric (DAL) |  |  |  |
 | Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) |  |
