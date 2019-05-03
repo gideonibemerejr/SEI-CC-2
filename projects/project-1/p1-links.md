@@ -20,12 +20,12 @@
 | Rain (ATX) |  |  |  |
 | Somjit (ATX) |  |  |  |
 | Albert (DAL) |  |  |  |
-| Amber (DAL) |  |  |  |
+| Amber (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) |  |
 | Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
 | Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
-| Eric (DAL) |  |  |  |
+| Eric (DAL) | Slot Machine |  |  |
 | Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) |  |
-| Keven (DAL) |  |  |  |
+| Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) |  |
 | Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) |  |
 | Calvin (LA) |  |  |  |
 | Casey (LA) |  |  |  |
