@@ -24,9 +24,9 @@
 | Andrea (DAL) |  |  |  |
 | Brendan (DAL) |  |  |  |
 | Eric (DAL) |  |  |  |
-| Jose (DAL) |  |  |  |
+| Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) |  |
 | Keven (DAL) |  |  |  |
-| Yolie (DAL) |  |  |  |
+| Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) |  |
 | Calvin (LA) |  |  |  |
 | Casey (LA) |  |  |  |
 | Daniel (LA) |  |  |  |
