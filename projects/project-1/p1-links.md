@@ -19,16 +19,16 @@
 | Ricardo (ATX) |  |  |  |
 | Rain (ATX) |  |  |  |
 | Somjit (ATX) |  |  |  |
-| Albert (DAL) |  |  |  |
-| Amber (DAL) |  |  |  |
-| Andrea (DAL) |  |  |  |
-| Brendan (DAL) |  |  |  |
-| Eric (DAL) |  |  |  |
-| Jose (DAL) |  |  |  |
-| Keven (DAL) |  |  |  |
-| Yolie (DAL) |  |  |  |
+| Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) |  |
+| Amber (DAL) | Match Me Game |  |  |
+| Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
+| Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
+| Eric (DAL) | Slot Machine | [link](https://git.generalassemb.ly/code-v1/Slot-Game) |  |
+| Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) |  |
+| Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) |  |
+| Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) |  |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) |  |
-| Casey (LA) | Wack-A-Mole | [link](https://github.com/cbrannon123/Project1) |  |
+| Casey (LA) | Wack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
 | Daniel (LA) |  |  |  |
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) |  |
 | Jessica (LA) |  |  |  |
