@@ -15,3 +15,4 @@ It is a requirement to complete at least **80%** of the following to to receive:
 | Wed 4/24 | [JS Objects Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w01/d3/04-js-objects-lab.md) |
 | Fri 4/26<br>(Due Mon 4/29) | [Tic-Tac-Toe Weekend](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w01/d5/tic-tac-toe-weekend) |
 | Mon 4/29 | [Responsive Design Lab](https://git.generalassemb.ly/WDI-CC/WDI-CC-6/blob/master/work/w02/d1/04-responsive-design-lab.md) |
+| Tue 5/14 | [Express Dev Skills Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w04/d2/04-dev-skills-lab-part-2.md) |
