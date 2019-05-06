@@ -38,7 +38,7 @@
 | Mike (LA) | Mastermind | [link](https://github.com/butonemike/gaMastermind) |  |
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
 | Rudy (LA) | Quoridoor | [link](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/projects/project-1/p1-links.md) |  |
-| Shawn (LA) |  |  |  |
+| Shawn (LA) | Guess Man | [link](https://github.com/sgk94/guess-man-game) |  |
 | Aibek (SF) |  |  |  |
 | Akhil (SF) | Slot Machine | [link](https://github.com/akhilnn/browser-based-game) |  |
 | Alison (SF) |  |  |  |
