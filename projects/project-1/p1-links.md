@@ -31,13 +31,13 @@
 | Casey (LA) | Wack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
 | Daniel (LA) |  |  |  |
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) |  |
-| Jessica (LA) |  |  |  |
+| Jessica (LA) | Ride-The-Bus | [link](https://github.com/jbokchoi/Ride-the-Bus) |  |
 | Jose (LA) | Slot Machine | [link](https://github.com/ambrociojosec/slot-machine-lite) |  |
 | Joseph (LA) |  |  |  |
 | Lyndsay (LA) | Blackjack | [link](https://github.com/lramberg/Blackjack) |  |
 | Mike (LA) |  |  |  |
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
-| Rudy (LA) |  |  |  |
+| Rudy (LA) | Quoridoor | [link](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/projects/project-1/p1-links.md) |  |
 | Shawn (LA) |  |  |  |
 | Aibek (SF) |  |  |  |
 | Akhil (SF) | Slot Machine | [link](https://github.com/akhilnn/browser-based-game) |  |
