@@ -20,7 +20,7 @@
 | Rain (ATX) |  |  |  |
 | Somjit (ATX) |  |  |  |
 | Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) |  |
-| Amber (DAL) | Match Me Game |  |  |
+| Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) |  |
 | Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
 | Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
 | Eric (DAL) | Slot Machine | [link](https://git.generalassemb.ly/code-v1/Slot-Game) |  |
