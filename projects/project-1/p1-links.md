@@ -34,7 +34,7 @@
 | Jessica (LA) |  |  |  |
 | Jose (LA) | Slot Machine | [link](https://github.com/ambrociojosec/slot-machine-lite) |  |
 | Joseph (LA) |  |  |  |
-| Lyndsay (LA) |  |  |  |
+| Lyndsay (LA) | Blackjack | [link](https://github.com/lramberg/Blackjack) |  |
 | Mike (LA) |  |  |  |
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
 | Rudy (LA) |  |  |  |
