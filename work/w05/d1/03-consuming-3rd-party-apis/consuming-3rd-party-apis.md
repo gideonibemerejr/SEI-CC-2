@@ -649,4 +649,4 @@
 ### Congrats on consuming a third-party api!
 <br>
 
-<p>On to the lab where you will add search capability to this app.</p>
+<p>On to the lab!</p>
