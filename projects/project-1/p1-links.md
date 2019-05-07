@@ -39,9 +39,9 @@
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
 | Rudy (LA) |  |  |  |
 | Shawn (LA) |  |  |  |
-| Aibek (SF) |  |  |  |
+| Aibek (SF) | War | [link](https://github.com/aibekzhv/GameOfWar) |  |
 | Akhil (SF) | Slot Machine | [link](https://github.com/akhilnn/browser-based-game) |  |
-| Alison (SF) | Mancala | [link](https://github.com/alison-codes/mancala-game) |  |
+| Alison (SF) | Mancala | [link](https://github.com/alison-codes/mancala-game) | [link](https://alison-codes.github.io/mancala-game/) |
 | Alvin (SF) | Simon | [link](https://github.com/mykindofscum/simon) |  |
 | Andrew (SF) | Blackjack | [link](https://github.com/andrew0788/BlackJack) |  |
 | Anthony (SF) | Battleship | [link](https://github.com/ayershov777/SEI-battleship) |  |
