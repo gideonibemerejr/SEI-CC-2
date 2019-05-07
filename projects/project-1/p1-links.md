@@ -4,7 +4,7 @@
 |---|:---:|:---:|:---:|
 | Aaron (ATX) | BattleShip | [link](https://github.com/AzStowe/Battleship) |  |
 | Andrew (ATX) |  |  |  |
-| Brandon (ATX) | PictureBuilder | [link](https://github.com/brandonroesler/picture-game) | [link](https://brandonroesler.github.io/picture-game/) |
+| Brandon (ATX) | PictureBuilder | [link](https://github.com/brandonroesler/picture-game) |  |
 | Chris (ATX) | LemonaidGame | [link](https://github.com/cwill833/lemonaidGame) |  |
 | Codee (ATX) | BuildYourPizza | [link](https://github.com/Codeebk/Pizza-game) |  |
 | Crysta (ATX) | MovieTrivia | [link](https://github.com/crystadavis1119/MovieTriviaGame) |  |
@@ -23,36 +23,34 @@
 | Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) |  |
 | Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
 | Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
-| Eric (DAL) | Slot Machine | [link](https://github.com/code-v1/Slot-Game.git) |  |
+| Eric (DAL) | Slot Machine | [link](https://git.generalassemb.ly/code-v1/Slot-Game) |  |
 | Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) |  |
-| Keven (DAL) | War Card Game | [link](https://github.com/Kmolina009/Keven_Molina_Browser_Based_Game) |  |
-| Yolie (DAL) | Slot Machine | [link](https://github.com/yolieloveless/ProjectOne) |  |
+| Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) |  |
+| Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) |  |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) |  |
 | Casey (LA) | Wack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
 | Daniel (LA) |  |  |  |
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) |  |
-| Jessica (LA) | Ride-The-Bus | [link](https://github.com/jbokchoi/Ride-the-Bus) |  |
+| Jessica (LA) |  |  |  |
 | Jose (LA) | Slot Machine | [link](https://github.com/ambrociojosec/slot-machine-lite) |  |
-| Joseph (LA) | Nonogram | [link](https://github.com/JosephCoburn/nonogram-game) |  |
+| Joseph (LA) |  |  |  |
 | Lyndsay (LA) | Blackjack | [link](https://github.com/lramberg/Blackjack) |  |
-| Mike (LA) | Mastermind | [link](https://github.com/butonemike/gaMastermind) |  |
+| Mike (LA) |  |  |  |
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
-| Rudy (LA) | Quoridoor | [link](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/projects/project-1/p1-links.md) |  |
-| Shawn (LA) | Guess Man | [link](https://github.com/sgk94/guess-man-game) |  |
+| Rudy (LA) |  |  |  |
+| Shawn (LA) |  |  |  |
 | Aibek (SF) |  |  |  |
 | Akhil (SF) | Slot Machine | [link](https://github.com/akhilnn/browser-based-game) |  |
-| Alison (SF) |  |  |  |
-| Alvin (SF) |  |  |  |
-| Andrew (SF) |  |  |  |
-| Anthony (SF) |  |  |  |
-| Christian (SF) |  |  |  |
-| Forrest (SF) |  |  |  |
-| Mark (SF) |  |  |  |
+| Alison (SF) | Mancala | [link](https://github.com/alison-codes/mancala-game) |  |
+| Alvin (SF) | Simon | [link](https://github.com/mykindofscum/simon) |  |
+| Andrew (SF) | Blackjack | [link](https://github.com/andrew0788/BlackJack) |  |
+| Anthony (SF) | Battleship | [link](https://github.com/ayershov777/SEI-battleship) |  |
+| Christian (SF) | Minesweeper | [link](https://github.com/nicofasho/Dont-Explode) |  |
+| Forrest (SF) | Minesweeper | [link](https://git.generalassemb.ly/forrest217/minesweeper) |  |
+| Mark (SF) | 1-4-24 | [link](https://github.com/mjwcollins/onefourtwentyfour) |  |
 | Michael (SF) | Blackjack Trainer | [link](https://github.com/mikebailey-ga/blackjack-trainer) |  |
-| Nicole (SF) |  |  |  |
-| Shiva (SF) |  |  |  |
-| Tanya (SF) |  |  |  |
-| Tatty (SF) |  |  |  |
-| Thuy (SF) |  |  |  |
+| Shiva (SF) | Slot Machine | [link](https://git.generalassemb.ly/gebtraze11/Slot-Machine) |  |
+| Tanya (SF) | Blackjack | [link](https://github.com/tanyasadarangani/blackjack) |  |
+| Tatty (SF) | 2048 | [link](https://github.com/tatty-k/2048) |  |
 | Timothy (SF) | Slot Machine | [link](https://github.com/DesignAway2Play/toTheDarkLord) |  |
-| Trenton (SF) |  |  |  |
+| Trenton (SF) | Battleship | [link](https://github.com/trentjblackwell/battleship) |  |
