@@ -31,14 +31,14 @@
 | Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
 | Daniel (LA) | Whack-a-Mole | [link](https://github.com/camarenad/whack-a-mole) |  |
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) |  |
-| Jessica (LA) |  |  |  |
+| Jessica (LA) | Ride-The-Bus | [link](https://github.com/jbokchoi/Ride-the-Bus) |  |
 | Jose (LA) | Slot Machine | [link](https://github.com/ambrociojosec/slot-machine-lite) |  |
-| Joseph (LA) |  |  |  |
+| Joseph (LA) | Nonogram | [link](https://github.com/JosephCoburn/nonogram-game) |  |
 | Lyndsay (LA) | Blackjack | [link](https://github.com/lramberg/Blackjack) |  |
-| Mike (LA) |  |  |  |
+| Mike (LA) | Mastermind | [link](https://github.com/butonemike/gaMastermind) |  |
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
-| Rudy (LA) |  |  |  |
-| Shawn (LA) |  |  |  |
+| Rudy (LA) | Quoridoor | [link](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/projects/project-1/p1-links.md) |  |
+| Shawn (LA) | Guess Man | [link](https://github.com/sgk94/guess-man-game) |  |
 | Aibek (SF) | War | [link](https://github.com/aibekzhv/GameOfWar) |  |
 | Akhil (SF) | Slot Machine | [link](https://github.com/akhilnn/browser-based-game) |  |
 | Alison (SF) | Mancala | [link](https://github.com/alison-codes/mancala-game) | [link](https://alison-codes.github.io/mancala-game/) |
