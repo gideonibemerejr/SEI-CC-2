@@ -19,7 +19,7 @@
 | Ricardo (ATX) | SeriousGuessing | [link](https://github.com/rcrdgrc/A-Serious-Guessing-Game) |  |
 | Rain (ATX) | War | [link](https://github.com/RainMirron/War-Card-Game) |  |
 | Somjit (ATX) | Cats Spotting | [link](https://github.com/sommeow/SEI-unit-one-project) |  |
-| Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) |  |
+| Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) | [link](https://chung972.github.io/SEI-Project-1/) |
 | Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) |  |
 | Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
 | Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
