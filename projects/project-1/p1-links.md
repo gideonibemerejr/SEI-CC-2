@@ -26,7 +26,7 @@
 | Eric (DAL) | Slot Machine | [link](https://github.com/code-v1/Slot-Game.git) |  |
 | Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) |  |
 | Keven (DAL) | War Card Game | [link](https://github.com/Kmolina009/Keven_Molina_Browser_Based_Game) |  |
-| Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) |  |
+| Yolie (DAL) | Slot Machine | [link](https://github.com/yolieloveless/ProjectOne) |  |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) |  |
 | Casey (LA) | Wack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
 | Daniel (LA) |  |  |  |
