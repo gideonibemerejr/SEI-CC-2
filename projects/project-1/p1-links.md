@@ -5,7 +5,7 @@
 | Aaron (ATX) | BattleShip | [link](https://github.com/AzStowe/Battleship) |  |
 | Andrew (ATX) | AttackOfTheJim | [link](https://github.com/armiscoe/AttackoftheJim) |  |
 | Brandon (ATX) | PictureBuilder | [link](https://github.com/brandonroesler/picture-game) | [link](https://brandonroesler.github.io/picture-game/) |
-| Chris (ATX) | LemonaidGame | [link](https://github.com/cwill833/lemonaidGame) |  |
+| Chris (ATX) | LemonaidGame | [link](https://github.com/cwill833/lemonaidGame) | [link](https://cwill833.github.io/lemonaidGame/) |
 | Codee (ATX) | BuildYourPizza | [link](https://github.com/Codeebk/Pizza-game) |  |
 | Crysta (ATX) | MovieTrivia | [link](https://github.com/crystadavis1119/MovieTriviaGame) |  |
 | Dana (ATX) | Hero | [link](https://github.com/dhagandev/Unit1BrowserGame) |  |
