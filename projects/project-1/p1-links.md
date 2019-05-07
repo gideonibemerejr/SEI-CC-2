@@ -20,13 +20,13 @@
 | Rain (ATX) | War | [link](https://github.com/RainMirron/War-Card-Game) |  |
 | Somjit (ATX) | Cats Spotting | [link](https://github.com/sommeow/SEI-unit-one-project) |  |
 | Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) | [link](https://chung972.github.io/SEI-Project-1/) |
-| Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) |  |
+| Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) | [link](https://bedforda.github.io/Project-One/) |
 | Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
 | Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
 | Eric (DAL) | Slot Machine | [link](https://git.generalassemb.ly/code-v1/Slot-Game) |  |
-| Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) |  |
+| Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) | [link](https://pilotmarques.github.io/Project-ONE/) |
 | Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) |  |
-| Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) |  |
+| Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) | [link](https://yolieloveless.github.io/ProjectOne/) |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) |  |
 | Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
 | Daniel (LA) | Whack-a-Mole | [link](https://github.com/camarenad/whack-a-mole) |  |
