@@ -4,7 +4,7 @@
 |---|:---:|:---:|:---:|
 | Aaron (ATX) | BattleShip | [link](https://github.com/AzStowe/Battleship) |  |
 | Andrew (ATX) | AttackOfTheJim | [link](https://github.com/armiscoe/AttackoftheJim) |  |
-| Brandon (ATX) | PictureBuilder | [link](https://github.com/brandonroesler/picture-game) |  |
+| Brandon (ATX) | PictureBuilder | [link](https://github.com/brandonroesler/picture-game) | [link](https://brandonroesler.github.io/picture-game/) |
 | Chris (ATX) | LemonaidGame | [link](https://github.com/cwill833/lemonaidGame) |  |
 | Codee (ATX) | BuildYourPizza | [link](https://github.com/Codeebk/Pizza-game) |  |
 | Crysta (ATX) | MovieTrivia | [link](https://github.com/crystadavis1119/MovieTriviaGame) |  |
@@ -13,7 +13,7 @@
 | Hayden (ATX) | GuessTheFish | [link](https://github.com/Haybradshaw/fish_id_game) |  |
 | Jennifer (ATX) | Tarot-Card-Reading | [link](https://github.com/jennynm1010/tarot-card-game) |  |
 | Joseph (ATX) | MissingLyrics | [link](https://github.com/emerick23/Project-1) |  |
-| Nick (ATX) | PuzzleHorror | [link](https://github.com/Nick-Bueltel/puzzleHorrorGame) |  |
+| Nick (ATX) | PuzzleHorror | [link](https://github.com/Nick-Bueltel/puzzleHorrorGame) | [link](https://nick-bueltel.github.io/puzzleHorrorGame/) |
 | Omar (ATX) | CommuteGame | [link](https://github.com/omarclzd/commute-game) |  |
 | Peter (ATX) | MemoryGame | [link](https://github.com/peet1126/memory-game) |  |
 | Ricardo (ATX) | SeriousGuessing | [link](https://github.com/rcrdgrc/A-Serious-Guessing-Game) |  |
