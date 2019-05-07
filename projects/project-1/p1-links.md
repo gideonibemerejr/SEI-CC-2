@@ -28,8 +28,8 @@
 | Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) |  |
 | Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) |  |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) |  |
-| Casey (LA) | Wack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
-| Daniel (LA) |  |  |  |
+| Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
+| Daniel (LA) | Whack-a-Mole | [link](https://github.com/camarenad/whack-a-mole) |  |
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) |  |
 | Jessica (LA) |  |  |  |
 | Jose (LA) | Slot Machine | [link](https://github.com/ambrociojosec/slot-machine-lite) |  |
