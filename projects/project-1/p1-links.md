@@ -3,7 +3,7 @@
 | Student | Game | GitHub | Hosted Site |
 |---|:---:|:---:|:---:|
 | Aaron (ATX) | BattleShip | [link](https://github.com/AzStowe/Battleship) |  |
-| Andrew (ATX) |  |  |  |
+| Andrew (ATX) | AttackOfTheJim | [link](https://github.com/armiscoe/AttackoftheJim) |  |
 | Brandon (ATX) | PictureBuilder | [link](https://github.com/brandonroesler/picture-game) |  |
 | Chris (ATX) | LemonaidGame | [link](https://github.com/cwill833/lemonaidGame) |  |
 | Codee (ATX) | BuildYourPizza | [link](https://github.com/Codeebk/Pizza-game) |  |
