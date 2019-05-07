@@ -13,7 +13,7 @@
 | Hayden (ATX) | GuessTheFish | [link](https://github.com/Haybradshaw/fish_id_game) |  |
 | Jennifer (ATX) | Tarot-Card-Reading | [link](https://github.com/jennynm1010/tarot-card-game) |  |
 | Joseph (ATX) | MissingLyrics | [link](https://github.com/emerick23/Project-1) |  |
-| Nick (ATX) | PuzzleHorror | [link](https://github.com/Nick-Bueltel/puzzleHorrorGame) | [link](https://nick-bueltel.github.io/puzzleHorrorGame/) |
+| Nick (ATX) | PuzzleHorror | [link](https://github.com/Nick-Bueltel/puzzleHorrorGame) |  |
 | Omar (ATX) | CommuteGame | [link](https://github.com/omarclzd/commute-game) |  |
 | Peter (ATX) | MemoryGame | [link](https://github.com/peet1126/memory-game) |  |
 | Ricardo (ATX) | SeriousGuessing | [link](https://github.com/rcrdgrc/A-Serious-Guessing-Game) |  |
@@ -23,9 +23,9 @@
 | Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) |  |
 | Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
 | Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
-| Eric (DAL) | Slot Machine | [link](https://git.generalassemb.ly/code-v1/Slot-Game) |  |
+| Eric (DAL) | Slot Machine | [link](https://github.com/code-v1/Slot-Game.git) |  |
 | Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) |  |
-| Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) |  |
+| Keven (DAL) | War Card Game | [link](https://github.com/Kmolina009/Keven_Molina_Browser_Based_Game) |  |
 | Yolie (DAL) | Slot Machine | [link](https://git.generalassemb.ly/yolieloveless/ProjectOne) |  |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) |  |
 | Casey (LA) | Wack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
