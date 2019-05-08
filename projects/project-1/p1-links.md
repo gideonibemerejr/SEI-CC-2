@@ -33,7 +33,7 @@
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) |  |
 | Jessica (LA) | Ride-The-Bus | [link](https://github.com/jbokchoi/Ride-the-Bus) |  |
 | Jose (LA) | Slot Machine | [link](https://github.com/ambrociojosec/slot-machine-lite) |  |
-| Joseph (LA) | Nonogram | [link](https://github.com/JosephCoburn/nonogram-game) |  |
+| Joseph (LA) | Nonogram | [link](https://github.com/JosephCoburn/nonogram-game) | [link](https://josephcoburn.github.io/nonogram-game/) |
 | Lyndsay (LA) | Blackjack | [link](https://github.com/lramberg/Blackjack) |  |
 | Mike (LA) | Mastermind | [link](https://github.com/butonemike/gaMastermind) |  |
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
