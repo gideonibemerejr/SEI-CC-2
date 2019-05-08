@@ -21,7 +21,7 @@
 | Somjit (ATX) | Cats Spotting | [link](https://github.com/sommeow/SEI-unit-one-project) |  |
 | Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) | [link](https://chung972.github.io/SEI-Project-1/) |
 | Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) | [link](https://bedforda.github.io/Project-One/) |
-| Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) |  |
+| Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) | [link](https://aflores94.github.io/Choose-Your-Own-Adventure-EMP/) |
 | Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
 | Eric (DAL) | Slot Machine | [link](https://git.generalassemb.ly/code-v1/Slot-Game) |  |
 | Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) | [link](https://pilotmarques.github.io/Project-ONE/) |
