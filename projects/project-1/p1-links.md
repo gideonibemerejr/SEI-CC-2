@@ -37,7 +37,7 @@
 | Lyndsay (LA) | Blackjack | [link](https://github.com/lramberg/Blackjack) |  |
 | Mike (LA) | Mastermind | [link](https://github.com/butonemike/gaMastermind) |  |
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
-| Rudy (LA) | Quoridoor | [link](https://github.com/rudyards/week-one-project) |  |
+| Rudy (LA) | Quoridoors | [link](https://github.com/rudyards/week-one-project) |  |
 | Shawn (LA) | Guess Man | [link](https://github.com/sgk94/guess-man-game) |  |
 | Aibek (SF) | War | [link](https://github.com/aibekzhv/GameOfWar) |  |
 | Akhil (SF) | Slot Machine | [link](https://github.com/akhilnn/browser-based-game) |  |
