@@ -22,10 +22,10 @@
 | Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) | [link](https://chung972.github.io/SEI-Project-1/) |
 | Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) | [link](https://bedforda.github.io/Project-One/) |
 | Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) | [link](https://aflores94.github.io/Choose-Your-Own-Adventure-EMP/) |
-| Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) |  |
-| Eric (DAL) | Slot Machine | [link](https://git.generalassemb.ly/code-v1/Slot-Game) |  |
+| Brendan (DAL) | King of Tokyo | [link](https://github.com/flubbid/project-king-of-tokyo) | [link](https://flubbid.github.io/project-king-of-tokyo/)|
+| Eric (DAL) | Slot Machine | [link](https://github.com/code-v1/Slot-Game.git) | [link](https://code-v1.github.io/Slot-Game/)|
 | Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) | [link](https://pilotmarques.github.io/Project-ONE/) |
-| Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) |  |
+| Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) | [link](https://kmolina009.github.io/Keven_Molina_Browser_Based_Game/) |
 | Yolie (DAL) | Slot Machine | [link](https://github.com/yolieloveless/ProjectOne) | [link](https://yolieloveless.github.io/ProjectOne/) |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) |  |
 | Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
