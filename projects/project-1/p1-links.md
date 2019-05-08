@@ -8,7 +8,7 @@
 | Chris (ATX) | LemonaidGame | [link](https://github.com/cwill833/lemonaidGame) | [link](https://cwill833.github.io/lemonaidGame/) |
 | Codee (ATX) | BuildYourPizza | [link](https://github.com/Codeebk/Pizza-game) |  |
 | Crysta (ATX) | MovieTrivia | [link](https://github.com/crystadavis1119/MovieTriviaGame) |  |
-| Dana (ATX) | Hero | [link](https://github.com/dhagandev/Unit1BrowserGame) |  |
+| Dana (ATX) | Hero | [link](https://github.com/dhagandev/Unit1BrowserGame) | [link](https://dhagandev.github.io/Unit1BrowserGame/) |
 | Gideon (ATX) | SpotifyGuessSong | [link](https://github.com/gideonibemerejr/Spotify-Guessing-Game) |  |
 | Hayden (ATX) | GuessTheFish | [link](https://github.com/Haybradshaw/fish_id_game) |  |
 | Jennifer (ATX) | Tarot-Card-Reading | [link](https://github.com/jennynm1010/tarot-card-game) |  |
