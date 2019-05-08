@@ -16,7 +16,7 @@
 | Nick (ATX) | PuzzleHorror | [link](https://github.com/Nick-Bueltel/puzzleHorrorGame) | [link](https://nick-bueltel.github.io/puzzleHorrorGame/) |
 | Omar (ATX) | CommuteGame | [link](https://github.com/omarclzd/commute-game) | [link](https://omarclzd.github.io/commute-game/) |
 | Peter (ATX) | MemoryGame | [link](https://github.com/peet1126/memory-game) |  |
-| Ricardo (ATX) | SeriousGuessing | [link](https://github.com/rcrdgrc/A-Serious-Guessing-Game) |  |
+| Ricardo (ATX) | SeriousGuessing | [link](https://github.com/rcrdgrc/A-Serious-Guessing-Game) | [link](http://a-serious-guessing-game.surge.sh/game.html) |
 | Rain (ATX) | War | [link](https://github.com/RainMirron/War-Card-Game) |  |
 | Somjit (ATX) | Cats Spotting | [link](https://github.com/sommeow/SEI-unit-one-project) |  |
 | Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) | [link](https://chung972.github.io/SEI-Project-1/) |
