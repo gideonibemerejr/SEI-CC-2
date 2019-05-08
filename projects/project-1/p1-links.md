@@ -14,7 +14,7 @@
 | Jennifer (ATX) | Tarot-Card-Reading | [link](https://github.com/jennynm1010/tarot-card-game) |  |
 | Joseph (ATX) | MissingLyrics | [link](https://github.com/emerick23/Project-1) |  |
 | Nick (ATX) | PuzzleHorror | [link](https://github.com/Nick-Bueltel/puzzleHorrorGame) | [link](https://nick-bueltel.github.io/puzzleHorrorGame/) |
-| Omar (ATX) | CommuteGame | [link](https://github.com/omarclzd/commute-game) |  |
+| Omar (ATX) | CommuteGame | [link](https://github.com/omarclzd/commute-game) | [link](https://omarclzd.github.io/commute-game/) |
 | Peter (ATX) | MemoryGame | [link](https://github.com/peet1126/memory-game) |  |
 | Ricardo (ATX) | SeriousGuessing | [link](https://github.com/rcrdgrc/A-Serious-Guessing-Game) |  |
 | Rain (ATX) | War | [link](https://github.com/RainMirron/War-Card-Game) |  |
