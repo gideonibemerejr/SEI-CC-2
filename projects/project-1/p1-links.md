@@ -7,7 +7,7 @@
 | Brandon (ATX) | PictureBuilder | [link](https://github.com/brandonroesler/picture-game) | [link](https://brandonroesler.github.io/picture-game/) |
 | Chris (ATX) | LemonaidGame | [link](https://github.com/cwill833/lemonaidGame) | [link](https://cwill833.github.io/lemonaidGame/) |
 | Codee (ATX) | BuildYourPizza | [link](https://github.com/Codeebk/Pizza-game) | [link](https://codeebk.github.io/Pizza-game/) |
-| Crysta (ATX) | MovieTrivia | [link](https://github.com/crystadavis1119/MovieTriviaGame) |  |
+| Crysta (ATX) | MovieTrivia | [link](https://github.com/crystadavis1119/MovieTriviaGame) | [link](https://crystadavis1119.github.io/MovieTriviaGame/) |
 | Dana (ATX) | Hero | [link](https://github.com/dhagandev/Unit1BrowserGame) | [link](https://dhagandev.github.io/Unit1BrowserGame/) |
 | Gideon (ATX) | SpotifyGuessSong | [link](https://github.com/gideonibemerejr/Spotify-Guessing-Game) | [link](https://gideonibemerejr.github.io/Spotify-Guessing-Game/) |
 | Hayden (ATX) | GuessTheFish | [link](https://github.com/Haybradshaw/fish_id_game) | [link](https://haybradshaw.github.io/fish_id_game/) |
