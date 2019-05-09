@@ -39,7 +39,7 @@
 | Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) | [link](https://payam12444.github.io/Minesweeper-game/) |
 | Rudy (LA) | Quoridoor | [link](https://github.com/rudyards/week-one-project) |  [link](http://rudysummers.com/Quoridoor/) |
 | Shawn (LA) | Guess Man | [link](https://github.com/sgk94/guess-man-game) | [link](https://sgk94.github.io/guess-man-game/) |
-| Aibek (SF) | War | [link](https://github.com/aibekzhv/GameOfWar) | { in progress } |
+| Aibek (SF) | War | [link](https://github.com/aibekzhv/GameOfWar) | [link](https://aibekzhv.github.io/GameOfWar/) |
 | Akhil (SF) | Slot Machine | [link](https://github.com/akhilnn/browser-based-game) | [link](https://akhilnn.github.io/browser-based-game/) |
 | Alison (SF) | Mancala | [link](https://github.com/alison-codes/mancala-game) | [link](https://alison-codes.github.io/mancala-game/) |
 | Alvin (SF) | Simon | [link](https://github.com/mykindofscum/simon) | [link](https://mykindofscum.github.io/simon/) |
