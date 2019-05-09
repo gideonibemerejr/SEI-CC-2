@@ -47,7 +47,7 @@
 | Anthony (SF) | Battleship | [link](https://github.com/ayershov777/SEI-battleship) |  |
 | Christian (SF) | Minesweeper | [link](https://github.com/nicofasho/Dont-Explode) |  |
 | Forrest (SF) | Minesweeper | [link](https://git.generalassemb.ly/forrest217/minesweeper) | [link](https://github.com/forrest216/minesweeper) |
-| Mark (SF) | 1-4-24 | [link](https://github.com/mjwcollins/onefourtwentyfour) |  |
+| Mark (SF) | 1-4-24 | [link](https://github.com/mjwcollins/onefourtwentyfour) | [link](https://mjwcollins.github.io/onefourtwentyfour/) |
 | Michael (SF) | Blackjack Trainer | [link](https://github.com/mikebailey-ga/blackjack-trainer) |  |
 | Shiva (SF) | Slot Machine | [link](https://git.generalassemb.ly/gebtraze11/Slot-Machine) |  |
 | Tanya (SF) | Blackjack | [link](https://github.com/tanyasadarangani/blackjack) |  |
