@@ -27,16 +27,16 @@
 | Jose (DAL) | Roll The Dice | [link](https://github.com/Pilotmarques/Project-ONE) | [link](https://pilotmarques.github.io/Project-ONE/) |
 | Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) | [link](https://kmolina009.github.io/Keven_Molina_Browser_Based_Game/) |
 | Yolie (DAL) | Slot Machine | [link](https://github.com/yolieloveless/ProjectOne) | [link](https://yolieloveless.github.io/ProjectOne/) |
-| Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) |  |
+| Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) | [link](https://calvinfeau.github.io/war-game/)  |
 | Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
-| Daniel (LA) | Whack-a-Mole | [link](https://github.com/camarenad/whack-a-mole) |  |
+| Daniel (LA) | Whack-a-Mole | [link](https://github.com/camarenad/whack-a-mole) | [link](https://camarenad.github.io/whack-a-mole/) |
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) |  |
-| Jessica (LA) | Ride-The-Bus | [link](https://github.com/jbokchoi/Ride-the-Bus) |  |
-| Jose (LA) | Slot Machine | [link](https://github.com/ambrociojosec/slot-machine-lite) |  |
+| Jessica (LA) | Ride-The-Bus | [link](https://github.com/jbokchoi/Ride-the-Bus) | [link](https://jbokchoi.github.io/Ride-the-Bus/) |
+| Jose (LA) | Slot Machine | [link](https://github.com/ambrociojosec/slot-machine-lite) | [link](https://ambrociojosec.github.io/slot-machine-lite/) |
 | Joseph (LA) | Nonogram | [link](https://github.com/JosephCoburn/nonogram-game) | [link](https://josephcoburn.github.io/nonogram-game/) |
-| Lyndsay (LA) | Blackjack | [link](https://github.com/lramberg/Blackjack) |  |
-| Mike (LA) | Mastermind | [link](https://github.com/butonemike/gaMastermind) |  |
-| Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) |  |
+| Lyndsay (LA) | Blackjack | [link](https://github.com/lramberg/Blackjack) | [link](https://lramberg.github.io/Blackjack/) |
+| Mike (LA) | Mastermind | [link](https://github.com/butonemike/gaMastermind) | [link](https://butonemike.github.io/gaMastermind/) |
+| Mohammad (LA) | Minesweeper | [link](https://github.com/payam12444/Minesweeper-game) | [link](https://payam12444.github.io/Minesweeper-game/) |
 | Rudy (LA) | Quoridoor | [link](https://github.com/rudyards/week-one-project) |  [link](http://rudysummers.com/Quoridoor/) |
 | Shawn (LA) | Guess Man | [link](https://github.com/sgk94/guess-man-game) |  |
 | Aibek (SF) | War | [link](https://github.com/aibekzhv/GameOfWar) |  |
@@ -46,7 +46,7 @@
 | Andrew (SF) | Blackjack | [link](https://github.com/andrew0788/BlackJack) |  |
 | Anthony (SF) | Battleship | [link](https://github.com/ayershov777/SEI-battleship) |  |
 | Christian (SF) | Minesweeper | [link](https://github.com/nicofasho/Dont-Explode) |  |
-| Forrest (SF) | Minesweeper | [link](https://git.generalassemb.ly/forrest217/minesweeper) |  |
+| Forrest (SF) | Minesweeper | [link](https://git.generalassemb.ly/forrest217/minesweeper) | [link](https://github.com/forrest216/minesweeper) |
 | Mark (SF) | 1-4-24 | [link](https://github.com/mjwcollins/onefourtwentyfour) |  |
 | Michael (SF) | Blackjack Trainer | [link](https://github.com/mikebailey-ga/blackjack-trainer) |  |
 | Shiva (SF) | Slot Machine | [link](https://git.generalassemb.ly/gebtraze11/Slot-Machine) |  |
