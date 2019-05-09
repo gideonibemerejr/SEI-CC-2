@@ -6,19 +6,19 @@
 | Andrew (ATX) | AttackOfTheJim | [link](https://github.com/armiscoe/AttackoftheJim) |  |
 | Brandon (ATX) | PictureBuilder | [link](https://github.com/brandonroesler/picture-game) | [link](https://brandonroesler.github.io/picture-game/) |
 | Chris (ATX) | LemonaidGame | [link](https://github.com/cwill833/lemonaidGame) | [link](https://cwill833.github.io/lemonaidGame/) |
-| Codee (ATX) | BuildYourPizza | [link](https://github.com/Codeebk/Pizza-game) |  |
-| Crysta (ATX) | MovieTrivia | [link](https://github.com/crystadavis1119/MovieTriviaGame) |  |
+| Codee (ATX) | BuildYourPizza | [link](https://github.com/Codeebk/Pizza-game) | [link](https://codeebk.github.io/Pizza-game/) |
+| Crysta (ATX) | MovieTrivia | [link](https://github.com/crystadavis1119/MovieTriviaGame) | [link](https://crystadavis1119.github.io/MovieTriviaGame/) |
 | Dana (ATX) | Hero | [link](https://github.com/dhagandev/Unit1BrowserGame) | [link](https://dhagandev.github.io/Unit1BrowserGame/) |
-| Gideon (ATX) | SpotifyGuessSong | [link](https://github.com/gideonibemerejr/Spotify-Guessing-Game) |  |
-| Hayden (ATX) | GuessTheFish | [link](https://github.com/Haybradshaw/fish_id_game) |  |
-| Jennifer (ATX) | Tarot-Card-Reading | [link](https://github.com/jennynm1010/tarot-card-game) |  |
-| Joseph (ATX) | MissingLyrics | [link](https://github.com/emerick23/Project-1) |  |
+| Gideon (ATX) | SpotifyGuessSong | [link](https://github.com/gideonibemerejr/Spotify-Guessing-Game) | [link](https://gideonibemerejr.github.io/Spotify-Guessing-Game/) |
+| Hayden (ATX) | GuessTheFish | [link](https://github.com/Haybradshaw/fish_id_game) | [link](https://haybradshaw.github.io/fish_id_game/) |
+| Jennifer (ATX) | Tarot-Card-Reading | [link](https://github.com/jennynm1010/tarot-card-game) | [link](https://jennynm1010.github.io/tarot-card-game/) |
+| Joseph (ATX) | MissingLyrics | [link](https://github.com/emerick23/Project-1) | [link](https://emerick23.github.io/Missing-Lyrics/) |
 | Nick (ATX) | PuzzleHorror | [link](https://github.com/Nick-Bueltel/puzzleHorrorGame) | [link](https://nick-bueltel.github.io/puzzleHorrorGame/) |
 | Omar (ATX) | CommuteGame | [link](https://github.com/omarclzd/commute-game) | [link](https://omarclzd.github.io/commute-game/) |
-| Peter (ATX) | MemoryGame | [link](https://github.com/peet1126/memory-game) |  |
-| Ricardo (ATX) | SeriousGuessing | [link](https://github.com/rcrdgrc/A-Serious-Guessing-Game) | [link](http://a-serious-guessing-game.surge.sh/game.html) |
+| Peter (ATX) | MemoryGame | [link](https://github.com/peet1126/memory-game) | [link](https://peet1126.github.io/memory-game/) |
+| Ricardo (ATX) | SeriousGuessing | [link](https://github.com/rcrdgrc/A-Serious-Guessing-Game) | [link](http://a-serious-guessing-game.surge.sh/) |
 | Rain (ATX) | War | [link](https://github.com/RainMirron/War-Card-Game) |  |
-| Somjit (ATX) | Cats Spotting | [link](https://github.com/sommeow/SEI-unit-one-project) |  |
+| Somjit (ATX) | Cats Spotting | [link](https://github.com/sommeow/SEI-unit-one-project) | [link](https://sommeow.github.io/catspotting/) |
 | Albert (DAL) | Otello | [link](https://github.com/chung972/SEI-Project-1) | [link](https://chung972.github.io/SEI-Project-1/) |
 | Amber (DAL) | Match Me Game | [link](https://github.com/BedfordA/Project-One.git) | [link](https://bedforda.github.io/Project-One/) |
 | Andrea (DAL) | Choose Your Own Apocalyse | [link](https://github.com/aflores94/Choose-Your-Own-Adventure-EMP) | [link](https://aflores94.github.io/Choose-Your-Own-Adventure-EMP/) |
