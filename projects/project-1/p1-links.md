@@ -28,7 +28,7 @@
 | Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) | [link](https://kmolina009.github.io/Keven_Molina_Browser_Based_Game/) |
 | Yolie (DAL) | Slot Machine | [link](https://github.com/yolieloveless/ProjectOne) | [link](https://yolieloveless.github.io/ProjectOne/) |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) | [link](https://calvinfeau.github.io/war-game/)  |
-| Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) | [link](https://cbrannon123.github.io/Project1/) |
+| Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
 | Daniel (LA) | Whack-a-Mole | [link](https://github.com/camarenad/whack-a-mole) | [link](https://camarenad.github.io/whack-a-mole/) |
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) | [link](https://daparducci.github.io/battleship/) |
 | Jessica (LA) | Ride-The-Bus | [link](https://github.com/jbokchoi/Ride-the-Bus) | [link](https://jbokchoi.github.io/Ride-the-Bus/) |
@@ -44,13 +44,13 @@
 | Alison (SF) | Mancala | [link](https://github.com/alison-codes/mancala-game) | [link](https://alison-codes.github.io/mancala-game/) |
 | Alvin (SF) | Simon | [link](https://github.com/mykindofscum/simon) | [link](https://mykindofscum.github.io/simon/) |
 | Andrew (SF) | Blackjack | [link](https://github.com/andrew0788/BlackJack) | [link](https://andrew0788.github.io/BlackJack/) |
-| Anthony (SF) | Battleship | [link](https://github.com/ayershov777/SEI-battleship) | { in progress } |
+| Anthony (SF) | Battleship | [link](https://github.com/ayershov777/SEI-battleship) | [link](https://ayershov777.github.io/SEI-battleship/) |
 | Christian (SF) | Minesweeper | [link](https://github.com/nicofasho/Dont-Explode) | [link](https://nicofasho.github.io/Dont-Explode/) |
 | Forrest (SF) | Minesweeper | [link](https://git.generalassemb.ly/forrest217/minesweeper) | [link](https://github.com/forrest216/minesweeper) |
 | Mark (SF) | 1-4-24 | [link](https://github.com/mjwcollins/onefourtwentyfour) | [link](https://mjwcollins.github.io/onefourtwentyfour/) |
 | Michael (SF) | Blackjack Trainer | [link](https://github.com/mikebailey-ga/blackjack-trainer) | [link](https://mikebailey-ga.github.io/blackjack-trainer/) |
 | Shiva (SF) | Slot Machine | [link](https://git.generalassemb.ly/gebtraze11/Slot-Machine) | { in progress } |
-| Tanya (SF) | Blackjack | [link](https://github.com/tanyasadarangani/blackjack) | { in progress } |
-| Tatty (SF) | 2048 | [link](https://github.com/tatty-k/2048) | { in progress } |
+| Tanya (SF) | Blackjack | [link](https://github.com/tanyasadarangani/blackjack) | [link](https://tanyasadarangani.github.io/blackjack/) |
+| Tatty (SF) | 2048 | [link](https://github.com/tatty-k/2048) | [link](https://tatty-k.github.io/2048) |
 | Timothy (SF) | Slot Machine | [link](https://github.com/DesignAway2Play/toTheDarkLord) | [link](https://designaway2play.github.io/toTheDarkLord/) |
 | Trenton (SF) | Battleship | [link](https://github.com/trentjblackwell/battleship) | { in progress } |
