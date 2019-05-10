@@ -53,4 +53,4 @@
 | Tanya (SF) | Blackjack | [link](https://github.com/tanyasadarangani/blackjack) | [link](https://tanyasadarangani.github.io/blackjack/) |
 | Tatty (SF) | 2048 | [link](https://github.com/tatty-k/2048) | [link](https://tatty-k.github.io/2048) |
 | Timothy (SF) | Slot Machine | [link](https://github.com/DesignAway2Play/toTheDarkLord) | [link](https://designaway2play.github.io/toTheDarkLord/) |
-| Trenton (SF) | Battleship | [link](https://github.com/trentjblackwell/battleship) | { in progress } |
+| Trenton (SF) | Battleship | [link](https://github.com/trentjblackwell/battleship) | [link](https://trentjblackwell.github.io/trentjblackwell.github.io/) |
