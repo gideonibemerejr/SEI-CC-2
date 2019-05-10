@@ -28,7 +28,7 @@
 | Keven (DAL) | War Card Game | [link](https://git.generalassemb.ly/KMolina/Keven_Molina_Browser_Based_Game) | [link](https://kmolina009.github.io/Keven_Molina_Browser_Based_Game/) |
 | Yolie (DAL) | Slot Machine | [link](https://github.com/yolieloveless/ProjectOne) | [link](https://yolieloveless.github.io/ProjectOne/) |
 | Calvin (LA) | War | [link](https://github.com/calvinfeau/war-game) | [link](https://calvinfeau.github.io/war-game/)  |
-| Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) |
+| Casey (LA) | Whack-A-Mole | [link](https://github.com/cbrannon123/Project1) | [link](https://cbrannon123.github.io/Project1/) |
 | Daniel (LA) | Whack-a-Mole | [link](https://github.com/camarenad/whack-a-mole) | [link](https://camarenad.github.io/whack-a-mole/) |
 | Dominic (LA) | Battleship | [link](https://github.com/daparducci/battleship) | [link](https://daparducci.github.io/battleship/) |
 | Jessica (LA) | Ride-The-Bus | [link](https://github.com/jbokchoi/Ride-the-Bus) | [link](https://jbokchoi.github.io/Ride-the-Bus/) |
