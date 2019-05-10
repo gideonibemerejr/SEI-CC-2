@@ -34,7 +34,6 @@
 | Jessica | LA | [link](https://git.generalassemb.ly/jbokchoi/daily-js-code-challenges) |
 | Jose | LA | [link](https://git.generalassemb.ly/ambrociojosec/daily-js-code-challenges) |
 | Joseph | LA | [link](https://git.generalassemb.ly/JosephCoburn/daily-js-code-challenges) |
-| Kay | LA | [link](https://git.generalassemb.ly/benevina-santiago/daily-js-code-challenges) |
 | Lyndsay | LA | [link](https://git.generalassemb.ly/ldr/daily-js-code-challenges) |
 | Mike | LA | [link](https://git.generalassemb.ly/butonemike/daily-js-code-challenges) |
 | Mohammad | LA | [link](https://git.generalassemb.ly/payam/daily-js-code-challenges) |

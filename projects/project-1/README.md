@@ -102,7 +102,7 @@ You will have a maximum of 10 minutes to present your project following these gu
   
   > Note: Don't underestimate the value of a well crafted `README.md`. The `README.md` introduces your project to prospective employers and forms their first impression of your work!
 
-☐ **Frequent commits dating back to the very beginning of the project**. Commit messages should be in the present tense, e.g., "Style game board" instead of "Styled game board".
+☐ **Frequent commits dating back to the very beginning of the project**. Commit messages should be in the present tense, e.g., "Style game board" instead of "Styled game board". **Be sure to create the repo on your personal GitHub account and ensure that it is "public".** 
 
 ---
 
