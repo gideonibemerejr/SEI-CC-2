@@ -29,6 +29,10 @@ app.get("/artists", function(req, res) {
   });
 });
 
+app.get("/artists/:id", function(req, res) {
+  console.log(`The value for the :id rout parameter is: ${req.params.id}`);
+});
+
 //Tell the app to list on port 3000
 app.listen(4000, () => {
   console.log(`Server started on port 4000`);
