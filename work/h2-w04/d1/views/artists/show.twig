@@ -1,4 +1,5 @@
 {% include '../partials/head.twig' %}
-<h1>{{artist.id}}</h1>
+<h1>{{ artist.name }}</h1>
+<p>Listen to {{ artist.name }} <a href="{{ artist.link }}">Spotify</a>.</p>
 
 {% include '../partials/close.twig' %}

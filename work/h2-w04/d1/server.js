@@ -31,6 +31,7 @@ app.get("/artists", function(req, res) {
 
 app.get("/artists/:id", function(req, res) {
   console.log(`The value for the :id rout parameter is: ${req.params.id}`);
+  res.render("artists/show", { artist: artistDb.getOne(req.params.id) });
 });
 
 //Tell the app to list on port 3000
