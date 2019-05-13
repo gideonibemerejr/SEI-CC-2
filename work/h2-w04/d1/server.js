@@ -2,14 +2,14 @@
 const express = require("express");
 const path = require("path");
 
-// todo 'database'
-const todoDb = require("./data/todo-db");
+// artist database
+const artistDb = require("./data/artist-db");
 
 //create the express app
 const app = express();
 
 // Configure the app (app.set)
-app.set("view engine", "ejs");
+app.set("view engine", "twig");
 app.set("views", path.join(__dirname, "views"));
 
 // Mount middleware (app.use)
@@ -23,13 +23,13 @@ app.get("/home", function(req, res) {
   res.render("home");
 });
 
-app.get("/todos", function(req, res) {
-  res.render("todos/index", {
-    todos: todoDb.getAll()
+app.get("/artists", function(req, res) {
+  res.render("artists/index", {
+    artists: artistDb.getAll()
   });
 });
 
 //Tell the app to list on port 3000
-app.listen(3000, () => {
-  console.log(`Server started on port 3000`);
+app.listen(4000, () => {
+  console.log(`Server started on port 4000`);
 });

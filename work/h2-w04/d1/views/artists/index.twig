@@ -1,0 +1,11 @@
+{% include '../partials/head.twig' %}
+<h1>List of Artists</h1>
+<ul>
+  {% for a in artists %}
+  <li>
+    {{ a.artist }} –
+    <a href="{{ a.link }}"> Listen to {{ a.artist }} on Spotify</a>
+  </li>
+  {% endfor %}
+</ul>
+{% include '../partials/close.twig' %}
