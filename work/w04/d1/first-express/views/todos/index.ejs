@@ -1,0 +1,16 @@
+<% include ../partials/head %>
+<body>
+    <body>
+        <h1>Todos</h1>
+        <ul>
+            <% todos.forEach(function(t) { %>
+            <li>
+                <%= t.todo %>
+                -
+                <%= t.done ? 'done' : 'not done' %>
+            </li>
+            <% }); %>
+        </ul>
+    </body>
+</body>
+</html>
