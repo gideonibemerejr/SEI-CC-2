@@ -121,7 +121,7 @@ Options:
 	$ cd express-todos
 	```
 
-- We then to install the **node modules** that are listed in the `package.json`:
+- We then install the **node modules** that are listed in the `package.json`:
 
 	```sh
 	$ npm i
