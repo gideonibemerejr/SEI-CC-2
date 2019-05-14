@@ -11,7 +11,7 @@ You've now seen how we can generate a skeleton Express application and implement
 
 Now it's time to practice by doing the very same thing, but for a different data resource - _developer skills_.
 
-##### This Lab is Not a Deliverable
+##### This lab, combined with Part 2, is a Deliverable
 
 ## Exercises
 
