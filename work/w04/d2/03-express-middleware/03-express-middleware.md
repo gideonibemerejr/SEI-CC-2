@@ -122,7 +122,7 @@ This presentation can be viewed [here](https://presentations.generalassemb.ly/d7
 	});
 	```
 
-- Now let's pass this info to the **todos/index.ejs** view<br>**What do we have to do first?**
+- Now let's pass this info to the **todos/index.ejs** view...
 
 ---
 #### Our First Middleware
