@@ -111,9 +111,9 @@
 
 - In most apps, a related entity, such as _reviews_, would likely be displayed with its parent being reviewed, in this case a _movie_.
 
-- If we stored _reviews_ in their own collection using a `Review` Model, we would have to make a separate queries to access the _reviews_ for the movies - not very efficient.
+- If we stored _reviews_ in their own collection by using a `Review` Model, we would have to make separate queries to access the _reviews_ for the movies. But there's a more efficient way - embedding.
 
-- Therefore, in MongoDB/Mongoose, **_reviews_** are a perfect use case for embedding related data.
+- With MongoDB/Mongoose, **_reviews_** are a perfect use case for embedding related data.
 
 ---
 #### Embedding Subdocuments
@@ -367,7 +367,7 @@
   <table>
     <thead>
       <tr>
-      	 <th>Date</th>
+        <th>Date</th>
         <th>Review</th>
         <th>Rating</th>
       </tr>
@@ -404,7 +404,7 @@
 ### Essential Questions
 <br>
 
-<p>Take a couple of minutes to review...</p>
+<p>Take a minute to review...</p>
 
 - **True or False: All schemas must be compiled into a Model.**
 
