@@ -1,0 +1,12 @@
+<% include ../partials/head %>
+<h1>All of My Skills</h1>
+<ul>
+    <% skills.forEach(function(skill, idx) { %>
+        <li>
+            <a href="/skills/<%= idx %>">
+                <%= skill.name %>
+            </a>
+        </li>
+    <% }) %>
+</ul>
+<% include ../partials/close %>
