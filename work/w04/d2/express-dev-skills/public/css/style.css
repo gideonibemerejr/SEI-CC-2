@@ -1,0 +1,82 @@
+body {
+  padding: 50px;
+  overflow: hidden;
+}
+div a {
+  text-decoration: none !important;
+  color: #444;
+}
+div a:hover {
+  color: black;
+}
+.skill-card i {
+  color: gold;
+}
+h1 {
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+label {
+  font-weight: 700;
+}
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.skills-container {
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.skill-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  max-width: 50vmin;
+}
+.skills-container .skill-card:hover {
+  box-shadow: 2px 1px 10px 0.5px #a99;
+}
+.single {
+}
+section {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+
+  margin: 1rem;
+}
+.skills-container a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 35vmin;
+}
+.skill-title {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.skill-container section,
+.skill-container p {
+  justify-content: flex-start;
+  margin: 0 0 1rem 0;
+}
