@@ -1,12 +1,23 @@
 <% include ../partials/head %>
-<h1>All of My Skills</h1>
-<ul>
+<% include ../partials/nav %>
+<h1 class="text-center">Skills</h1>
+<div class="skills-container">
     <% skills.forEach(function(skill, idx) { %>
-        <li>
-            <a href="/skills/<%= idx %>">
-                <%= skill.name %>
-            </a>
-        </li>
+    <a href="/skills/<%= idx %>">
+        <div class="card skill-card">
+            <h2 class="text-center"><%= skill.name %></h2>
+            <section>
+                <label for="years">Level:</label>
+                <% for (let i = skill.stars; i > 0; i--){ %>
+                    <i class="fas fa-star"></i>
+                <%} %>
+            </section>
+            <section>
+                <label>Exprience:</label>
+                <p> &nbsp; <%= skill.years %> years</p>
+            </section>
+        </div>  
+    </a>
     <% }) %>
-</ul>
+</div>
 <% include ../partials/close %>
