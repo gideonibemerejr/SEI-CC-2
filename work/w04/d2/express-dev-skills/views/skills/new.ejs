@@ -1,0 +1,24 @@
+<% include ../partials/head %>
+<% include ../partials/nav %>
+<h1 class="text-center">New Skill</h1>
+    <form action="/skills" autocomplete="off" method="POST">
+    <div class="form-group mx-sm-3 mb-2">
+       <label for="name">Skill Name</label>
+        <input name="name" type="text" class="form-control" placeholder="Type a new language">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="stars">Skill Level</label>
+        <input name="stars" type="text" class="form-control" placeholder="How many stars?">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+       
+        <label for="years">Skill Experience</label>
+        <input name="years" type="text" class="form-control" placeholder="How many years?">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="exampleFormControlTextarea1">Description</label>
+        <textarea name="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>  
+        <button type="submit" class="btn btn-primary mb-2">Add skill</button>
+    </div>
+    </form>
+<% include ../partials/close %>
