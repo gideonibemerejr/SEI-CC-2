@@ -1,6 +1,5 @@
 body {
   padding: 50px;
-  overflow: hidden;
 }
 ul a, div a {
   text-decoration: none !important;
@@ -64,6 +63,9 @@ section {
 
   margin: 1rem;
 }
+.card-links a {
+ margin-right: 1rem;
+}
 h3 a, section a {
   text-decoration: none!important;
   color: var(--primary);
@@ -84,3 +86,15 @@ h3 a, section a {
   justify-content: flex-start;
   margin: 0 0 1rem 0;
 }
+
+.form-group button {
+  margin-top: 2rem;
+}
+.skills-form{
+  max-width: 30vw;
+   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+

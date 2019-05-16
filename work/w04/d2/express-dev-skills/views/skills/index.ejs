@@ -16,8 +16,16 @@
                 <label>Exprience:</label>
                 <p> &nbsp; <%= skill.years %> years</p>
             </section>
+            <section>
+             <form action="/skills/<%= idx %>?_method=DELETE" class="delete-form" method="POST">
+                <button class="btn btn-danger" type="submit">Delete</button>
+            </form>
+            </section>
         </div>  
     </a>
     <% }) %>
 </div>
+<section>
+<a class="text-center" href="/skills/new">Add Skill</a>
+</section>
 <% include ../partials/close %>
