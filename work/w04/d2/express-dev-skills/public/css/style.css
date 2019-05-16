@@ -2,11 +2,11 @@ body {
   padding: 50px;
   overflow: hidden;
 }
-div a {
+ul a, div a {
   text-decoration: none !important;
   color: #444;
 }
-div a:hover {
+h3 a:hover, ul a:hover, div a:hover {
   color: black;
 }
 .skill-card i {
@@ -53,7 +53,7 @@ label {
   max-width: 50vmin;
 }
 .skills-container .skill-card:hover {
-  box-shadow: 2px 1px 10px 0.5px #a99;
+  box-shadow: 1px 1px 3px 0.5px #a99;
 }
 .single {
 }
@@ -63,6 +63,10 @@ section {
   justify-content: center;
 
   margin: 1rem;
+}
+h3 a, section a {
+  text-decoration: none!important;
+  color: var(--primary);
 }
 .skills-container a {
   display: flex;
