@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+        <link href="/stylesheets/style.css" rel="stylesheet"/>
+        <title>To-Dos</title>
+    </head>
+    <body>
+        <h1>Todo #<%= todoNum %></h1>
+        <h3><%= todo.todo %></h3>
+        <h3>Complete:
+            <%= todo.done ? 'Yes' : 'No' %></h3>
+        <a href="/todos/<%= todoNum - 1 %>/edit">EDIT</a>
+    </body>
+</html>
