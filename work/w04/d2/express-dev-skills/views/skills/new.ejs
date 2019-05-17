@@ -1,7 +1,8 @@
 <% include ../partials/head %>
 <% include ../partials/nav %>
 <h1 class="text-center">New Skill</h1>
-    <form action="/skills" autocomplete="off" method="POST">
+    <form class="skills-form" action="/skills" autocomplete="off" method="POST">
+    <div class="skills-form-container">
     <div class="form-group mx-sm-3 mb-2">
        <label for="name">Skill Name</label>
         <input name="name" type="text" class="form-control" placeholder="Type a new language">
@@ -19,6 +20,7 @@
         <label for="exampleFormControlTextarea1">Description</label>
         <textarea name="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>  
         <button type="submit" class="btn btn-primary mb-2">Add skill</button>
+    </div>
     </div>
     </form>
 <% include ../partials/close %>
