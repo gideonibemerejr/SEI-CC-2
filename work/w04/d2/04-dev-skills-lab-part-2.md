@@ -9,7 +9,7 @@
 
 In the last lesson you saw how to use HTML forms and Express middleware, such as:
 
-- `express.urlencoded` (body-parser)
+- `express.json` (body-parser)
 - `method-override`
 
 to perform **Create**, **Update** & **Delete** data operations in an Express application.

@@ -1,0 +1,50 @@
+*, *:after, *:before {box-sizing: border-box;}
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+}
+input {
+    width: 2em;
+    height: 2em;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+p {
+    font-size: 1.25em;
+    margin-bottom: 40px;
+}
+button {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border: none;
+    font-size: 1em;
+}
+img {
+    width: 50vh;
+    height: auto;
+    display: none;
+}
+#submit-button {
+    display: none;
+}

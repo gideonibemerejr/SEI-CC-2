@@ -215,18 +215,18 @@ A document in the `people` collection:
 ```js
 // assume a document from a people collection
 {
-  _id: ObjectId("5099803df3f4948bd2e983a4"),
-  name: "Joe Smith",
-  contacts: [
-    {
-      type: "mobile",
-      contact: "(555) 555-5555"
-    },
-    {
-      type: "email",
-      contact: "joe@smith.com"
-    }
-  ]
+    _id: ObjectId("5099803df3f4948bd2e983a4"),
+    name: "Joe Smith",
+    contacts: [
+		{
+			type: "mobile",
+			contact: "(555) 555-5555"
+		},
+		{
+			type: "email",
+			contact: "joe@smith.com"
+		}
+	]
 }
 ```
 
@@ -243,12 +243,12 @@ Here's how the above `person --< contact` model would be implemented via **refer
 ```js
 // assume a document from a people collection
 {
-  _id: ObjectId("5099803df3f4948bd2e983a4"),
-  name: "Joe Smith",
-  contacts: [
-    ObjectId("5099803df3f4948bd2f98391"),
-    ObjectId("5099803df3f4948bd1f97203")
-  ]
+    _id: ObjectId("5099803df3f4948bd2e983a4"),
+    name: "Joe Smith",
+    contacts: [
+    	ObjectId("5099803df3f4948bd2f98391"),
+    	ObjectId("5099803df3f4948bd1f97203")
+    ]
 }    
 ```
 
@@ -256,9 +256,9 @@ Two referenced documents in the `contacts` collection:
 
 ```js
 {
-  _id: ObjectId("5099803df3f4948bd2f98391"),
-  type: "mobile",
-  contact: "(555) 555-5555"
+	_id: ObjectId("5099803df3f4948bd2f98391"),
+	type: "mobile",
+	contact: "(555) 555-5555"
 }
 ```
 
@@ -266,9 +266,9 @@ and
 
 ```js
 {
-  _id: ObjectId("5099803df3f4948bd1f97203"),
-  type: "email",
-  contact: "joe@smith.com"
+	_id: ObjectId("5099803df3f4948bd1f97203"),
+	type: "email",
+	contact: "joe@smith.com"
 }
 ```
 
