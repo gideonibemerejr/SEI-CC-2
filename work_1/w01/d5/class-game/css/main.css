@@ -1,0 +1,40 @@
+*, *:after, *:before {box-sizing: border-box;}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(7, 10vmin) ;
+    grid-template-rows: repeat(6, 10vmin);
+    grid-gap: 1vmin;
+}
+
+section div {
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+#col-markers {
+    display: grid;
+    grid-template-columns: repeat(7, 10vmin) ;
+    grid-template-rows: 7vmin;
+    grid-gap: 1vmin;
+}
+
+#col-markers div {
+    border-top: 5vmin solid gray;
+    border-left: 5vmin solid transparent;
+    border-right: 5vmin solid transparent;
+}

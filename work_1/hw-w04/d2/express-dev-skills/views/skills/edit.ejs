@@ -1,0 +1,25 @@
+<%- include ../partials/head %>
+<h1 class="text-center">Edit Skill</h1>
+<form action="/skills/<%= idx%>?_method=PUT" autocomplete="off" class="skills-form" method="POST">
+    <div class="skills-form-container">
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="name">Skill Name</label>
+            <input name="name" type="text" class="form-control" placeholder="Type a new language" value="<%= skill.name %>">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="stars">Skill Level</label>
+            <input name="stars" type="text" class="form-control" placeholder="How many stars?" value="<%= skill.stars %>">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+
+            <label for="years">Skill Experience</label>
+            <input name="years" type="text" class="form-control" placeholder="How many years?" value="<%= skill.years %>">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="exampleFormControlTextarea1">Description</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" name="description" rows="6"><%= skill.description %></textarea>
+            <button class="btn btn-primary mb-2" type="submit">Update Skill</button>
+        </div>
+    </div>
+</form>
+<% include ../partials/close %>

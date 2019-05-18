@@ -1,0 +1,43 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(7, 10vmin);
+  grid-template-rows: repeat(6, 10vmin);
+  grid-gap: 1vmin;
+}
+
+section div {
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+
+#col-markers {
+  display: grid;
+  grid-template-columns: repeat(7, 10vmin);
+  grid-template-rows: 7vmin;
+  grid-gap: 1vmin;
+}
+
+#col-markers div {
+  border-top: 5vmin solid lightgrey;
+  border-left: 5vmin solid transparent;
+  border-right: 5vmin solid transparent;
+}
+

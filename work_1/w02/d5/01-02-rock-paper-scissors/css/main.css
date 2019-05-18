@@ -1,0 +1,72 @@
+html,
+* {
+  font-family: helvetica;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  font-size: 8vmin;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5vmin;
+  margin-bottom: 5vmin;
+}
+
+main {
+  display: flex;
+  align-items: baseline;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#player,
+#computer {
+  width: 20vw;
+}
+
+#tie {
+  width: 15vw;
+}
+
+section h1,
+section h2 {
+  text-align: center;
+}
+
+section h1 {
+  font-size: 6vmin;
+}
+section h2 {
+  font-size: 7vmin;
+}
+
+button {
+  font-size: 2vmin;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+section > div {
+  width: 20vmin;
+  padding: 2vmin;
+  border: 1vmin solid grey;
+}
+
+section > div > div {
+  height: 15vmin;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
