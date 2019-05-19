@@ -6,11 +6,17 @@ module.exports = {
 };
 
 function newFlight(req, res) {
-  res.render('flights/new', { title: 'Add Flight' });
+  Flight.find({}, function(err, flights) {
+    res.render('flights/new', {
+      title: 'Add Flight',
+      carriers: flights.airlines
+    });
+  });
 }
 
 function index(req, res) {
   Flight.find({}, function(err, flights) {
     res.render('flights/index', { title: 'All Flights', flights });
+    console.log(flights.airline);
   });
 }

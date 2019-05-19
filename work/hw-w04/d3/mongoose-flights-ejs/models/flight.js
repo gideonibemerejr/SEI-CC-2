@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const moment = require('moment');
 
 const Schema = mongoose.Schema;
-const airlines = ['American', 'Southwest', 'United'];
 const yearFromNow = () => {
   return moment().add(1, 'year');
 };
@@ -10,7 +9,7 @@ const yearFromNow = () => {
 const flightSchema = new Schema({
   airline: {
     type: String,
-    enum: airlines
+    enum: ['American', 'Southwest', 'United']
   },
   flightNo: {
     type: Number,
