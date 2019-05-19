@@ -1,11 +1,13 @@
 const Flight = require('../models/flight');
-const today = new Date();
-const tomorrow = (today.getDate())
+const today = Date.now();
 
 module.exports = {
   index,
   new: newFlight,
-  create
+  create,
+  //ascend,
+  //descend
+
 };
 
 function create(req, res) {
@@ -17,17 +19,14 @@ function create(req, res) {
 }
 
 function newFlight(req, res) {
-  Flight.find({}, function(err, flights) {
     res.render('flights/new', {
       title: 'Add Flight',
-      carriers: flights.airlines
     });
-  });
 }
 
 function index(req, res) {
   Flight.find({}, function(err, flights) {
-    res.render('flights/index', { title: 'All Flights', dates:{today, tomorrow}, flights });
-    console.log(tomorrow, today);
+    res.render('flights/index', { title: 'All Flights', dates:{today}, flights });
+    console.log(flights, today);
   });
 }
