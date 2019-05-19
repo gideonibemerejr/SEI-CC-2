@@ -1,10 +1,14 @@
 const mongoose = require('mongoose');
-const moment = require('moment');
 
 const Schema = mongoose.Schema;
-const yearFromNow = () => {
-  return moment().add(1, 'year');
-};
+
+const destinationSchema = new Schema({
+  airport: {
+    type: String,
+    enum: ["AUS", "DAL", "LAX", "SEA"]
+  },
+  arrival: Date
+});
 
 const flightSchema = new Schema({
   airline: {
@@ -22,7 +26,13 @@ const flightSchema = new Schema({
     type: Date,
     required: true,
     default: function(){return new Date(new Date().setFullYear(new Date().getFullYear() + 1))}
-  }
+  }, 
+  airport: {
+    type: String,
+    enum: ["American", "Southwest", "United"],
+    default: 'SEA'
+  },
+  destinations: [destinationSchema]
 },{
   timestamps: true
 });

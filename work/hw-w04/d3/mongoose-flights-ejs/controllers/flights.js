@@ -5,10 +5,17 @@ module.exports = {
   index,
   new: newFlight,
   create,
+  show
   //ascend,
   //descend
 
 };
+
+function show(req, res) {
+  Flight.findById(req.params.id, function(err, flight){
+    res.render('flights/show', {title: 'Flight Details', today, flight})
+  })
+}
 
 function create(req, res) {
   var flight = new Flight(req.body);
@@ -25,8 +32,7 @@ function newFlight(req, res) {
 }
 
 function index(req, res) {
-  Flight.find({}, function(err, flights) {
-    res.render('flights/index', { title: 'All Flights', dates:{today}, flights });
-    console.log(flights, today);
-  });
+  Flight.find({}).sort({departs: 'asc'}).exec(function(err, flights) {
+    res.render('flights/index', { title: 'All Flights', today, flights });
+  }); 
 }

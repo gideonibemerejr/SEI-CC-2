@@ -10,7 +10,7 @@
   <tbody>
     <% flights.forEach(function(flight){ %>
 
-    <tr <% if (flight.departs < dates.today ) {%> 
+    <tr <% if (flight.departs < today ) {%> 
       class="text-danger"
       
     <%}%>
@@ -20,6 +20,7 @@
       </th>
       <td><%= flight.airline %></td>
       <td><%= flight.departs %></td>
+      <td><a href="/flights/<%= flight._id %>">DETAILS</a></td>
     </tr>
     <% }); %>
   </tbody>
