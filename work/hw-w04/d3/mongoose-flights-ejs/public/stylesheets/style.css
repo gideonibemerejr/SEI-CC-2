@@ -1,6 +1,13 @@
 body {
   padding: 50px;
 }
+table {
+  max-width: 50vmax;
+  margin: 4rem auto;
+}
+#destinations{
+  margin-top: 8rem;
+}
 .navbar {
   padding: .5rem 0;
 }

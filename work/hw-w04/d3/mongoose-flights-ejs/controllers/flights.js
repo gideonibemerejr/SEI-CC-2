@@ -11,16 +11,21 @@ module.exports = {
 
 };
 
+
 function show(req, res) {
-  Flight.findById(req.params.id, function(err, flight){
+  Flight.findById(req.params.id).exec(function(err, flight){
     res.render('flights/show', {title: 'Flight Details', today, flight})
-  })
+  }); 
 }
 
 function create(req, res) {
   var flight = new Flight(req.body);
   flight.save(function(err){
-    if (err) return res.redirect("/flights/new");
+    if (err) {
+      console.log(err);
+      return res.redirect("/flights/new");
+    
+    }  
     res.redirect(`/flights`);
   });
 }

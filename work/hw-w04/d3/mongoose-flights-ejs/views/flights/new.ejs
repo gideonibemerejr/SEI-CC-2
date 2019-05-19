@@ -13,22 +13,22 @@
     <div class="form-group">
       <label for="airline">Airline</label>
       <select class="form-control" name="airline">
-        <option>American</option>
-        <option>United</option>
-        <option>Southwest</option>
+        <option value='American'>American</option>
+        <option value="United">United</option>
+        <option value="Southwest">Southwest</option>
       </select>
     </div>
     <div class="form-group">
-      <label for="departs">Departs</label>
-      <input name="departs" type="datetime-local" />
+      <label for="departs">Departure</label>
+      <input class="form-control" name="departs" type="datetime-local" />
     </div>
     <div class="form-group">
-      <label for="airport">Airline</label>
+      <label for="airport">Origin</label>
       <select class="form-control" name="airport">
-        <option>AUS</option>
-        <option>DAL</option>
-        <option>SEA</option>
-        <option>LAX</option>
+        <option value="AUS">AUS</option>
+        <option value="DAL">DAL</option>
+        <option value="SEA">SEA</option>
+        <option value="LAX">LAX</option>
       </select>
     </div>
     <button type="submit" class="btn btn-dark">Add Flight</button>
