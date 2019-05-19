@@ -1,7 +1,9 @@
 body {
   padding: 50px;
 }
-
+.navbar {
+  padding: .5rem 0;
+}
 .navbar-light,
 .bg-light {
   background-color: transparent !important;

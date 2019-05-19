@@ -9,7 +9,11 @@
   </thead>
   <tbody>
     <% flights.forEach(function(flight){ %>
-    <tr>
+
+    <tr <%if (flight.departs < dates.today ) {%> 
+      class="text-danger"
+    <%}%>
+    >
       <th scope="row">
         <%= flight.flightNo %>
       </th>
