@@ -14,6 +14,9 @@ module.exports = {
 
 function show(req, res) {
   Flight.findById(req.params.id).exec(function(err, flight){
+    flight.destinations.forEach(function(d){
+      console.log(d);
+    });
     res.render('flights/show', {title: 'Flight Details', today, flight})
   }); 
 }

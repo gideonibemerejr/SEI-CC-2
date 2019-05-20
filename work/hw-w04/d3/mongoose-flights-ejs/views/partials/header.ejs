@@ -30,10 +30,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="/flights">
+          <a <%- title === 'All Flights' ? 'class="nav-item nav-link active"' : 'class="nav-item nav-link"' %> href="/flights">
             All Flights
           </a>
-          <a class="nav-item nav-link" href="/flights/new">
+          <a <%- title === 'Add Flight' ? 'class="nav-item nav-link active"' : 'class="nav-item nav-link"' %> href="/flights/new">
             Add Flight
           </a>
         </div>
