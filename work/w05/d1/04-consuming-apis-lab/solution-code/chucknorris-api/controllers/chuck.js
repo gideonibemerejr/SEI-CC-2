@@ -15,7 +15,7 @@ function index(req, res) {
         res.render('index', {categories, category: req.query.category, joke: joke.value});
       });
     } else {
-      res.render('index', {categories, joke: null});
+      res.render('index', {categories, joke: null, category: null});
     }
   });
 }
