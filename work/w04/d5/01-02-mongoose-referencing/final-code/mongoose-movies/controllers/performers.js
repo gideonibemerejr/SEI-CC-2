@@ -23,6 +23,7 @@ function create(req, res) {
   var s = req.body.born;
   req.body.born = `${s.substr(5, 2)}-${s.substr(8, 2)}-${s.substr(0, 4)}`;
   Performer.create(req.body, function (err, performer) {
+    console.log(performer);
     res.redirect('/performers/new');
   });
 }

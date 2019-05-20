@@ -1,5 +1,4 @@
 const Flight = require('../models/flight');
-const today = Date.now();
 
 module.exports = {
     create

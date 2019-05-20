@@ -1,13 +1,24 @@
 <%- include ../partials/header %>
-<form action="/flights/<%= flightId %>/tickets" autocomplete="off" class="flights-form" method="POST">
+<form
+  action="/flights/<%= flightId %>/tickets"
+  autocomplete="off"
+  class="flights-form"
+  method="POST"
+>
   <div>
     <div class="form-group">
       <label for="seat">Seat Number</label>
-      <input class="form-control" name="seat" required pattern="[A-F][1-9]\d?">
+      <input
+        placeholder="A-F, 1-99"
+        class="form-control"
+        name="seat"
+        required
+        pattern="[A-F][1-9]\d?"
+      />
     </div>
     <div class="form-group">
       <label for="price">Price</label>
-      <input type="number" class="form-control" name="price">
+      <input placeholder="0" type="number" class="form-control" name="price" />
     </div>
     <button type="submit" class="btn btn-dark">Add Ticket</button>
   </div>
