@@ -1,4 +1,5 @@
 const Flight = require('../models/flight');
+const Ticket = require('../models/ticket');
 const today = Date.now();
 
 module.exports = {
@@ -14,10 +15,15 @@ module.exports = {
 
 function show(req, res) {
   Flight.findById(req.params.id).exec(function(err, flight){
-    flight.destinations.forEach(function(d){
-      console.log(d);
-    });
-    res.render('flights/show', {title: 'Flight Details', today, flight})
+    Ticket.find({flight: flight._id}, function(err, tickets) {
+      res.render("flights/show", {
+        title: "Flight Details",
+        today,
+        flight,
+        tickets
+      });
+    }) 
+
   }); 
 }
 
@@ -27,7 +33,6 @@ function create(req, res) {
     if (err) {
       console.log(err);
       return res.redirect("/flights/new");
-    
     }  
     res.redirect(`/flights`);
   });
