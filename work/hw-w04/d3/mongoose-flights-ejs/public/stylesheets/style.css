@@ -1,6 +1,5 @@
 body {
   padding: 50px;
-  
 }
 main {
   height: 100vh;
@@ -11,11 +10,12 @@ main {
 }
 table {
   max-width: 50vmax;
-  margin: 4rem auto;
+  margin: 4rem auto 0 ;
 }
 .navbar {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
+
 .navbar-light,
 .bg-light {
   background-color: transparent !important;
