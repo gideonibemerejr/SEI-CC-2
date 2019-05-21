@@ -1,4 +1,5 @@
 const Movie = require('../../models/movie');
+const Performer = require('../../models/performer');
 
 module.exports = {
   allMovies,
@@ -15,9 +16,11 @@ function allMovies(req, res) {
 }
 
 function oneMovie(req, res) {
-  Movie.findById(req.params.id).then(movie => {
-    res.status(200).json(movie);
-  });
+  Movie.findById(req.params.id)
+    .populate('cast')
+    .then(movie => {
+      res.status(200).json(movie);
+    });
 }
 
 function createMovie(req, res) {
