@@ -7,7 +7,6 @@ module.exports = {
 };
 
 function create(req, res) {
-  console.log(req.body);
   let ticketData = req.body;
   ticketData.flight = req.params.id;
   let ticket = new Ticket(ticketData);
@@ -17,11 +16,12 @@ function create(req, res) {
     .catch(error => console.log(error));
   Ticket.findOne({ flight: req.params.id })
     .populate('flight')
-    .exec((err) => {
+    .exec((err, ticket) => {
       if (err) {
         console.log(err);
         res.redirect('/tickets/new');
       }
+      console.log(ticket);
     });
   res.redirect('/flights');
   // Ticket.findById(req.params.id)

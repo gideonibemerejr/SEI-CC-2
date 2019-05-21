@@ -1,6 +1,14 @@
 const Flight = require('../models/flight');
 const Ticket = require('../models/ticket');
 const today = Date.now();
+var options = {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  hour: 'numeric',
+  minute: 'numeric'
+};
 
 module.exports = {
   index,
@@ -18,6 +26,7 @@ function show(req, res) {
         title: 'Flight Details',
         today,
         flight,
+        options,
         tickets
       });
     });
@@ -45,6 +54,11 @@ function index(req, res) {
   Flight.find({})
     .sort({ departs: 'asc' })
     .exec(function(err, flights) {
-      res.render('flights/index', { title: 'All Flights', today, flights });
+      res.render('flights/index', {
+        title: 'All Flights',
+        today,
+        options,
+        flights
+      });
     });
 }
