@@ -69,7 +69,7 @@ Students Will Be Able To:
 
 - **Promises** provide an alternative to _callbacks_ as a way to work with asynchronous code execution.
 
-- A functions/method that wants to implement an asynchronous operation must be written to either:
+- A function/method that wants to implement an asynchronous operation must be written to either:
 	- Accept a callback
 	- Return a promise
 	- Or do both (Mongoose queries are an example of this)
@@ -116,7 +116,7 @@ Students Will Be Able To:
 
 - Observations:
 	- The _executor_ is immediately called by the Promise constructor passing functions as args for the `resolve` and `reject` parameters.
-	- The promise created is an object with a `<pending>` notation.
+	- The promise created is an object with a `<pending>` state.
 
 ---
 #### Making Promises
@@ -163,7 +163,7 @@ Students Will Be Able To:
 	});
 	```
 
-- The `then` method will execute the callback as soon as the promise is resolved. BTW, you can call `then` multiple times to access the value of a promise.
+- The `then` method will execute the callback as soon as the promise is resolved. BTW, you can call `then` multiple times to access the value of a resolved promise.
 
 ---
 #### Resolving Promises
@@ -329,9 +329,9 @@ Students Will Be Able To:
 #### Example - Seeding a Database
 <br>
 
-- **Seeding** a database is the process populating a database with some initial data.
+- **Seeding** a database is the process of populating a database with some initial data.
 
-- Use cases for seeding a database include, for example:
+- Use cases for seeding a database include:
 	- Creating an initial _admin_ user
 	- To provide data for lookup tables/collections. For example, in a inventory app for a grocery store, you might seed a _departments_ table/collection with values like `Deli`, `Dairy`, `Bakery`, `Meat & Seafood`, etc.
 
@@ -397,9 +397,9 @@ Students Will Be Able To:
 #### Example - Seeding a Database
 <br>
 
-- As written, the code first deletes movies, then afterwards, deletes the performers in series.
+- There's nothing _wrong_ with the code as written - it works.  However, the code first deletes movies, then afterwards, deletes the performers in series.
 
-- Because they are not dependent upon each other, it would be more efficient to perform both operations **simultaneously** - the `Promise.all` method is our ticket...
+- Because they are not dependent upon each other, it would be more efficient to perform both operations **simultaneously** - the `Promise.all` method can make this happen...
 
 ---
 #### Example - Seeding a Database
@@ -467,7 +467,7 @@ Students Will Be Able To:
 #### Example - Seeding a Database
 <br>
 
-- **Important:** You can never refer to an actual `_id` within the code in a seeds file.<br>For example, you can't write code like:
+- **Important:** You should never refer to an actual `_id` within the code in a seeds file.<br>For example, you shouldn't write code like:
 
 	```js
 	Movie.findById('5c609ac7641fdd63f6b8b71d')
@@ -480,7 +480,7 @@ Students Will Be Able To:
 #### Example - Seeding a Database
 <br>
 
-- Instead, we have to query for a document based on its other properties.
+- Instead, we have to query for documents based on properties other than `_id`.
 
 - For example:
 
