@@ -11,3 +11,5 @@ router.post('/movies/', moviesCtrl.createMovie);
 router.delete('/movies/:id', moviesCtrl.deleteMovie);
 /* PUT */
 router.put('/movies/:id', moviesCtrl.updateMovie);
+
+module.exports = router;
