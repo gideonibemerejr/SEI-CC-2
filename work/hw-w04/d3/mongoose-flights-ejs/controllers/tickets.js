@@ -1,5 +1,4 @@
 const Ticket = require('../models/ticket');
-const Flight = require('../models/flight');
 
 module.exports = {
   new: newTicket,
@@ -10,10 +9,7 @@ function create(req, res) {
   let ticketData = req.body;
   ticketData.flight = req.params.id;
   let ticket = new Ticket(ticketData);
-  ticket
-    .save()
-    .then(ticket => console.log(ticket))
-    .catch(error => console.log(error));
+  ticket.save();
   Ticket.findOne({ flight: req.params.id })
     .populate('flight')
     .exec((err, ticket) => {
