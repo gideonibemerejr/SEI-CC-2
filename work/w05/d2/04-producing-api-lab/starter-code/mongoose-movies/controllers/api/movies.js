@@ -1,5 +1,4 @@
 const Movie = require('../../models/movie');
-const Performer = require('../../models/performer');
 
 module.exports = {
   allMovies,
