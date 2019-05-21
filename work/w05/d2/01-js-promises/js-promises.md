@@ -109,7 +109,7 @@ Students Will Be Able To:
 
 	```js
 	var p = new Promise(function(resolve, reject) {
-		console.log(resolve, reject);
+	  console.log(resolve, reject);
 	});
 	console.log(p);
 	```
@@ -155,7 +155,7 @@ Students Will Be Able To:
 	```js
 	var p = new Promise(function(resolve, reject) {
 	  var value = 42;
-		resolve(value);
+	  resolve(value);
 	});
 	
 	p.then(function(result) {
