@@ -1,20 +1,20 @@
 const Movie = require('../../models/movie');
 
 module.exports = {
-  allMovies,
-  oneMovie,
-  createMovie,
-  deleteMovie,
-  updateMovie
+  allM,
+  oneM,
+  createM,
+  deleteM,
+  updateM
 };
 
-function allMovies(req, res) {
+function allM(req, res) {
   Movie.find({}).then(movies => {
     res.status(200).json(movies);
   });
 }
 
-function oneMovie(req, res) {
+function oneM(req, res) {
   Movie.findById(req.params.id)
     .populate('cast')
     .then(movie => {
@@ -22,19 +22,19 @@ function oneMovie(req, res) {
     });
 }
 
-function createMovie(req, res) {
+function createM(req, res) {
   Movie.create(req.body).then(movie => {
     res.status(200).json(movie);
   });
 }
 
-function deleteMovie(req, res) {
+function deleteM(req, res) {
   Movie.findByIdAndDelete(req.params.id).then(movie => {
     res.status(200).json(movie);
   });
 }
 
-function updateMovie(req, res) {
+function updateM(req, res) {
   Movie.findByIdAndUpdate(req.params.id, req.body, { new: true }).then(
     movie => {
       res.status(200).json(movie);
