@@ -44,7 +44,7 @@
 | Andrew (SF) |  |  |  |  |
 | Anthony (SF) |  |  |  |  |
 | Christian (SF) |  |  |  |  |
-| Forrest (SF) |  |  |  |  |
+| Forrest (SF) |  |  | [link](https://trello.com/b/MZnGURHV/sei-project-2) |  |
 | Mark (SF) |  |  |  |  |
 | Michael (SF) |  |  |  |  |
 | Shiva (SF) |  |  |  |  |
