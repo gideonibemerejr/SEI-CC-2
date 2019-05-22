@@ -305,7 +305,7 @@ We will complete these stories today:
 
 - Instead of using our own personal database, we are using a MongoDB hosted in the cloud so that we can see each other's fun facts!
 
-- Early on in your project, you will want to use a hosted database as well - [MongoDB](https://www.mongodb.com/cloud/atlas) is the goto cloud-based provider of MongoDB databases.
+- Early on in your project, you will want to use a hosted database as well - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) is the goto cloud-based provider of MongoDB databases.
 
 ---
 #### Review the Starter Code<br><small>Search Feature</small>
@@ -636,7 +636,7 @@ GOOGLE_CALLBACK=http://localhost:3000/oauth2callback
 
 ---
 
-####Congrats, the session middleware is now in place!
+#### Congrats, the session middleware is now in place!
 
 #### Time for a few questions :)
 
