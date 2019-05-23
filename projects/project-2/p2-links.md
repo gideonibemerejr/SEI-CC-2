@@ -4,7 +4,7 @@
 |---|:---:|:---:|:---:|:---:|
 | Aaron (ATX) |  |  |  |  |
 | Andrew (ATX) |  |  |  |  |
-| Brandon (ATX) |  |  |  |  |
+| Brandon (ATX) | Squad Softball | [link](https://github.com/brandonroesler/squad-softball) | [link](https://trello.com/b/jumr33Ky/squad-softball) |  |
 | Chris (ATX) |  |  |  |  |
 | Codee (ATX) |  |  |  |  |
 | Crysta (ATX) |  |  |  |  |
