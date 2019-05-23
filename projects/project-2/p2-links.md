@@ -31,7 +31,7 @@
 | Dominic (LA) |  |  |  |  |
 | Jessica (LA) |  |  |  |  |
 | Jose (LA) |  |  |  |  |
-| Joseph (LA) | Good Boi Grades | [link](https://github.com/JosephCoburn/project-2) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) |  |
+| Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/project-2) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) |  |
 | Lyndsay (LA) |  |  |  |  |
 | Mike (LA) |  |  |  |  |
 | Mohammad (LA) | Mongoose Immigration | [link](https://github.com/payam12444/mongoose-immigration-crud) | [link](https://trello.com/b/l7LRvVzm/immigration) |  |
