@@ -48,7 +48,7 @@
 | Mark (SF) | Fasting Tracker |  | [link](https://trello.com/b/k7hE8HVw/sei-project-2) |  |
 | Michael (SF) |  |  |  |  |
 | Shiva (SF) | Foodly |  | [link](https://trello.com/invite/b/hEzr5EDm/f37eff2f655d01acd28be622bb83e576/project-2) |  |
-| Tanya (SF) |  |  |  |  |
+| Tanya (SF) | TV Show Tracker |  | [link](https://trello.com/b/9uaVqEkz/seiproject2) |  |
 | Tatty (SF) | Savings Tracker |  |  |  |
 | Timothy (SF) | clanDSTne |  | [link](https://trello.com/b/pDXEXF9O) |  |
-| Trenton (SF) | Apparel Store |  | [link](https://trello.com/b/v8XB1NnR/project2-online-apparel-store) |  |
+| Trenton (SF) | Apparel Store | [link](https://github.com/trentjblackwell/store) | [link](https://trello.com/b/v8XB1NnR/project2-online-apparel-store) |  |
