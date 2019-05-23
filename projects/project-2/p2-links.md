@@ -35,7 +35,7 @@
 | Lyndsay (LA) |  |  |  |  |
 | Mike (LA) |  |  |  |  |
 | Mohammad (LA) |  |  |  |  |
-| Rudy (LA) |  |  |  |  |
+| Rudy (LA) | Readerly | [link](https://github.com/rudyards/Readerly) | [link](https://trello.com/invite/accept-board) |  |
 | Shawn (LA) |  |  |  |  |
 | Aibek (SF) |  |  |  |  |
 | Akhil (SF) |  |  |  |  |
@@ -44,7 +44,7 @@
 | Andrew (SF) |  |  |  |  |
 | Anthony (SF) |  |  |  |  |
 | Christian (SF) |  |  |  |  |
-| Forrest (SF) |  |  |  |  |
+| Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) |  |
 | Mark (SF) |  |  |  |  |
 | Michael (SF) |  |  |  |  |
 | Shiva (SF) |  |  |  |  |
