@@ -47,7 +47,7 @@
 | Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) |  |
 | Mark (SF) |  |  |  |  |
 | Michael (SF) |  |  |  |  |
-| Shiva (SF) |  |  |  |  |
+| Shiva (SF) | Foodly |  | [link](https://trello.com/invite/b/hEzr5EDm/f37eff2f655d01acd28be622bb83e576/project-2) |  |
 | Tanya (SF) |  |  |  |  |
 | Tatty (SF) | Savings Tracker |  |  |  |
 | Timothy (SF) | clanDSTne |  | [link](https://trello.com/b/pDXEXF9O) |  |
