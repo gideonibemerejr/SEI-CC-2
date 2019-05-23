@@ -51,4 +51,4 @@
 | Tanya (SF) |  |  |  |  |
 | Tatty (SF) | Savings Tracker |  |  |  |
 | Timothy (SF) | clanDSTne |  | [link](https://trello.com/b/pDXEXF9O) |  |
-| Trenton (SF) |  |  |  |  |
+| Trenton (SF) | Apparel Store |  | [link](https://trello.com/b/v8XB1NnR/project2-online-apparel-store) |  |
