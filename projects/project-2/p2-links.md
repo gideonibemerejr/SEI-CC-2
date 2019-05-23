@@ -39,7 +39,7 @@
 | Shawn (LA) |  |  |  |  |
 | Aibek (SF) | Tech Project Tracker | [link](https://github.com/aibekzhv/tech-skills) | [link](https://trello.com/b/TxWzKfLX/project-2) |  |
 | Akhil (SF) | Car Service | [link](https://github.com/akhilnn/auto-service-manager) | [link](https://trello.com/b/uqfUuCmQ) |  |
-| Alison (SF) | Dream Tracker |  | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
+| Alison (SF) | Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
 | Alvin (SF) | Coffee Roasting Log | [link](https://github.com/mykindofscum/Project-2) | [link](https://trello.com/b/kdydlmXc/project-2) |  |
 | Andrew (SF) | Yelp for Coffee |  | [link](https://trello.com/invite/b/7phJk2Ud/9361fa2b84235b3c0db272c9c2a68fc2/sei-project-2) |  |
 | Anthony (SF) | Art Store |  |  |  |
