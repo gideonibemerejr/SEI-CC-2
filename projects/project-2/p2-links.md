@@ -5,18 +5,18 @@
 | Aaron (ATX) | Climbing Tracker | [link](https://github.com/AzStowe/Climbing-Tracker) |  |  |
 | Andrew (ATX) |  | [link](https://github.com/armiscoe/Project2) |  |  |
 | Brandon (ATX) | Squad Softball | [link](https://github.com/brandonroesler/squad-softball) | [link](https://trello.com/b/jumr33Ky/squad-softball) |  |
-| Chris (ATX) | Fantasy Portfolio | [link](https://github.com/cwill833/fantasyPortfolio) |  |  |
+| Chris (ATX) | Fantasy Portfolio | [link](https://github.com/cwill833/fantasyPortfolio) | [link](https://trello.com/b/nwlwMHIK/unit-2-project) |  |
 | Codee (ATX) | Dance Community | [link](https://github.com/Codeebk/dance-community-app) | [link](https://trello.com/b/VCGlFBZv/unit-2-project-dance-community) |  |
 | Crysta (ATX) | Find Me Vegan Food | [link](https://github.com/crystadavis1119/FindMeVeganFood) | [link](https://trello.com/b/haN7ikxE/unit-2-project) |  |
 | Dana (ATX) |  | [link](https://github.com/dhagandev/Unit2BrowserGame) | [link](https://trello.com/b/NHz5MUuz) |  |
-| Gideon (ATX) | Car Cleaning Appointments | [link](https://github.com/gideonibemerejr/Car-Cleaning-Appointments) |  |  |
+| Gideon (ATX) | Car Cleaning Appointments | [link](https://github.com/gideonibemerejr/Car-Cleaning-Appointments) | [link](https://trello.com/b/NIJSpcg7/services-app) |  |
 | Hayden (ATX) | Boat App | [link](https://github.com/Haybradshaw/unit-2-boat-app) | [link](https://trello.com/b/qqZB95ru/unit-2-project) |  |
 | Jennifer (ATX) | Word Origins | [link](https://github.com/jennynm1010/word-origins-project) | [link](https://trello.com/b/ovTpKFdR/unit-2-project-word-of-the-day-app) |  |
 | Joseph (ATX) | Bar-Check | [link](https://github.com/emerick23/Bar-Check) | [link](https://trello.com/b/GYv1QIs5/bar-check) |  |
 | Nick (ATX) | The Brew Review | [link](https://github.com/Nick-Bueltel/The-Brew-Review) | [link](https://trello.com/b/Dbe5lKTU/sei-unit-2-brew-reviews) |  |
 | Omar (ATX) | F1 Midfield Fantasy | [link](https://github.com/omarclzd/f1-midfield-fantasy) | [link](https://trello.com/b/MaQpVVbP/f1-midfield-fantasy) |  |
 | Peter (ATX) | Enneagram Test | [link](https://github.com/peet1126/enneagram-story-test) | [link](https://trello.com/b/VvtXKKqM/enneagram-story-test) |  |
-| Ricardo (ATX) | Tidy Up | [link](https://github.com/rcrdgrc/tidyup) |  |  |
+| Ricardo (ATX) | Tidy Up | [link](https://github.com/rcrdgrc/tidyup) | [link](https://trello.com/b/nxpSlLQU/tidyup) |  |
 | Somjit (ATX) | Plantery | [link](https://github.com/sommeow/plantery) | [link](https://trello.com/b/Xud0pUh5) |  |
 | Albert (DAL) | EpiKorean - Recipe Blog App | [link](https://github.com/chung972/SEI-Project-2)|[link](https://trello.com/b/pKq6iQ24/sei-project-2)  | [link](https://epikorean.herokuapp.com/) |
 | Andrea (DAL) | The Podcast Bookshelf | [link](https://github.com/aflores94/GA-Project-Two) | [link](https://trello.com/b/lCjACVI0/my-project-two) | [link](https://thepodcastbookshelf.herokuapp.com/) |
@@ -45,7 +45,7 @@
 | Christian (SF) | Game Journal | [link](https://github.com/nicofasho/game-journal) | [link](https://trello.com/invite/b/ywp1sSsG/1044cdefd29bb88565d0d0b532333623/ga-sei-project-2-game-journal) |  |
 | Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) |  |
 | Mark (SF) | fasTrack | [link](https://github.com/mjwcollins/fasTrack) | [link](https://trello.com/b/k7hE8HVw/sei-project-2) |  |
-| Michael (SF) | Soulspace |  | [link](https://trello.com/b/s4LwnM4j/squadspace) |  |
+| Michael (SF) | Soulspace | [link](https://github.com/mikebailey-ga/squadspace) | [link](https://trello.com/b/s4LwnM4j/squadspace) |  |
 | Shiva (SF) | Foodly |  | [link](https://trello.com/invite/b/hEzr5EDm/f37eff2f655d01acd28be622bb83e576/project-2) |  |
 | Tanya (SF) | TV Show Tracker |  | [link](https://trello.com/b/9uaVqEkz/seiproject2) |  |
 | Tatty (SF) | Savings Tracker |  |  |  |
