@@ -12,7 +12,7 @@
 | Gideon (ATX) | Car Cleaning Appointments | [link](https://github.com/gideonibemerejr/Car-Cleaning-Appointments) |  |  |
 | Hayden (ATX) | Boat App | [link](https://github.com/Haybradshaw/unit-2-boat-app) |  |  |
 | Jennifer (ATX) | Word Origins | [link](https://github.com/jennynm1010/word-origins-project) |  |  |
-| Joseph (ATX) |  |  |  |  |
+| Joseph (ATX) | Bar-Check | [link](https://github.com/emerick23/Bar-Check/blob/master/README.md) |  |  |
 | Nick (ATX) | The Brew Review | [link](https://github.com/Nick-Bueltel/The-Brew-Review) |  |  |
 | Omar (ATX) | F1 Midfield Fantasy | [link](https://github.com/omarclzd/f1-midfield-fantasy) |  |  |
 | Peter (ATX) | Enneagram Test | [link](https://github.com/peet1126/enneagram-story-test) |  |  |
