@@ -19,7 +19,7 @@
 | Ricardo (ATX) | Tidy Up | [link](https://github.com/rcrdgrc/tidyup) | [link](https://trello.com/b/nxpSlLQU/tidyup) |  |
 | Somjit (ATX) | Plantery | [link](https://github.com/sommeow/plantery) | [link](https://trello.com/b/Xud0pUh5) |  |
 | Albert (DAL) | EpiKorean - Recipe Blog App | [link](https://github.com/chung972/SEI-Project-2)|[link](https://trello.com/b/pKq6iQ24/sei-project-2)  | [link](https://epikorean.herokuapp.com/) |
-| Andrea (DAL) | The Podcast Bookshelf | [link](https://github.com/aflores94/GA-Project-Two) | [link](https://trello.com/b/lCjACVI0/my-project-two) | [link](https://thepodcastbookshelf.herokuapp.com/) |
+| Andrea (DAL) | The Podcast Bookshelf - App | [link](https://github.com/aflores94/GA-Project-Two) | [link](https://trello.com/b/lCjACVI0/my-project-two) | [link](https://thepodcastbookshelf.herokuapp.com/) |
 | Brendan (DAL) | Just in Thyme - Recipe App | [link](https://github.com/flubbid/Project_2) | [link](https://trello.com/b/Haa3Zo8C)| [link](https://justinthyme.herokuapp.com/) |
 | Eric (DAL) | Review this Game - Video Game Review App | [link](https://github.com/code-v1/Web-Sign-in-app.git) | [link](https://trello.com/b/Tg3erteK/my-project-two) | [link](https://thisreviewgame.herokuapp.com/) |
 | Keven (DAL) | Walkles - Dog Walking App | [link](https://github.com/Kmolina009/Project-Two) | [link](https://trello.com/b/LlyTu1Li/project-two) | [link](https://walkles.herokuapp.com/) |
