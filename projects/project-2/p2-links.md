@@ -2,22 +2,22 @@
 
 | Student | Project Name | GitHub | Planning (Trello) | Hosted Site |
 |---|:---:|:---:|:---:|:---:|
-| Aaron (ATX) |  |  |  |  |
-| Andrew (ATX) |  |  |  |  |
+| Aaron (ATX) | Climbing Tracker | [link](https://github.com/AzStowe/Climbing-Tracker) |  |  |
+| Andrew (ATX) |  | [link](https://github.com/armiscoe/Project2) |  |  |
 | Brandon (ATX) | Squad Softball | [link](https://github.com/brandonroesler/squad-softball) | [link](https://trello.com/b/jumr33Ky/squad-softball) |  |
-| Chris (ATX) |  |  |  |  |
-| Codee (ATX) |  |  |  |  |
-| Crysta (ATX) |  |  |  |  |
-| Dana (ATX) |  |  |  |  |
-| Gideon (ATX) |  |  |  |  |
-| Hayden (ATX) |  |  |  |  |
-| Jennifer (ATX) |  |  |  |  |
+| Chris (ATX) | Fantasy Portfolio | [link](https://github.com/cwill833/fantasyPortfolio) |  |  |
+| Codee (ATX) | Dance Community | [link](https://github.com/Codeebk/dance-community-app) |  |  |
+| Crysta (ATX) | Find Me Vegan Food | [link](https://github.com/crystadavis1119/FindMeVeganFood) | [link](https://trello.com/b/haN7ikxE/unit-2-project) |  |
+| Dana (ATX) |  | [link](https://github.com/dhagandev/Unit2BrowserGame) | [link](https://trello.com/b/NHz5MUuz) |  |
+| Gideon (ATX) | Car Cleaning Appointments | [link](https://github.com/gideonibemerejr/Car-Cleaning-Appointments) |  |  |
+| Hayden (ATX) | Boat App | [link](https://github.com/Haybradshaw/unit-2-boat-app) |  |  |
+| Jennifer (ATX) | Word Origins | [link](https://github.com/jennynm1010/word-origins-project) |  |  |
 | Joseph (ATX) |  |  |  |  |
-| Nick (ATX) |  |  |  |  |
-| Omar (ATX) |  |  |  |  |
-| Peter (ATX) |  |  |  |  |
-| Ricardo (ATX) |  |  |  |  |
-| Somjit (ATX) |  |  |  |  |
+| Nick (ATX) | The Brew Review | [link](https://github.com/Nick-Bueltel/The-Brew-Review) |  |  |
+| Omar (ATX) | F1 Midfield Fantasy | [link](https://github.com/omarclzd/f1-midfield-fantasy) |  |  |
+| Peter (ATX) | Enneagram Test | [link](https://github.com/peet1126/enneagram-story-test) |  |  |
+| Ricardo (ATX) | Tidy Up | [link](https://github.com/rcrdgrc/tidyup) |  |  |
+| Somjit (ATX) | Plantery | [link](https://github.com/sommeow/plantery) |  |  |
 | Albert (DAL) | EpiKorean - Recipe Blog App | [link](https://github.com/chung972/SEI-Project-2)|[link](https://trello.com/b/pKq6iQ24/sei-project-2)  |  |
 | Amber (DAL) |  | [link](https://github.com/BedfordA/Project-Two/blob/master/README.md) | [link](https://trello.com/b/GJBYTD1Q) |  |
 | Andrea (DAL) | The Podcast Bookshelf | [link](https://github.com/aflores94/GA-Project-Two) | [link](https://trello.com/b/lCjACVI0/my-project-two) |  |
@@ -33,7 +33,7 @@
 | Jose (LA) |  |  |  |  |
 | Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/good-boye-grades) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) |  |
 | Lyndsay (LA) | Itinerary | [link](https://github.com/lramberg/itinerary-app) | [link](https://trello.com/b/WTFynA89/project-2) |  |
-| Mike (LA) |  | [link](https://github.com/butonemike/gaProject2) |  |  |
+| Mike (LA) | Recipe App | [link](https://github.com/butonemike/gaProject2) | [link](https://trello.com/b/sA79rdmL/ga-project-2) |  |
 | Mohammad (LA) | Mongoose Immigration | [link](https://github.com/payam12444/mongoose-immigration-crud) | [link](https://trello.com/b/l7LRvVzm/immigration) |  |
 | Rudy (LA) | Readerly | [link](https://github.com/rudyards/Readerly) | [link](https://trello.com/invite/accept-board) |  |
 | Shawn (LA) |  |  |  |  |
