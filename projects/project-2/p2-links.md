@@ -22,7 +22,7 @@
 | Andrea (DAL) | The Podcast Bookshelf | [link](https://github.com/aflores94/GA-Project-Two) | [link](https://trello.com/b/lCjACVI0/my-project-two) | [link](https://thepodcastbookshelf.herokuapp.com/) |
 | Brendan (DAL) | Just in Thyme - Recipe App | [link](https://github.com/flubbid/Project_2) | [link](https://trello.com/b/Haa3Zo8C)| [link](https://justinthyme.herokuapp.com/) |
 | Eric (DAL) | Review this Game - Video Game Review App | [link](https://github.com/code-v1/Web-Sign-in-app.git) | [link](https://trello.com/b/Tg3erteK/my-project-two) | [link](https://thisreviewgame.herokuapp.com/) |
-| Keven (DAL) | Walkles - Dog Walking App | [link](https://github.com/Kmolina009/Project-Two) | [link](https://trello.com/b/LlyTu1Li/project-two) |  |
+| Keven (DAL) | Walkles - Dog Walking App | [link](https://github.com/Kmolina009/Project-Two) | [link](https://trello.com/b/LlyTu1Li/project-two) | [link](https://walkles.herokuapp.com/) |
 | Yolie (DAL) | Pretty in Pink - Makeup Appointment App | [link](https://github.com/yolieloveless/projectTwo) | [link](https://trello.com/b/vAx6l2fK/ga-project-2) | [link](https://pretty-please-sei.herokuapp.com/) |
 | Calvin (LA) | Travel App | [link](https://github.com/calvinfeau/travel-app) | [link](https://trello.com/b/QEtQDyUt/project-2-sei) |  |
 | Casey (LA) | Blogopocalypse | [link](https://github.com/cbrannon123/Project-2) | [link](https://trello.com/b/DmOLHFnP/m) |  |
