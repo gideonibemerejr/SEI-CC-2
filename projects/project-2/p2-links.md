@@ -30,13 +30,13 @@
 | Daniel (LA) |  |  |  |  |
 | Dominic (LA) |  |  |  |  |
 | Jessica (LA) | Partners in Wine | [link](https://github.com/jbokchoi/partners-in-wine) | [link](https://trello.com/b/kw7FY0HT/partners-in-wine) |  |
-| Jose (LA) |  |  |  |  |
+| Jose (LA) | Mongoose DRC | [link](https://github.com/ambrociojosec/mongoose-drc) |  |  |
 | Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/good-boye-grades) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) |  |
 | Lyndsay (LA) | Itinerary | [link](https://github.com/lramberg/itinerary-app) | [link](https://trello.com/b/WTFynA89/project-2) |  |
 | Mike (LA) | Recipe App | [link](https://github.com/butonemike/gaProject2) | [link](https://trello.com/b/sA79rdmL/ga-project-2) |  |
 | Mohammad (LA) | Mongoose Immigration | [link](https://github.com/payam12444/mongoose-immigration-crud) | [link](https://trello.com/b/l7LRvVzm/immigration) |  |
 | Rudy (LA) | Readerly | [link](https://github.com/rudyards/Readerly) | [link](https://trello.com/invite/accept-board) |  |
-| Shawn (LA) | Illistrious | [link](https://github.com/sgk94/illistrious) |  |  |
+| Shawn (LA) | Illistrious | [link](https://github.com/sgk94/illistrious) | [link](https://trello.com/b/zCfeg4Il/social-media-list-app) |  |
 | Aibek (SF) | Tech Project Tracker | [link](https://github.com/aibekzhv/tech-skills) | [link](https://trello.com/b/TxWzKfLX/project-2) |  |
 | Akhil (SF) | Car Service | [link](https://github.com/akhilnn/auto-service-manager) | [link](https://trello.com/b/uqfUuCmQ) |  |
 | Alison (SF) | Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
