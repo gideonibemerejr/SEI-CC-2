@@ -25,11 +25,11 @@
 | Eric (DAL) | Review this Game - Video Game Review App | [link](https://github.com/code-v1/Web-Sign-in-app.git) | [link](https://trello.com/b/Tg3erteK/my-project-two) |  |
 | Keven (DAL) | Walkles - Dog Walking App | [link](https://github.com/Kmolina009/Project-Two) | [link](https://trello.com/b/LlyTu1Li/project-two) |  |
 | Yolie (DAL) | Pretty in Pink - Makeup Appointment App | [link](https://github.com/yolieloveless/projectTwo) | [link](https://trello.com/b/vAx6l2fK/ga-project-2) |  |
-| Calvin (LA) |  |  |  |  |
-| Casey (LA) |  |  |  |  |
+| Calvin (LA) | Travel App | [link](https://github.com/calvinfeau/travel-app) | [link](https://trello.com/b/QEtQDyUt/project-2-sei) |  |
+| Casey (LA) | Blogopocalypse | [link](https://github.com/cbrannon123/Project-2) | [link](https://trello.com/b/DmOLHFnP/m) |  |
 | Daniel (LA) |  |  |  |  |
 | Dominic (LA) |  |  |  |  |
-| Jessica (LA) |  |  |  |  |
+| Jessica (LA) | Partners in Wine | [link](https://github.com/jbokchoi/partners-in-wine) | [link](https://trello.com/b/kw7FY0HT/partners-in-wine) |  |
 | Jose (LA) |  |  |  |  |
 | Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/good-boye-grades) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) |  |
 | Lyndsay (LA) | Itinerary | [link](https://github.com/lramberg/itinerary-app) | [link](https://trello.com/b/WTFynA89/project-2) |  |
