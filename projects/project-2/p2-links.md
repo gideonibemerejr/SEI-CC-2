@@ -40,7 +40,7 @@
 | Akhil (SF) | Car Service | [link](https://github.com/akhilnn/auto-service-manager) | [link](https://trello.com/b/uqfUuCmQ) |  |
 | Alison (SF) | Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
 | Alvin (SF) | Coffee Roasting Log | [link](https://github.com/mykindofscum/Project-2) | [link](https://trello.com/b/kdydlmXc/project-2) |  |
-| Andrew (SF) | Yelp for Coffee |  | [link](https://trello.com/invite/b/7phJk2Ud/9361fa2b84235b3c0db272c9c2a68fc2/sei-project-2) |  |
+| Andrew (SF) | Yelp for Coffee | [link](https://github.com/andrew0788/CoffeeReview) | [link](https://trello.com/invite/b/7phJk2Ud/9361fa2b84235b3c0db272c9c2a68fc2/sei-project-2) |  |
 | Anthony (SF) | Art Store |  |  |  |
 | Christian (SF) | Game Journal | [link](https://github.com/nicofasho/game-journal) | [link](https://trello.com/invite/b/ywp1sSsG/1044cdefd29bb88565d0d0b532333623/ga-sei-project-2-game-journal) |  |
 | Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) |  |
