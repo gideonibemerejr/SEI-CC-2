@@ -45,7 +45,7 @@
 | Anthony (SF) | Art Store |  |  |  |
 | Christian (SF) | Game Journal | [link](https://github.com/nicofasho/game-journal) | [link](https://trello.com/invite/b/ywp1sSsG/1044cdefd29bb88565d0d0b532333623/ga-sei-project-2-game-journal) |  |
 | Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) |  |
-| Mark (SF) | Fasting Tracker |  | [link](https://trello.com/b/k7hE8HVw/sei-project-2) |  |
+| Mark (SF) | fasTrack | [link](https://github.com/mjwcollins/fasTrack) | [link](https://trello.com/b/k7hE8HVw/sei-project-2) |  |
 | Michael (SF) | Soulspace |  | [link](https://trello.com/b/s4LwnM4j/squadspace) |  |
 | Shiva (SF) | Foodly |  | [link](https://trello.com/invite/b/hEzr5EDm/f37eff2f655d01acd28be622bb83e576/project-2) |  |
 | Tanya (SF) | TV Show Tracker |  | [link](https://trello.com/b/9uaVqEkz/seiproject2) |  |
