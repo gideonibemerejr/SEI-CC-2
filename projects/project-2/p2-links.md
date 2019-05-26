@@ -26,8 +26,8 @@
 | Yolie (DAL) | Pretty in Pink - Makeup Appointment App | [link](https://github.com/yolieloveless/projectTwo) | [link](https://trello.com/b/vAx6l2fK/ga-project-2) | [link](https://pretty-please-sei.herokuapp.com/) |
 | Calvin (LA) | Travel App | [link](https://github.com/calvinfeau/travel-app) | [link](https://trello.com/b/QEtQDyUt/project-2-sei) |  |
 | Casey (LA) | Blogopocalypse | [link](https://github.com/cbrannon123/Project-2) | [link](https://trello.com/b/DmOLHFnP/m) |  |
-| Daniel (LA) |  |  |  |  |
-| Dominic (LA) |  |  |  |  |
+| Daniel (LA) | Threddit | [link](https://github.com/camarenad/threddit) | [link](https://trello.com/b/feGBoOJY/sei-2) |  |
+| Dominic (LA) | BrewStop | [link](https://github.com/daparducci/BrewNook-Project) | [link](https://trello.com/b/WvMVVgNB/brewstop) |  |
 | Jessica (LA) | Partners in Wine | [link](https://github.com/jbokchoi/partners-in-wine) | [link](https://trello.com/b/kw7FY0HT/partners-in-wine) |  |
 | Jose (LA) | Mongoose DRC | [link](https://github.com/ambrociojosec/mongoose-drc) |  |  |
 | Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/good-boye-grades) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) |  |
@@ -41,7 +41,7 @@
 | Alison (SF) | Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
 | Alvin (SF) | Coffee Roasting Log | [link](https://github.com/mykindofscum/Project-2) | [link](https://trello.com/b/kdydlmXc/project-2) |  |
 | Andrew (SF) | Yelp for Coffee | [link](https://github.com/andrew0788/CoffeeReview) | [link](https://trello.com/invite/b/7phJk2Ud/9361fa2b84235b3c0db272c9c2a68fc2/sei-project-2) |  |
-| Anthony (SF) | Art Store |  |  |  |
+| Anthon (SF) | Art Store | [link](https://git.generalassemb.ly/anton-yershov/guild-page) | [link](https://trello.com/b/ACvXZGgr/guild-page) |  |
 | Christian (SF) | Game Journal | [link](https://github.com/nicofasho/game-journal) | [link](https://trello.com/invite/b/ywp1sSsG/1044cdefd29bb88565d0d0b532333623/ga-sei-project-2-game-journal) |  |
 | Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) |  |
 | Mark (SF) | fasTrack | [link](https://github.com/mjwcollins/fasTrack) | [link](https://trello.com/b/k7hE8HVw/sei-project-2) |  |
