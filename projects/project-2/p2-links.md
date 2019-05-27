@@ -41,7 +41,7 @@
 | Alison (SF) | Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
 | Alvin (SF) | Coffee Roasting Log | [link](https://github.com/mykindofscum/Project-2) | [link](https://trello.com/b/kdydlmXc/project-2) |  |
 | Andrew (SF) | Yelp for Coffee | [link](https://github.com/andrew0788/CoffeeReview) | [link](https://trello.com/invite/b/7phJk2Ud/9361fa2b84235b3c0db272c9c2a68fc2/sei-project-2) |  |
-| Anthon (SF) | Art Store | [link](https://git.generalassemb.ly/anton-yershov/guild-page) | [link](https://trello.com/b/ACvXZGgr/guild-page) |  |
+| Anton (SF) | Art Store | [link](https://git.generalassemb.ly/anton-yershov/guild-page) | [link](https://trello.com/b/ACvXZGgr/guild-page) |  |
 | Christian (SF) | Game Journal | [link](https://github.com/nicofasho/game-journal) | [link](https://trello.com/invite/b/ywp1sSsG/1044cdefd29bb88565d0d0b532333623/ga-sei-project-2-game-journal) |  |
 | Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) |  |
 | Mark (SF) | fasTrack | [link](https://github.com/mjwcollins/fasTrack) | [link](https://trello.com/b/k7hE8HVw/sei-project-2) |  |
@@ -49,5 +49,5 @@
 | Shiva (SF) | Foodly | [link](https://github.com/gebtraze11/foodly) | [link](https://trello.com/invite/b/hEzr5EDm/f37eff2f655d01acd28be622bb83e576/project-2) |  |
 | Tanya (SF) | TV Show Tracker | [link](https://github.com/tanyasadarangani/TvShowReviewer) | [link](https://trello.com/b/9uaVqEkz/seiproject2) |  |
 | Tatty (SF) | Penny Jar | [link](https://github.com/tatty-k/penny-jar) | [link](https://trello.com/b/R402Ox3p/penny-jar) |  |
-| Timothy (SF) | clanDSTne |  | [link](https://trello.com/b/pDXEXF9O) |  |
+| Timothy (SF) | clanDSTne | [link](https://github.com/DesignAway2Play/clanDSTne) | [link](https://trello.com/b/pDXEXF9O) |  |
 | Trenton (SF) | Apparel Store | [link](https://github.com/trentjblackwell/store) | [link](https://trello.com/b/v8XB1NnR/project2-online-apparel-store) |  |
