@@ -17,5 +17,6 @@ It is a requirement to complete at least **80%** of the following to to receive:
 | Mon 4/29 | [Responsive Design Lab](https://git.generalassemb.ly/WDI-CC/WDI-CC-6/blob/master/work/w02/d1/04-responsive-design-lab.md) |
 | Tue 5/14 | [Express Dev Skills Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w04/d2/04-dev-skills-lab-part-2.md) |
 | Tue 5/21 | [Producing an API Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w05/d2/04-producing-api-lab/producing-api-lab.md) |
+| Tue 6/4 | [Python Control Flow Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w07/d2/03-04-control-flow-lab) |
 
 
