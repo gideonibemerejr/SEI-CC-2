@@ -9,6 +9,7 @@
 | Describe what is truthy & falsey in Python |
 | Perform multi-path branching using a `if...elif...else` statement |
 | Perform looping using `while` statements |
+| Use a _range_ and a `for` statement to loop through a range of integers  |
 
 ## Set Up
 
@@ -261,24 +262,6 @@ for (name of names) {
 }
 ```
 
-Although Python's `for` loop is different that the regular `for` loop in JS, Python's `for` loop can be used to iterate over numbers by using a **range**:
-
-```python
-for i in range(10):
-  print(i)
-  
-# => Prints 0 thru 9 
-```
-
-The above Python is the same as the following JS:
-
-
-```js
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-}
-```
-
 ### The `while` loop
 
 Python also has a `while` loop construct that will continue to iterate **while a given condition is truthy**.
@@ -302,6 +285,70 @@ The `break` statement in Python can be used to immediately exit `for` and `while
 ### Looping Exercise (5 - 10 minutes)
 
 Wrap the code in **exercise.py** in a `while` loop such that it continues to prompt for a color until the word `quit` is entered.
+
+## Python Ranges
+
+### Purpose of Ranges
+
+Python _**ranges**_ are a _sequence type_ like _lists_ and _tuples_.
+
+The **range** type represents an immutable sequence of numbers and is commonly used for looping a specific number of times in `for` loops.
+
+_Ranges_ have a class (type) of `range`.
+
+### Ranges - Basic Syntax
+
+Ranges can only be created by invoking the `range()` class:
+
+```python
+for num in range(5):
+	print(num)
+> 0
+> 1
+> 2
+> 3
+> 4
+```
+
+Notice that by default, the sequence starts at `0` and goes up to, but does not including the integer passed in.
+
+Ranges can also generate sequences with a **start** and a **step**:
+
+```python
+for even in range(2, 10, 2):
+	print(even)
+> 2
+> 4
+> 6
+> 8
+```
+
+When not passed in, the _start_ value defaults to `0` and the _step_ defaults to `1`.
+
+Ranges can also be used to create _lists_ and _tuples_:
+
+```python
+nums = list(range(10))
+print(nums)
+> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+odds = tuple(range(1, 10, 2))
+print(odds)
+> (1, 3, 5, 7, 9)
+```
+
+### Ranges - Negative Step
+
+If the _step_ is a negative integer, the _sequence_ counts down:
+
+```python
+for num in range(5, 0, -1):
+	print(num)
+> 5
+> 4
+> 3
+> 2
+> 1
+```
 
 ## Summary
 
