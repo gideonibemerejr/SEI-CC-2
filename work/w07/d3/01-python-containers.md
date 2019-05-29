@@ -3,7 +3,7 @@
 ---
 <img src="https://i.imgur.com/DPzk4Ok.png">
 
-# Python Containers and Ranges
+# Python Containers
 
 ---
 ## Learning Objectives
@@ -14,8 +14,6 @@
 - Use _lists_, _tuples_ & _dictionaries_ as containers for data
 
 - Use _list comprehensions_ to create lists
-
-- Use a _range_ and a _for_ statement to loop through a range of integers
 
 - Create subsets of a _sequence_ using the _slice_ operator
 
@@ -655,81 +653,6 @@
 	> red green blue
 	```
 	A tuple of variables on the left-side of the assignment operator and a tuple of values on the right is all it takes.
-
----
-### Ranges - Purpose
-<br>
-
-- Although not a general purpose container, **ranges** are a _sequence type_ like _lists_ and _tuples_.
-
-- The **range** type represents an immutable sequence of numbers and is commonly used for looping a specific number of times in `for` loops.
-
-- _Ranges_ have a class (type) of `range`.
-
----
-### Ranges - Basic Syntax
-<br>
-
-- **Ranges** can only be created by invoking the `range()` class:
-
-	```python
-	for num in range(5):
-		print(num)
-	> 0
-	> 1
-	> 2
-	> 3
-	> 4
-	```
-	Notice that by default, the sequence starts at `0` and goes up to, but does not including the integer passed in.
-
----
-### Ranges - Basic Syntax
-<br>
-
-- _Ranges_ can also generate sequences with a **start** and a **step**:
-
-	```python
-	for even in range(2, 10, 2):
-		print(even)
-	> 2
-	> 4
-	> 6
-	> 8
-	```
-
-- When not passed in, the _start_ value defaults to `0` and the _step_ defaults to `1`.
-
----
-### Ranges - Basic Syntax
-<br>
-
-- _Ranges_ can also be used to create _lists_ and _tuples_:
-
-	```python
-	nums = list(range(10))
-	print(nums)
-	> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-	odds = tuple(range(1, 10, 2))
-	print(odds)
-	> (1, 3, 5, 7, 9)
-	```
-
----
-### Ranges - Negative Step
-<br>
-
-- If the _step_ is a negative integer, the _sequence_ counts down:
-
-	```python
-	for num in range(5, 0, -1):
-		print(num)
-	> 5
-	> 4
-	> 3
-	> 2
-	> 1
-	```
 
 ---
 ## Sequences Can Be "Sliced"
