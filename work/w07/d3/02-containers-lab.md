@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/DPzk4Ok.png">
 
-# Python Containers and Ranges - Lab
+# Python Containers - Lab
 
 ## Setup
 
