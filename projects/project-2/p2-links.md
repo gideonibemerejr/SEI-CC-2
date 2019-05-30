@@ -3,7 +3,7 @@
 | Student | Project Name | GitHub | Planning (Trello) | Hosted Site |
 |---|:---:|:---:|:---:|:---:|
 | Aaron (ATX) | Climbing Tracker | [link](https://github.com/AzStowe/Climbing-Tracker) | [link](https://trello.com/b/dAWKIDOI/full-stack-project) | [link](https://thawing-badlands-45784.herokuapp.com/) |
-| Andrew (ATX) | Coffee Snob | [link](https://github.com/armiscoe/Project2) |  | [link](https://coffee-snob.herokuapp.com/) |
+| Andrew (ATX) | Coffee Snob | [link](https://github.com/armiscoe/Project2) | [link](https://trello.com/b/7phJk2Ud/sei-project-2) | [link](https://coffee-snob.herokuapp.com/) |
 | Brandon (ATX) | Squad Softball | [link](https://github.com/brandonroesler/squad-softball) | [link](https://trello.com/b/jumr33Ky/squad-softball) | [link](https://still-forest-91356.herokuapp.com/) |
 | Chris (ATX) | Fantasy Portfolio | [link](https://github.com/cwill833/fantasyPortfolio) | [link](https://trello.com/b/nwlwMHIK/unit-2-project) | [link](https://dry-escarpment-82584.herokuapp.com/) |
 | Codee (ATX) | Dance Community | [link](https://github.com/Codeebk/dance-community-app) | [link](https://trello.com/b/VCGlFBZv/unit-2-project-dance-community) | [link](https://austin-dance-events.herokuapp.com/) |
