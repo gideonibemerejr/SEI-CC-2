@@ -43,7 +43,7 @@
 | Andrew (SF) | Yelp for Coffee | [link](https://github.com/andrew0788/CoffeeReview) | [link](https://trello.com/invite/b/7phJk2Ud/9361fa2b84235b3c0db272c9c2a68fc2/sei-project-2) |  |
 | Anton (SF) | Art Store | [link](https://git.generalassemb.ly/anton-yershov/guild-page) | [link](https://trello.com/b/ACvXZGgr/guild-page) |  |
 | Christian (SF) | Game Journal | [link](https://github.com/nicofasho/game-journal) | [link](https://trello.com/invite/b/ywp1sSsG/1044cdefd29bb88565d0d0b532333623/ga-sei-project-2-game-journal) |  |
-| Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) |  |
+| Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) | [link](http://deepwoods.herokuapp.com/) |
 | Mark (SF) | fasTrack | [link](https://github.com/mjwcollins/fasTrack) | [link](https://trello.com/b/k7hE8HVw/sei-project-2) |  |
 | Michael (SF) | Soulspace | [link](https://github.com/mikebailey-ga/squadspace) | [link](https://trello.com/b/s4LwnM4j/squadspace) |  |
 | Shiva (SF) | Foodly | [link](https://github.com/gebtraze11/foodly) | [link](https://trello.com/invite/b/hEzr5EDm/f37eff2f655d01acd28be622bb83e576/project-2) |  |
