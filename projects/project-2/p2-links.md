@@ -12,10 +12,10 @@
 | Gideon (ATX) | Car Cleaning Appointments | [link](https://github.com/gideonibemerejr/Car-Cleaning-Appointments) | [link](https://trello.com/b/NIJSpcg7/services-app) | [link](https://goij-services-app.herokuapp.com/) |
 | Hayden (ATX) | Boat App | [link](https://github.com/Haybradshaw/unit-2-boat-app) | [link](https://trello.com/b/qqZB95ru/unit-2-project) | [link](https://sheltered-fortress-96116.herokuapp.com/) |
 | Jennifer (ATX) | Word Origins | [link](https://github.com/jennynm1010/word-origins-project) | [link](https://trello.com/b/ovTpKFdR/unit-2-project-word-of-the-day-app) | [link](https://etym-project.herokuapp.com/) |
-| Joseph (ATX) | Bar-Check | [link](https://github.com/emerick23/Bar-Check) | [link](https://trello.com/b/GYv1QIs5/bar-check) |  |
+| Joseph (ATX) | Bar-Check | [link](https://github.com/emerick23/Bar-Check) | [link](https://trello.com/b/GYv1QIs5/bar-check) | [link](https://shielded-headland-35506.herokuapp.com/) |
 | Nick (ATX) | The Brew Review | [link](https://github.com/Nick-Bueltel/The-Brew-Review) | [link](https://trello.com/b/Dbe5lKTU/sei-unit-2-brew-reviews) | [link](https://thebrewreview.herokuapp.com/) |
 | Omar (ATX) | F1 Midfield Fantasy | [link](https://github.com/omarclzd/f1-midfield-fantasy) | [link](https://trello.com/b/MaQpVVbP/f1-midfield-fantasy) | [link](https://whispering-mountain-71039.herokuapp.com/) |
-| Peter (ATX) | Enneagram Test | [link](https://github.com/peet1126/enneagram-story-test) | [link](https://trello.com/b/VvtXKKqM/enneagram-story-test) |  |
+| Peter (ATX) | New Blog | [link](https://github.com/peet1126/enneagram-story-test) | [link](https://trello.com/b/VvtXKKqM/enneagram-story-test) | [link](https://afternoon-brook-18298.herokuapp.com/users#) |
 | Ricardo (ATX) | Tidy Up | [link](https://github.com/rcrdgrc/tidyup) | [link](https://trello.com/b/nxpSlLQU/tidyup) | [link](https://thawing-taiga-67976.herokuapp.com/users) |
 | Somjit (ATX) | Plantery | [link](https://github.com/sommeow/plantery) | [link](https://trello.com/b/Xud0pUh5) | [link](https://fathomless-cliffs-26578.herokuapp.com/) |
 | Albert (DAL) | EpiKorean - Recipe Blog App | [link](https://github.com/chung972/SEI-Project-2)|[link](https://trello.com/b/pKq6iQ24/sei-project-2)  | [link](https://epikorean.herokuapp.com/) |
