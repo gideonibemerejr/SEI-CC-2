@@ -38,7 +38,7 @@
 | Shawn (LA) | Illistrious | [link](https://github.com/sgk94/illistrious) | [link](https://trello.com/b/zCfeg4Il/social-media-list-app) | [link](https://illistrious.herokuapp.com/) |
 | Aibek (SF) | Tech Project Tracker | [link](https://github.com/aibekzhv/tech-skills) | [link](https://trello.com/b/TxWzKfLX/project-2) |  |
 | Akhil (SF) | Car Service | [link](https://github.com/akhilnn/auto-service-manager) | [link](https://trello.com/b/uqfUuCmQ) | [link](https://auto-service-manager.herokuapp.com/) |
-| Alison (SF) | Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
+| Alison (SF) | Reverie Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) | [link](https://dreamer-app.herokuapp.com/) |
 | Alvin (SF) | Coffee Roasting Log | [link](https://github.com/mykindofscum/Project-2) | [link](https://trello.com/b/kdydlmXc/project-2) | [link](https://roastlog.herokuapp.com/) |
 | Andrew (SF) | Yelp for Coffee | [link](https://github.com/andrew0788/CoffeeReview) | [link](https://trello.com/invite/b/7phJk2Ud/9361fa2b84235b3c0db272c9c2a68fc2/sei-project-2) | [link](http://coffee-snob.herokuapp.com/) |
 | Anton (SF) | Art Store | [link](https://git.generalassemb.ly/anton-yershov/guild-page) | [link](https://trello.com/b/ACvXZGgr/guild-page) |  |
