@@ -25,13 +25,13 @@
 | Keven (DAL) | Walkles - Dog Walking App | [link](https://github.com/Kmolina009/Project-Two) | [link](https://trello.com/b/LlyTu1Li/project-two) | [link](https://walkles.herokuapp.com/) |
 | Yolie (DAL) | Pretty Please - Hair and Makeup Appointment App | [link](https://github.com/yolieloveless/Pretty-Please) | [link](https://trello.com/b/vAx6l2fK/ga-project-2) | [link](https://pretty-please-sei.herokuapp.com/) |
 | Calvin (LA) | Travel App | [link](https://github.com/calvinfeau/travel-app) | [link](https://trello.com/b/QEtQDyUt/project-2-sei) |  |
-| Casey (LA) | Blogopocalypse | [link](https://github.com/cbrannon123/Project-2) | [link](https://trello.com/b/DmOLHFnP/m) |  |
+| Casey (LA) | Blogopocalypse | [link](https://github.com/cbrannon123/Project-2) | [link](https://trello.com/b/DmOLHFnP/m) | [link](https://blogopocalypes.herokuapp.com) |
 | Daniel (LA) | Threddit | [link](https://github.com/camarenad/threddit) | [link](https://trello.com/b/feGBoOJY/sei-2) |  |
-| Dominic (LA) | BrewStop | [link](https://github.com/daparducci/BrewNook-Project) | [link](https://trello.com/b/WvMVVgNB/brewstop) |  |
+| Dominic (LA) | BrewStop | [link](https://github.com/daparducci/BrewNook-Project) | [link](https://trello.com/b/WvMVVgNB/brewstop) | [link](https://brewnooks.herokuapp.com) |
 | Jessica (LA) | Partners in Wine | [link](https://github.com/jbokchoi/partners-in-wine) | [link](https://trello.com/b/kw7FY0HT/partners-in-wine) |  |
 | Jose (LA) | Mongoose DRC | [link](https://github.com/ambrociojosec/mongoose-drc) |  | [link](https://undocu-resources-drc.herokuapp.com) |
-| Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/good-boye-grades) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) |  |
-| Lyndsay (LA) | Itinerary | [link](https://github.com/lramberg/itinerary-app) | [link](https://trello.com/b/WTFynA89/project-2) |  |
+| Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/good-boye-grades) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) | [link](https://good-boye-grades.herokuapp.com) |
+| Lyndsay (LA) | Itinerary | [link](https://github.com/lramberg/itinerary-app) | [link](https://trello.com/b/WTFynA89/project-2) | [link](https://port-side.herokuapp.com/) |
 | Mike (LA) | Recipe App | [link](https://github.com/butonemike/gaProject2) | [link](https://trello.com/b/sA79rdmL/ga-project-2) | [link](https://feldberguesa-cookbook.herokuapp.com) |
 | Mohammad (LA) | Mongoose Immigration | [link](https://github.com/payam12444/mongoose-immigration-crud) | [link](https://trello.com/b/l7LRvVzm/immigration) |  |
 | Rudy (LA) | Readerly | [link](https://github.com/rudyards/Readerly) | [link](https://trello.com/invite/accept-board) |  |
