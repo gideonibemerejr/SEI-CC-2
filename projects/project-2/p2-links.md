@@ -50,4 +50,4 @@
 | Tanya (SF) | TV Show Tracker | [link](https://github.com/tanyasadarangani/TvShowReviewer) | [link](https://trello.com/b/9uaVqEkz/seiproject2) | [link](https://veritable-critique.herokuapp.com/) |
 | Tatty (SF) | Penny Jar | [link](https://github.com/tatty-k/penny-jar) | [link](https://trello.com/b/R402Ox3p/penny-jar) | [link](https://cache-grow.herokuapp.com) |
 | Timothy (SF) | clanDSTne | [link](https://github.com/DesignAway2Play/clanDSTne) | [link](https://trello.com/b/pDXEXF9O) | [link](https://clandstne.herokuapp.com/) |
-| Trenton (SF) | Apparel Store | [link](https://github.com/trentjblackwell/store) | [link](https://trello.com/b/v8XB1NnR/project2-online-apparel-store) |  |
+| Trenton (SF) | Apparel Store | [link](https://github.com/trentjblackwell/store) | [link](https://trello.com/b/v8XB1NnR/project2-online-apparel-store) | [link](http://prdsilnd-store.herokuapp.com) |
