@@ -41,8 +41,8 @@
 | Alison (SF) | Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
 | Alvin (SF) | Coffee Roasting Log | [link](https://github.com/mykindofscum/Project-2) | [link](https://trello.com/b/kdydlmXc/project-2) | [link](https://roastlog.herokuapp.com/) |
 | Andrew (SF) | Yelp for Coffee | [link](https://github.com/andrew0788/CoffeeReview) | [link](https://trello.com/invite/b/7phJk2Ud/9361fa2b84235b3c0db272c9c2a68fc2/sei-project-2) | [link](http://coffee-snob.herokuapp.com/) |
-| Anton (SF) | Art Store | [link](https://git.generalassemb.ly/anton-yershov/guild-page) | [link](https://trello.com/b/ACvXZGgr/guild-page) | [link](https://game-journal.herokuapp.com) |
-| Christian (SF) | Game Journal | [link](https://github.com/nicofasho/game-journal) | [link](https://trello.com/invite/b/ywp1sSsG/1044cdefd29bb88565d0d0b532333623/ga-sei-project-2-game-journal) |  |
+| Anton (SF) | Art Store | [link](https://git.generalassemb.ly/anton-yershov/guild-page) | [link](https://trello.com/b/ACvXZGgr/guild-page) |  |
+| Christian (SF) | Game Journal | [link](https://github.com/nicofasho/game-journal) | [link](https://trello.com/invite/b/ywp1sSsG/1044cdefd29bb88565d0d0b532333623/ga-sei-project-2-game-journal) | [link](https://game-journal.herokuapp.com) |
 | Forrest (SF) | Deep Woods | [link](https://github.com/forrest216/DeepWoods) | [link](https://trello.com/b/MZnGURHV/sei-project-2-deepwoods) | [link](http://deepwoods.herokuapp.com/) |
 | Mark (SF) | fasTrack | [link](https://github.com/mjwcollins/fasTrack) | [link](https://trello.com/b/k7hE8HVw/sei-project-2) | [link](https://dreamer-app.herokuapp.com/) |
 | Michael (SF) | Soulspace | [link](https://github.com/mikebailey-ga/squadspace) | [link](https://trello.com/b/s4LwnM4j/squadspace) | [link](squadspace.herokuapp.com) |
