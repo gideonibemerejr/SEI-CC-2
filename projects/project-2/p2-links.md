@@ -35,7 +35,7 @@
 | Mike (LA) | Recipe App | [link](https://github.com/butonemike/gaProject2) | [link](https://trello.com/b/sA79rdmL/ga-project-2) | [link](https://feldberguesa-cookbook.herokuapp.com) |
 | Mohammad (LA) | Mongoose Immigration | [link](https://github.com/payam12444/mongoose-immigration-crud) | [link](https://trello.com/b/l7LRvVzm/immigration) |  |
 | Rudy (LA) | Readerly | [link](https://github.com/rudyards/Readerly) | [link](https://trello.com/invite/accept-board) |  |
-| Shawn (LA) | Illistrious | [link](https://github.com/sgk94/illistrious) | [link](https://trello.com/b/zCfeg4Il/social-media-list-app) |  |
+| Shawn (LA) | Illistrious | [link](https://github.com/sgk94/illistrious) | [link](https://trello.com/b/zCfeg4Il/social-media-list-app) | [link](https://illistrious.herokuapp.com/) |
 | Aibek (SF) | Tech Project Tracker | [link](https://github.com/aibekzhv/tech-skills) | [link](https://trello.com/b/TxWzKfLX/project-2) |  |
 | Akhil (SF) | Car Service | [link](https://github.com/akhilnn/auto-service-manager) | [link](https://trello.com/b/uqfUuCmQ) | [link](https://auto-service-manager.herokuapp.com/) |
 | Alison (SF) | Dream Tracker | [link](https://github.com/alison-codes/dreamer-app) | [link](https://trello.com/invite/b/f7MomJCv/cb5ee1900a3985a44b83af37b27698fe/project-2) |  |
