@@ -181,10 +181,9 @@
 
 ---
 ### Congrats on exposing an API<br>for your app!
+<br>
 
 - Although we have built-out an API for a RESTful resource, be aware that an API can also provide functionality such as logging in/out.
-
-- Tomorrow, you'll see how to make requests from within a webpage using AJAX; as well as render the JSON response using client-side rendering.
 
 ---
 ### CORS

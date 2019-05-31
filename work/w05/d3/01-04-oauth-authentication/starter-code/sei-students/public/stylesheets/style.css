@@ -14,3 +14,14 @@
   position: relative;
   top: -5px;
 }
+
+.new-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-item button {
+  background: transparent;
+  border: none;
+  color: white;
+}

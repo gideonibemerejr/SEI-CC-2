@@ -33,15 +33,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 // mount the session middleware
-app.use(session({
-  secret: 'SEI Rocks!',
-  resave: false,
-  saveUninitialized: true
-}));
+app.use(
+  session({
+    secret: 'SEI Rocks!',
+    resave: false,
+    saveUninitialized: true
+  })
+);
 
 app.use(passport.initialize());
 app.use(passport.session());
-
 
 // mount all routes with appropriate base paths
 app.use('/', indexRoutes);
