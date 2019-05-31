@@ -29,7 +29,7 @@
 | Daniel (LA) | Threddit | [link](https://github.com/camarenad/threddit) | [link](https://trello.com/b/feGBoOJY/sei-2) |  |
 | Dominic (LA) | BrewStop | [link](https://github.com/daparducci/BrewNook-Project) | [link](https://trello.com/b/WvMVVgNB/brewstop) |  |
 | Jessica (LA) | Partners in Wine | [link](https://github.com/jbokchoi/partners-in-wine) | [link](https://trello.com/b/kw7FY0HT/partners-in-wine) |  |
-| Jose (LA) | Mongoose DRC | [link](https://github.com/ambrociojosec/mongoose-drc) |  |  |
+| Jose (LA) | Mongoose DRC | [link](https://github.com/ambrociojosec/mongoose-drc) |  | [link](https://undocu-resources-drc.herokuapp.com) |
 | Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/good-boye-grades) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) |  |
 | Lyndsay (LA) | Itinerary | [link](https://github.com/lramberg/itinerary-app) | [link](https://trello.com/b/WTFynA89/project-2) |  |
 | Mike (LA) | Recipe App | [link](https://github.com/butonemike/gaProject2) | [link](https://trello.com/b/sA79rdmL/ga-project-2) |  |
