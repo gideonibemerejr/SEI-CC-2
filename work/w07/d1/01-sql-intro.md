@@ -215,7 +215,7 @@ Because the type of `id` is set to `serial`, the RDBMS automatically assigns it.
 
 Let's say we have the following data relationship:  `Band ---< Musisican`
 
-_Bands have many Musicians_ and _a Musician belongs to a Band_
+_A Band has many Musicians_ and _a Musician belongs to a Band_
 
 Whenever you have a one:many relationship, the rows in the table for the many-side must include a column that references which row in the table on the one-side it _belongs to_.
 
