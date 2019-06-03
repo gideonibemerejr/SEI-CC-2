@@ -67,7 +67,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
     <tr>
       <td rowspan="3">Second Language & Web Framework</td>
       <td align="center">7</td>
-      <td>Fundamentals of Python<br>Relational Databases & SQL<br>Agile Development</td>
+      <td>Fundamentals of Python<br>Relational Databases & SQL/td>
       <td rowspan="3">Group Project: Full-stack Django Application</td>
     </tr>
     <tr>
