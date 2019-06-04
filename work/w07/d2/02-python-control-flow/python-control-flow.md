@@ -213,7 +213,7 @@ Also note that `else` is always optional.
 
 > There is no `switch` construct in Python
 
-### Branching Exercise (5 - 10 minutes)
+### 💪 Branching Exercise (5 - 10 minutes)
 
 In the **exercise.py** file, you will find the following code that accepts text input from the user:
 
@@ -238,7 +238,9 @@ To run the code, open a terminal in VS Code by typing `control + backtick`, then
 Python's `for` statement is not designed like the one you first used in JavaScript:
 
 ```js
-for (let i = 0; i < 10; i++) {...}
+for (let i = 0; i < 10; i++) {
+  // do stuff
+}
 ```
 
 Instead, the Python `for` loop always iterates over the items in a _sequence_, similar to JavaScript's `for...in` and `for...of` loops.
@@ -280,9 +282,9 @@ while condition:
 
 ### The `break` Statement
 
-The `break` statement in Python can be used to immediately exit `for` and `while` loops and continue executing any statements that may follow them.
+Just like in JavaScript, the `break` statement in Python can be used to immediately exit `for` and `while` loops and continue executing any statements that may follow them.
 
-### Looping Exercise (5 - 10 minutes)
+### 💪 Looping Exercise (5 - 10 minutes)
 
 Wrap the code in **exercise.py** in a `while` loop such that it continues to prompt for a color until the word `quit` is entered.
 
