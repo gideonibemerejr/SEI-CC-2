@@ -12,6 +12,8 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+# I hated this and had to search google for what the Fibonacci sequence was.
+
 term = 0
 num1 = 0
 num2 = 1
@@ -24,4 +26,3 @@ while term < 50:
         num1 = num2
         num2 = num
     term += 1
-    
