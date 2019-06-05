@@ -158,7 +158,7 @@ var myNumber = 10;
 
 ```python
 # In Python we use snake_case...
-ny_number = 10
+my_number = 10
 ```
 
 #### Reassigning Variables
