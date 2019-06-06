@@ -111,7 +111,7 @@ print(spot) # -> similar to <__main__.Dog object at 0x7f27bad2c208>
 # print the name and age attributes of the spot object
 print(spot.name, spot.age) # -> Spot 8
 
-# invoke the spot object's bark_hello instance method
+# invoke the spot object's bark instance method
 spot.bark() # -> Spot says woof!
 ```
 
@@ -240,7 +240,7 @@ There's only two differences when defining a class method:
 1. The `@classmethod` _decorator_
 2. The naming convention of the first parameter is to use `cls` instead of `self`
 
-> _Decorators_ in programming are used to implement _metaprogramming_, where one part of a program is used to modify another part. It's not very common, but there's a link in the Further Study section if you'd like to learn more about decorators in Python.
+> _Decorators_ in programming are used to implement _metaprogramming_ (when a program has knowledge or manipulates itself).  In Python, decorators are used to modify the behavior of a function or class. They are not very common, but there's a link in the Further Study section if you'd like to learn more about decorators in Python.
 
 Let's test out the new class method:
 
@@ -312,7 +312,7 @@ Take a couple of minutes to review these...
 
 3. **Another word for an object is an _________.**
 
-4. **How is a class used to create objects?**
+4. **How do we use a class to create objects?**
 
 5. **True or False: Class attributes are shared by all instances of that class.**
 
@@ -372,5 +372,7 @@ When the `withdraw` method is called, do not allow the withdraw if the amount be
 Learn more about magic methods [here](https://rszalski.github.io/magicmethods/)
 
 Learn more about Python's `self` [here](https://medium.com/quick-code/understanding-self-in-python-a3704319e5f0)
+
+Learn more about metaprogramming [here](https://stackoverflow.com/questions/514644/what-exactly-is-metaprogramming)
 
 [Decorators](https://www.programiz.com/python-programming/decorator) in Python
