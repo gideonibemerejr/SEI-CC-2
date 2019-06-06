@@ -273,7 +273,7 @@ Let's see how inheritance is implemented in Python by creating a `ShowDog` class
 class ShowDog(Dog):
   # Add additional parameters AFTER those in the superclass
   def __init__(self, name, age = 0, total_earnings = 0):
-    # Always call the superclasse's __init__ first
+    # Always call the superclass's __init__ first
     Dog.__init__(self, name, age)
     # Now add any new attributes
     self.total_earnings = total_earnings
