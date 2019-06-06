@@ -182,9 +182,9 @@ Vehicle (<vin>) is a <make> model <model>
 
 ## Class vs. Instance Members
 
-Just like we learned in the JS Classes lesson, _classes_ themselves can contain members that are accessible on the class only, not an instance.
+In Python, **instance** attributes & methods (members) are intended to be accessed/invoked by instances of the class, whereas, **class** members are intended to be accessible on the class only, not an instance.
 
-Each object instance has its own copy of its properties, e.g., `name`. However, all instances share class properties.
+Each object instance has its own copy of its attributes, e.g., `name`. However, all instances share class attributes.
 
 To demonstrate class attributes, let's add a `nextId` class attribute to the `Dog` class that can be used to assign an `id` to each dog instance:
 
@@ -209,6 +209,8 @@ class Dog():
 ```
 
 Note how the `Dog.next_id` class attribute is being accessed within the `__init__` method.
+
+> Note: Technically, instances can also access class members via `self` due to the fact that if the instance does not have an accessed member, Python will check the class and provide the class version of the member if it exists.
 
 Now let's make sure it worked :)
 
