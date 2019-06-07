@@ -13,11 +13,17 @@
     "express": "~4.16.0",
     "express-session": "^1.16.1",
     "http-errors": "~1.6.2",
+    "method-override": "^3.0.0",
     "mongoose": "^5.4.10",
     "morgan": "~1.9.0",
+<<<<<<< HEAD
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+=======
     "passport": "^0.4.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
+>>>>>>> a7bb97ebf5ade8ab11a749391f15b95e18555d59
   }
 }

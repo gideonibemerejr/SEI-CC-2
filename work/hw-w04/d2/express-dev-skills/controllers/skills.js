@@ -12,7 +12,7 @@ module.exports = {
 
 function update(req, res) {
   Skill.update(req.params.id, req.body);
-   res.redirect('/skills');
+  res.redirect('/skills');
 }
 
 function edit(req, res) {
@@ -24,7 +24,7 @@ function edit(req, res) {
 
 function deleteSkill(req, res) {
   Skill.deleteOne(req.param.id);
-   res.redirect('/skills');
+  res.redirect('/skills');
 }
 
 function create(req, res) {

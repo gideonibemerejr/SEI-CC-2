@@ -53,9 +53,9 @@ Students will be able to:
 - Authentication is what enables an appliction to know the **identity** of the person using it.
 
 - In SEI, we're going to learn 3 types of **authentication**:
-	- **Unit 1**: Logging in via a third-party provider - _OAuth_
-	- **Unit 2**: Session-based username/password login
-	- **Unit 3**: Token-based username/password login
+	- **Unit 2**: Logging in via a third-party provider - _OAuth_
+	- **Unit 3**: Session-based username/password login
+	- **Unit 4**: Token-based username/password login
 
 ---
 #### Authentication vs. Authorization
@@ -305,7 +305,7 @@ We will complete these stories today:
 
 - Instead of using our own personal database, we are using a MongoDB hosted in the cloud so that we can see each other's fun facts!
 
-- Early on in your project, you will want to use a hosted database as well - [mLab](https://mlab.com/) is the most popular cloud-based provider of MongoDB.
+- Early on in your project, you will want to use a hosted database as well - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) is the goto cloud-based provider of MongoDB databases.
 
 ---
 #### Review the Starter Code<br><small>Search Feature</small>
@@ -503,7 +503,7 @@ We will complete these stories today:
 - Let's put **YOUR** credentials, along with that callback we provided, in our `.env` file so that it looks something like this:
 
 ```sh
-DATABASE_URL=mongodb://<dbuser>:<dbpassword>@ds053954.mongolab.com:53954/wdi-students
+DATABASE_URL=mongodb+srv://<user>:<pw>@sei-students-1btwt.azure.mongodb.net/students?retryWrites=true
 GOOGLE_CLIENT_ID=245025414219-2r7f4bvh3t88s3shh6hhagrki0f6op8t.apps.googleusercontent.com
 GOOGLE_SECRET=Yn9T_2BKzxr4zgprzKDGI5j3
 GOOGLE_CALLBACK=http://localhost:3000/oauth2callback
@@ -636,7 +636,7 @@ GOOGLE_CALLBACK=http://localhost:3000/oauth2callback
 
 ---
 
-####Congrats, the session middleware is now in place!
+#### Congrats, the session middleware is now in place!
 
 #### Time for a few questions :)
 

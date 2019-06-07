@@ -4,6 +4,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var passport = require('passport');
+var methodOverride = require('method-override');
 
 // load the env vars
 require('dotenv').config();
@@ -14,7 +15,7 @@ var app = express();
 // connect to the MongoDB with mongoose
 require('./config/database');
 
-// connect to our PassportJS 
+// connect to our PassportJS
 require('./config/passport');
 
 // require our routes
@@ -31,6 +32,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
+app.use(methodOverride('_method'));
 
 // express-session setup
 app.use(
