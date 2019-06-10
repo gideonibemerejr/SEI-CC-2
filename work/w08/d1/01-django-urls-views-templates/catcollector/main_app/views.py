@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Cat, cats
 
 
 def home(request):
@@ -7,5 +8,9 @@ def home(request):
 
 
 def about(request):
-    return render(request, 'about/about.html', {'title': 'About Cat Collector'})
+    return render(request, 'about.html', {'title': 'About Cat Collector'})
 # Create your views here.
+
+
+def cats_index(request):
+    return render(request, 'cats/index.html', {'title': 'Cats | Cat Collector', 'cats': cats})
