@@ -45,9 +45,7 @@
 
 - **Dictionaries** are to Python as **objects** are to JS.
 
-- In computer science these types are also known as _associative arrays_ or _maps_.
-
-- A **dictionary** provides a container for **`key: value`** pairs. We can refer to `key: value` pairs as **items**.
+- A **dictionary** provides a container for `key: value` pairs. We can refer to `key: value` pairs as **items**.
 
 - _Dictionaries_ have a class (type) of `dict`.
 
@@ -78,7 +76,7 @@
 
 - They are mutable:
  	- The values assigned to a key can be changed
- 	- New `key: value` pairs (items) can be added
+ 	- Additional items can be added
  	- Existing items can be deleted
  
 - Any immutable type can be used as a key, including _numbers_ and _tuples_ (which we'll cover in a bit).
@@ -113,6 +111,7 @@
 	> KeyError: 'birthdate'
 	print( student.get('birthdate') )
 	> None
+	# Provide a default value if key not in dictionary
 	print( student.get('birthdate', '07-04-1776') )
 	> 07-04-1776
 	```
@@ -124,6 +123,7 @@
 - Another way to avoid the `KeyError` is to use the `in` operator to check if the _dictionary_ includes a key:
 
 	```python
+	# Must import the standard datetime module
 	import datetime
 	
 	if 'birthdate' in student:
@@ -146,10 +146,11 @@
 ### Dictionaries - Deleting Items
 <br>
 
-- The `del` operator deletes an item from a _dictionary_:
+- The `del` statement is used to delete an item from a _dictionary_:
 
 	```python
 	del student['age']
+	# Verify that item was deleted
 	'age' in student
 	> False
 	```
@@ -173,7 +174,7 @@
 ### Dictionaries - Iterating Items
 <br>
 
-- `for` loops are used to iterate over a dictionary's `key: value` pairs. However, the following is considered to be a Python [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern):
+- `for` loops are used to iterate over the items in a dictionary. However, the following is considered to be a Python [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern):
 
 	```python
 	for key in student:
@@ -199,10 +200,10 @@
 	> dict_items([('name', 'Tina'), ('course', 'SEI')])
 	```
 
-- The `for` statement assigns the values in a _tuple_ to multiple variables like with `key, val` above.
+- The `for` statement "unpacks" the tuples by assigning its values to multiple variables like with `key, val` above.
 
 ---
-## Dictionary - Practice Exercise<br><small>(5 minutes)</small>
+## Dictionary - Practice Exercise<br><small>(10 minutes)</small>
 <br>
 
 - Define a Python _dictionary_ named **`where_are_my_things`** containing a few items; where  the `keys` are things you have, and the `value` is the location you keep those things.
@@ -255,6 +256,7 @@
 
 ---
 ### Lists - Accessing Elements
+<br>
 
 - Accessing the individual elements of a _list_ is much like accessing elements in a JS array, i.e., by using _square brackets_ with an expression that evaluates to an integer:
 
@@ -263,6 +265,10 @@
 	colors[idx + 1]
 	> blue
 	```
+
+---
+### Lists - Accessing Elements
+<br>
 
 - However, unlike in JS, we can use negative integers to index from the end of a _list_:
 
@@ -363,7 +369,7 @@
 ### Lists - Clearing
 <br>
 
-- Lastly, `clear()` does just what you think:
+- Lastly, `clear()` does just what it's name implies:
 
 	```python
 	print(colors)
@@ -491,7 +497,7 @@
 
 - We've seen how _list comprehensions_ are a nice way to map a list, but they can be used for **filtering** too.
 
-- Just like before, let's first look at how we would use a `for` loop to map and filter simultaneously:
+- Again, we'll start by using a `for` loop to map and filter simultaneously:
 
 	```python
 	nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -534,7 +540,7 @@
 
 - **What characters start and end a _list comprehension_**
 
-- **Do _list comprehensions_ create or loop through lists?**
+- **Does a _list comprehension_ create a new list?**
 
 ---
 ### List Comprehensions - Summary
@@ -570,7 +576,7 @@
 	print( len(colors) )
 	> 3
 	``` 
-	Although it seems that _parentheses_ are used to create _tuples_, it's actually the _commas_.
+	Although it seems that _parentheses_ are used to create _tuples_, it's actually the _commas_!
 
 ---
 ### Tuples - Basic Syntax

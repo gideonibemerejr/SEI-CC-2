@@ -111,7 +111,7 @@ print(spot) # -> similar to <__main__.Dog object at 0x7f27bad2c208>
 # print the name and age attributes of the spot object
 print(spot.name, spot.age) # -> Spot 8
 
-# invoke the spot object's bark_hello instance method
+# invoke the spot object's bark instance method
 spot.bark() # -> Spot says woof!
 ```
 
@@ -182,9 +182,9 @@ Vehicle (<vin>) is a <make> model <model>
 
 ## Class vs. Instance Members
 
-Just like we learned in the JS Classes lesson, _classes_ themselves can contain members that are accessible on the class only, not an instance.
+In Python, **instance** attributes & methods (members) are intended to be accessed/invoked by instances of the class, whereas, **class** members are intended to be accessible on the class only, not an instance.
 
-Each object instance has its own copy of its properties, e.g., `name`. However, all instances share class properties.
+Each object instance has its own copy of its attributes, e.g., `name`. However, all instances share class attributes.
 
 To demonstrate class attributes, let's add a `nextId` class attribute to the `Dog` class that can be used to assign an `id` to each dog instance:
 
@@ -209,6 +209,8 @@ class Dog():
 ```
 
 Note how the `Dog.next_id` class attribute is being accessed within the `__init__` method.
+
+> Note: Technically, instances can also access class members via `self` due to the fact that if the instance does not have an accessed member, Python will check the class and provide the class version of the member if it exists.
 
 Now let's make sure it worked :)
 
@@ -240,7 +242,7 @@ There's only two differences when defining a class method:
 1. The `@classmethod` _decorator_
 2. The naming convention of the first parameter is to use `cls` instead of `self`
 
-> _Decorators_ in programming are used to implement _metaprogramming_, where one part of a program is used to modify another part. It's not very common, but there's a link in the Further Study section if you'd like to learn more about decorators in Python.
+> _Decorators_ in programming are used to implement _metaprogramming_ (when a program has knowledge or manipulates itself).  In Python, decorators are used to modify the behavior of a function or class. They are not very common, but there's a link in the Further Study section if you'd like to learn more about decorators in Python.
 
 Let's test out the new class method:
 
@@ -271,7 +273,7 @@ Let's see how inheritance is implemented in Python by creating a `ShowDog` class
 class ShowDog(Dog):
   # Add additional parameters AFTER those in the superclass
   def __init__(self, name, age = 0, total_earnings = 0):
-    # Always call the superclasse's __init__ first
+    # Always call the superclass's __init__ first
     Dog.__init__(self, name, age)
     # Now add any new attributes
     self.total_earnings = total_earnings
@@ -312,7 +314,7 @@ Take a couple of minutes to review these...
 
 3. **Another word for an object is an _________.**
 
-4. **How is a class used to create objects?**
+4. **How do we use a class to create objects?**
 
 5. **True or False: Class attributes are shared by all instances of that class.**
 
@@ -372,5 +374,7 @@ When the `withdraw` method is called, do not allow the withdraw if the amount be
 Learn more about magic methods [here](https://rszalski.github.io/magicmethods/)
 
 Learn more about Python's `self` [here](https://medium.com/quick-code/understanding-self-in-python-a3704319e5f0)
+
+Learn more about metaprogramming [here](https://stackoverflow.com/questions/514644/what-exactly-is-metaprogramming)
 
 [Decorators](https://www.programiz.com/python-programming/decorator) in Python

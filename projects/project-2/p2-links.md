@@ -28,8 +28,8 @@
 | Casey (LA) | Blogopocalypse | [link](https://github.com/cbrannon123/Project-2) | [link](https://trello.com/b/DmOLHFnP/m) | [link](https://blogopocalypes.herokuapp.com) |
 | Daniel (LA) | Threddit | [link](https://github.com/camarenad/threddit) | [link](https://trello.com/b/feGBoOJY/sei-2) |  |
 | Dominic (LA) | BrewStop | [link](https://github.com/daparducci/BrewNook-Project) | [link](https://trello.com/b/WvMVVgNB/brewstop) | [link](https://brewnooks.herokuapp.com) |
-| Jessica (LA) | Partners in Wine | [link](https://github.com/jbokchoi/partners-in-wine) | [link](https://trello.com/b/kw7FY0HT/partners-in-wine) |  |
-| Jose (LA) | Mongoose DRC | [link](https://github.com/ambrociojosec/mongoose-drc) |  | [link](https://undocu-resources-drc.herokuapp.com) |
+| Jessica (LA) | Partners in Wine | [link](https://github.com/jbokchoi/partners-in-wine) | [link](https://trello.com/b/kw7FY0HT/partners-in-wine) | [link](https://partners-in-wine.herokuapp.com/) |
+| Jose (LA) | Mongoose DRC | [link](https://github.com/ambrociojosec/mongoose-drc) | [link](https://trello.com/b/YQP0vJ1i/sei-project-2) | [link](https://undocu-resources-drc.herokuapp.com) |
 | Joseph (LA) | Good Boye Grades | [link](https://github.com/JosephCoburn/good-boye-grades) | [link](https://trello.com/b/xYOIaH00/good-boi-grades) | [link](https://good-boye-grades.herokuapp.com) |
 | Lyndsay (LA) | Itinerary | [link](https://github.com/lramberg/itinerary-app) | [link](https://trello.com/b/WTFynA89/project-2) | [link](https://port-side.herokuapp.com/) |
 | Mike (LA) | Recipe App | [link](https://github.com/butonemike/gaProject2) | [link](https://trello.com/b/sA79rdmL/ga-project-2) | [link](https://feldberguesa-cookbook.herokuapp.com) |

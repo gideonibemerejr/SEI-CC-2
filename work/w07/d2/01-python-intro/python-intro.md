@@ -158,7 +158,7 @@ var myNumber = 10;
 
 ```python
 # In Python we use snake_case...
-ny_number = 10
+my_number = 10
 ```
 
 #### Reassigning Variables
@@ -257,7 +257,7 @@ Similar to how JS has the `null` value to represent nothingness, Python has a si
 my_nothing = None
 ```
 
-The word `None`, with a capital N, provides the same meaning as `null` in Python.
+The keyword `None` in Python, with a capital N, provides the same meaning as `null` does in JavaScript.
 
 ### Math operations
 
@@ -405,7 +405,7 @@ Some are familiar, like `split()` but others have different names:
 "abcde".split("")
 # => ['a', 'b', 'c', 'd', 'e']
 
-"qqxzzz".index("x")
+"qqxzzz".index("x")    # Warning: Raises error if substring not found
 # => 2
 
 "boo".upper()
@@ -449,6 +449,7 @@ course = 'SEI'
 print( course[0] )
 # => Prints 'S'
 
+# We can use negative indexes!
 last_letter = course[-1]
 print( last_letter )
 # => Prints 'I'
@@ -469,7 +470,7 @@ Let's wrap up with a few questions...
 	msg = "There are " + num + " tacos"
 	```
 
-3. **How is string interpolation performed in Python?**
+3. **String interpolation can be performed in Python by using __-Strings or the ________ method.**
 
 ## Further Study
 

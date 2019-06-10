@@ -74,11 +74,7 @@ That's why the Python modules used to define routes in Django are named **urls.p
 
 #### Prerequisite Installs
 
-Let's do a one-time install of the Django framework using the following command:
-
-```
-$ pip3 install Django
-```
+Django should have been installed during installfest.  
 
 Let's verify the installation as follows:
 
@@ -88,9 +84,15 @@ $ python3
 >>> print( django.get_version() )  # -> 2.1.x
 ```
 
-By default, Django uses a lightweight database called SQLite. However, it's not deployable.
+If it's not installed, do a one-time install of the Django framework using the following command:
 
-From the start, we'll be following the better practice of using a more capable database by configuring each of our Django projects to work with PostgreSQL.
+```
+$ pip3 install Django
+```
+
+By default, Django uses a lightweight database called SQLite. However, it's not supported by most hosting services (Heroku, etc.).
+
+Therefore, from the start, we'll be following the better practice of using a more capable database by configuring each of our Django projects to work with PostgreSQL.
 
 To use PostgreSQL, we need to do a one-time install of the **psycopg2** Python package:
 
@@ -116,6 +118,8 @@ $ psql
 Run the `\l` command to confirm that `polls` is in the list of databases.
 
 Also, depending upon how PostgreSQL was installed, you might need the database's username/password. Just in case, make note of the username to the right of the database name in the list.
+
+With the database created, type `\q` to exit the psql shell.
 
 #### `cd` to Where You Should Be :)
 
