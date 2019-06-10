@@ -194,7 +194,7 @@ You will have approximately 15 minutes to present your project following these g
 
 ## Project 3 Assessment
 
-After all presentations are complete, you will be assigned a Project 2 Assessment.
+After all presentations are complete, you will be assigned a Project 3 Assessment.
 
 The goal of this project's assessment will be to gauge your ability to develop a minimal full-stack Django application that:
 
