@@ -85,7 +85,7 @@ It's important to note that the Field types for a Model don't just determine the
 	<summary>
 		How is a Model defined in Django?
 	</summary>
-	<p>By using as a Python class</p>
+	<p>With a Python class</p>
 </details>
 
 <details>
