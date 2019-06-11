@@ -33,7 +33,7 @@ Because many-to-many relationships require a Model that is independent of other 
 
 This way, we can focus on how to implement the actual `Cat >--< Toy` relationship in this lesson.
 
-Because a new `Toy` model has been, there are migration files in the starter code that have not yet been migrated in the database on your computer. Let's do that now:
+Because a new `Toy` model has been added, there are migration files in the starter code that have not yet been migrated to the database on your computer. Let's do that now:
 
 ```
 $ python3 manage.py migrate
@@ -81,6 +81,8 @@ Forms and templates aside, all we need to do to implement a many-to-many relatio
 
 1. Add a `ManyToManyField` on one side of the relationship
 2. Create the migration and migrate it to update the database
+
+Django will ensure that a "hidden" join table is created that links the rows of the other two tables together.
 
 #### Add a `ManyToManyField` on One Side of the Relationship
 
