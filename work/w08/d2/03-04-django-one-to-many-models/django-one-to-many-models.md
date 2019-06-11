@@ -150,7 +150,7 @@ The first argument specifies the parent Model.
 
 In a _one-to-many_ relationship, the `on_delete=models.CASCADE` is required.  It ensures that if a Cat record is deleted, all of the child Feedings will be deleted automatically as well - thus, no _orphan_ records (seriously, that's what they're called).
 
-> In the database, the column in the `feedings` table for the FK will actually be called `cat_id` because Django by default add `_id` to the name of the attribute we use in the Model.
+> In the database, the column in the `feedings` table for the FK will actually be called `cat_id` because Django by default appends `_id` to the name of the attribute we use in the Model.
 
 ## Make and Run the Migration
 
@@ -528,7 +528,7 @@ Now let's fix the dropdown...
 
 Because we used `choices=MEALS` in the `Feeding` model, `FeedingForm` generated a `<select>` instead of the typical `<input type="text">` for a `CharField`.
 
-But, `<select>` dropdowns need to be initialized when using Materialize.
+But, `<select>` dropdowns also need to be initialized when using Materialize.
 
 It doesn't require any options, just select it and init it:
 
