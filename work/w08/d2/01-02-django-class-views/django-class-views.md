@@ -110,7 +110,7 @@ We need a way to create cats in Cat Collector!
 
 #### Add the Route
 
-If this we're an Express app, we would need to code two separate routes and controller actions like:
+If this was an Express app, we would need to code two separate routes and controller actions like:
 
 - `router.get('/cats/new', catsCtrl.new);` to view the form, and
 - `router.post('/cats', catsCtrl.create);` to add the cat to the database and then redirect
@@ -118,8 +118,8 @@ If this we're an Express app, we would need to code two separate routes and cont
 However, using Django, we only need a single URL-based route because a `CreateView` CBV will automatically:
 
 - Create a Django [ModelForm]() used to automatically create the form's inputs for the Model. 
-- If the request is a `GET`, render a template (where we'll put include a `<form>`)  and
-- In the case of a `POST`, use the form's contents to create data and perform a redirect.
+- If the request is a `GET`, render a template (where we'll include a `<form>`)  and
+- In the case of a `POST`, use the posted form's contents to create data and perform a redirect.
 
 Let's add that new URL pattern to **main_app/urls.py**
 
@@ -138,7 +138,7 @@ The `path()` function still needs a view **function** as its second argument, no
 
 > Did you notice that we didn't have to put that route above the `cats/<int:cat_id>/'`?  Django won't match that route unless there's something that looks like an integer in the second segment, thus it ignores `cats/create/`
 
-We'll need to add the `views.CatCreate` CBV to make the server happy, but first let's add a link to the nav for adding a cat.
+We'll need to add the `views.CatCreate` CBV to make the server happy, but first let's add a link to the nav for adding a cat...
 
 #### Update the UI
 
@@ -174,9 +174,9 @@ class CatCreate(CreateView):
   fields = '__all__'
 ```
 
-The `fields` attribute is required and can be used to limit or change how the ordering of the attributes from the `Cat` model are generated in the `ModelForm` passed to the template.
+The `fields` attribute is required and can be used to limit or change the ordering of the attributes from the `Cat` model are generated in the `ModelForm` passed to the template.
 
-We've taken advantage of the special `'__all__'` value to specify that the form should contain all of the `Cat` Model's attributes. Alternatively, we could have listed which fields in a list like this:
+We've taken advantage of the special `'__all__'` value to specify that the form should contain all of the `Cat` Model's attributes. Alternatively, we could have listed the fields in a list like this:
 
 ```python
 class CatCreate(CreateView):
@@ -184,7 +184,7 @@ class CatCreate(CreateView):
   fields = ['name', 'breed', 'description', 'age']
 ```
 
-That's all of the code we need to write to display a template (where we will have the form) and create a Cat when form when it is submitted!
+That's all of the code we need to write to display a template (where we will have the form) and create a Cat when form is submitted (the request is a `POST` instead of a `GET`).
 
 It won't always be quite this easy as we'll see in the future when we need to add some additional attributes or override methods in the CBV.
 
@@ -227,7 +227,7 @@ There's not too much so we'll review as we type it in:
 {% endblock %}
 ```
 
-The `{% csrf_token %}` is a security measure that makes it more difficult to perform a _cross-site-request-forgery_ by writing a CSRF (pronounced "see-surf") token that is validated on the server.
+The `{% csrf_token %}` is a security measure that makes it difficult to perform a [cross-site-request-forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) by writing a CSRF (pronounced "see-surf") token that is validated on the server.
 
 Let's refresh and click the **Add a Cat** link.
 
@@ -254,7 +254,7 @@ class CatCreate(CreateView):
   success_url = '/cats/'
 ```
 
-However, we would need to write a method if we wanted to redirect to the cat that was just added and for better code reuse, Django recommends adding a `get_absolute_url` method to the Model instead.
+However, we would need to write a method if we wanted to redirect to the cat that was just added and for better code reuse, Django recommends adding a `get_absolute_url` method to the **Model** instead.
 
 Let's take Django's advice by updating the `Cat` model:
 
@@ -417,7 +417,7 @@ Now for its content:
 {% endblock %}
 ```
 
-Note how we simply cancel the delete by providing a link back to _detail_ page.
+Note how we are allowing the user to cancel the delete by providing a link back to _detail_ page.
 
 Let's check it out by refreshing:
 
