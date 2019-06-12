@@ -226,7 +226,13 @@ Have I scared you? Good...
 
 During development (not in a deployed app), boto3 will automatically look in a special file for your AWS keys.
 
-Let's create it:
+First let's create the folder it needs:
+
+```bash
+$ mkdir ~/.aws
+```
+
+Now let's create the file:
 
 ```bash
 $ touch ~/.aws/credentials
@@ -345,6 +351,8 @@ First, find the **endpoint** for your the **region** you selected when you creat
 
 <img src="https://i.imgur.com/fQ6Nxpa.png">
 
+> The above screenshot came from this [AWS Regions and Endpoints reference](https://docs.aws.amazon.com/general/latest/gr/rande.html)
+
 Use the format of the endpoint below as a guide on how to enter yours.
 
 ```python
@@ -363,7 +371,7 @@ Finally, this is where the magic happens, we'll review the code as we type it in
 
 ```python
 def add_photo(request, cat_id):
-	# photo-file was the "name" attribute on the <input type="file">
+    # photo-file will be the "name" attribute on the <input type="file">
     photo_file = request.FILES.get('photo-file', None)
     if photo_file:
         s3 = boto3.client('s3')
