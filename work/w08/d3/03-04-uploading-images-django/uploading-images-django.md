@@ -374,7 +374,7 @@ def add_photo(request, cat_id):
             s3.upload_fileobj(photo_file, BUCKET, key)
             # build the full url string
             url = f"{S3_BASE_URL}{BUCKET}/{key}"
-            # we can assign to cat_id or cat (if you have a cat object
+            # we can assign to cat_id or cat (if you have a cat object)
             photo = Photo(url=url, cat_id=cat_id)
             photo.save()
         except:

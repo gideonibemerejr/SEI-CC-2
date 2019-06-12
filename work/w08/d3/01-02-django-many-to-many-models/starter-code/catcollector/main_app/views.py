@@ -6,7 +6,7 @@ from .forms import FeedingForm
 
 class CatCreate(CreateView):
   model = Cat
-  fields = '__all__'
+  fields = ['name', 'breed', 'description', 'age']
 
 class CatUpdate(UpdateView):
   model = Cat
