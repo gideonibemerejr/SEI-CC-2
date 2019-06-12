@@ -7,6 +7,7 @@ from .forms import FeedingForm
 class CatCreate(CreateView):
     model = Cat
     fields = '__all__'
+    Cat.name = 
 
 
 class CatUpdate(UpdateView):

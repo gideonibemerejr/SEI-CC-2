@@ -12,3 +12,4 @@ urlpatterns = [
     path('cats/<int:cat_id>/add_feeding/',
          views.add_feeding, name='add_feeding'),
 ]
+path('category/<slug:slug>, views.category_index')
