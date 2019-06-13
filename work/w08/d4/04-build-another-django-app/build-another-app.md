@@ -6,7 +6,7 @@
 
 It's been an exciting week building out **catcollector** and your **finchcollector**.
 
-Now, to better prepare you for starting your project 2, as well as the project assessment, you're going to build another Django app from scratch!
+Now, to better prepare you for starting your project, as well as the project assessment, you're going to build another Django app from scratch!
 
 You'll be building an application called **My Dev Skills**.
 
@@ -111,7 +111,7 @@ Here's the ERD:
 4. The pre-installed admin app has migrations pending - you know what to do.
 5. In regards to templates:
 	- You're going to need `static` and `templates` folders
-	- Be sure to use partial templates by creating a **base.html**.
+	- Be sure to use template inheritance (partial templates) by creating a **base.html**.
 	- Create a stylesheet and make sure that static files are being loaded into the _base.html_.
 	- The following example **base.html** and **style.css** is using a cool Google font - what better than a font named 'Source Code Pro' for a Dev Skills app:
 	
