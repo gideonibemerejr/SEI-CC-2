@@ -175,22 +175,18 @@ Django provides several class-based views that we can use for handling logging i
 
 However, before we can use those views, we'll need URLs to map to them.
 
-Lucky for us, the `django.contrib.auth` module contains predefined URLS that we can simply `include` like this in **main_app/urls.py**:
+Lucky for us, the `django.contrib.auth` module contains predefined URLS that we can simply `include` like this in **catcollector/urls.py**:
 
 ```python
   ...
-  path('toys/<int:pk>/delete/', views.ToyDelete.as_view(), name='toys_delete'),
+  path('admin/', admin.site.urls),
+  path('', include('main_app.urls')),
   # include the built-in auth urls for the built-in views
   path('accounts/', include('django.contrib.auth.urls')),
 ]
 ```
 
-We won't need to import `django.contrib.auth.urls` because it's just a string, but we will need to import the `include` function by adding it after `path`:
-
-```python
-# Import include at the top of urls.py
-from django.urls import path, include
-```
+We won't need to import `django.contrib.auth.urls` because it's just a string.
 
 Including the built-in URLs has added the following URL patterns to the app:
 
