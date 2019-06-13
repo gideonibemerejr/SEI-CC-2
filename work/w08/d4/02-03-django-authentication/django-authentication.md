@@ -405,10 +405,11 @@ Unfortunately, Django's built-in auth does not provide a URL or view for signing
 
 #### Add a URL
 
-First we'll add a new URL pattern for the sign up functionality in **urls.py**:
+First we'll add a new URL pattern for the sign up functionality in **main_app/urls.py**:
 
 ```python
-path('accounts/', include('django.contrib.auth.urls')),
+path('toys/<int:pk>/delete/', views.ToyDelete.as_view(), name='toys_delete'),
+
 # New url pattern below
 path('accounts/signup', views.signup, name='signup'),
 ```
