@@ -19,3 +19,6 @@
 | Team 5 (SF):<br>Aibek, Anton & Shiva |  | [link](https://docs.google.com/presentation/d/1qT8hnwsiQn6iAz9UmPNrkVjiGfjtCM54gttM_d54pi4/edit) | [link](https://trello.com/b/V3Vi0Xu7/thing-to-do) |  |
 | Team 1 (DAL):<br>Albert, Yolie & Eric |  |  |  |  |  |
 | Team 2 (DAL):<br>Andrea, Brendan & Kevin |  |  |  |  |  |
+| Team 1 (LA):<br>Danny, Mike & Shawn |  |  |  |  |  |
+| Team 2 (LA):<br>Casey, Lyndsey, Mohammad & Rudy |  |  |  |  |  |
+| Team 3 (LA):<br>Calvin, Dom, Jessica & Joe |  |  |  |  |  |
