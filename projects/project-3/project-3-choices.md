@@ -7,7 +7,7 @@
 | Team 1 (ATX):<br>Dana & Jennifer |  |  |  |  |  |
 | Team 2 (ATX):<br>Aaron & Gideon |  |  |  |  |  |
 | Team 3 (ATX):<br>Andrew & Nick |  |  |  |  |  |
-| Team 4 (ATX):<br>Ricardo & Somjit | Wanderland | [link](https://github.com/rcrdgrc/Wanderland) | [link](https://www.canva.com/design/DADcymrCFdM/9krDwE0Y8CPC-iwA8ycS9A/view?utm_content=DADcymrCFdM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) | [link](https://trello.com/b/gDZTSzCy/spicesquads-spicy-project-overview) |  |
+| **Spice Squad**<br>(ATX Team 4):<br>Ricardo & Somjit | Wanderland | [link](https://github.com/rcrdgrc/Wanderland) | [link](https://www.canva.com/design/DADcymrCFdM/9krDwE0Y8CPC-iwA8ycS9A/view?utm_content=DADcymrCFdM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) | [link](https://trello.com/b/gDZTSzCy/spicesquads-spicy-project-overview) |  |
 | Team 5 (ATX):<br>Codee & Omar|  |  |  |  |  |
 | Team 6 (ATX):<br>Brandon & Joseph |  |  |  |  |  |
 | Team 7 (ATX):<br>Chris & Peter |  |  |  |  |  |
