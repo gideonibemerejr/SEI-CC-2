@@ -6,7 +6,7 @@
 |---|:---:|:---:|:---:|:---:|:---:|
 | Team 1 (ATX):<br>Dana & Jennifer |  |  |  |  |  |
 | Team 2 (ATX):<br>Aaron & Gideon |  |  |  |  |  |
-| Team 3 (ATX):<br>Andrew & Nick |  |  |  |  |  |
+| **A.S.S. Co Ltd LLC**<br>(ATX Team 3):<br>Andrew & Nick | GraffitiFind | [link](https://github.com/Nick-Bueltel/asa) |  | [link](https://trello.com/b/0u1c1JGP/gamechangers) |  |
 | **Spice Squad**<br>(ATX Team 4):<br>Ricardo & Somjit | Wanderland | [link](https://github.com/rcrdgrc/Wanderland) | [link](https://www.canva.com/design/DADcymrCFdM/9krDwE0Y8CPC-iwA8ycS9A/view?utm_content=DADcymrCFdM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) | [link](https://trello.com/b/gDZTSzCy/spicesquads-spicy-project-overview) |  |
 | Team 5 (ATX):<br>Codee & Omar| Snack-Stalker | [link](https://github.com/Codeebk/Snack-Stalker) |  | [link](https://trello.com/b/HEPtOEQr/unit-3-project-hackathon) |  |
 | Team 6 (ATX):<br>Brandon & Joseph |  |  |  |  |  |
