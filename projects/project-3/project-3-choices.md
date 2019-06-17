@@ -19,6 +19,6 @@
 | Team 5 (SF):<br>Aibek, Anton & Shiva | Bill Split |  | [link](https://docs.google.com/presentation/d/1qT8hnwsiQn6iAz9UmPNrkVjiGfjtCM54gttM_d54pi4/edit) | [link](https://trello.com/b/V3Vi0Xu7/thing-to-do) |  |
 | Team 1 (DAL):<br>Albert, Yolie & Eric | Community Connection | [link](https://github.com/chung972/SEI-Project-3) |  [link](https://docs.google.com/presentation/d/1abO6JcKWAkcVA561uh2RTfNF8V2jevdhFOSlTHz5Z6A/edit#slide=id.g5bd674c8c1_0_1093)| [link](https://trello.com/b/02zzkynh/project-flow) | [link](https://community-connection.herokuapp.com/) |
 | Team 2 (DAL):<br>Andrea, Brendan & Kevin | Minerva | [link](https://github.com/flubbid/Project3_Minerva) | [link](https://docs.google.com/presentation/d/1hNalkJMi3hBVptqdWi6fVQ6a4cy3PoFJ/edit#slide=id.p1) | [link](https://trello.com/b/bQAEtIZ9/main-board) |  |
-| Team 1 (LA):<br>Danny, Mike & Shawn |  |  |  |  |  |
+| **D.M.S. Tech**<br>(Team 1 LA):<br>Danny, Mike & Shawn | Getting There | [link](https://github.com/butonemike/getting-there) | [link](https://drive.google.com/file/d/195h7Z9oeTjeMqbRf32djBkvx_orPwSpt/view) | [link](https://trello.com/b/IlZjX1se/getting-there) |  |
 | Team 2 (LA):<br>Casey, Lyndsey, Mohammad & Rudy |  |  |  |  |  |
 | Team 3 (LA):<br>Calvin, Dom, Jessica & Joe |  |  |  |  |  |
