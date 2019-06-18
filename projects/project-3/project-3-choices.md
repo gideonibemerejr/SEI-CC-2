@@ -4,13 +4,13 @@
 
 | Team | Project Name | GitHub | Pitch Deck | Trello | Hosted Site |
 |---|:---:|:---:|:---:|:---:|:---:|
-| Team 1 (ATX):<br>Dana & Jennifer | Conway | [link](https://github.com/dhagandev/Unit3Project) |  | [link](https://trello.com/b/jHr5SFtx/unit3project) |  |
-| Team 2 (ATX):<br>Aaron & Gideon |  |  |  | [link](https://trello.com/b/urnyQDPG/http-league) |  |
+| Team 1 (ATX):<br>Dana & Jennifer | Conway | [link](https://github.com/dhagandev/Unit3Project) |  | [link](https://trello.com/b/jHr5SFtx/unit3project) | [link](https://conwayproject.herokuapp.com/) |
+| Team 2 (ATX):<br>Aaron & Gideon |  HTTP League |[link](https://github.com/http-league/http-league)  | [link](https://docs.google.com/presentation/d/1g35tnrtQPxUHL2NL_ak6E4nQDlHGB16s6Vh81Elfc-k/edit?usp=sharing) | [link](https://trello.com/b/urnyQDPG/http-league) |  |
 | **A.S.S. Co Ltd LLC**<br>(ATX Team 3):<br>Andrew & Nick | GraffitiFind | [link](https://github.com/Nick-Bueltel/asa) |  | [link](https://trello.com/b/0u1c1JGP/gamechangers) |  |
 | **Spice Squad**<br>(ATX Team 4):<br>Ricardo & Somjit | Wanderland | [link](https://github.com/rcrdgrc/Wanderland) | [link](https://www.canva.com/design/DADcymrCFdM/9krDwE0Y8CPC-iwA8ycS9A/view?utm_content=DADcymrCFdM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) | [link](https://trello.com/b/gDZTSzCy/spicesquads-spicy-project-overview) |  |
-| Team 5 (ATX):<br>Codee & Omar| Snack-Stalker | [link](https://github.com/Codeebk/Snack-Stalker) |  | [link](https://trello.com/b/HEPtOEQr/unit-3-project-hackathon) |  |
+| Team 5 (ATX):<br>Codee & Omar| Snack-Stalker | [link](https://github.com/Codeebk/Snack-Stalker) |  | [link](https://trello.com/b/HEPtOEQr/unit-3-project-hackathon) | [link](https://snackstalker1.herokuapp.com/) |
 | Team 6 (ATX):<br>Brandon & Joseph | Joblist | [list](https://github.com/emerick23/Hackathon) | [link](https://docs.google.com/presentation/d/1kc3XvsIeVzgbIlXtt-nUMDHYFu5P5O9xVpGlfyfNI_g/edit#slide=id.p) | [link](https://trello.com/b/HsiUm86k/joblist) | [link](https://hidden-sands-65631.herokuapp.com/) |
-| Team 7 (ATX):<br>Chris & Peter | LET_IT_RISE | [link](https://github.com/cwill833/LET_IT_RISE) |  | [link](https://trello.com/b/EsG8KODt/get-that-dough-hackathon) |  |
+| Team 7 (ATX):<br>Chris & Peter | LET_IT_RISE | [link](https://github.com/cwill833/LET_IT_RISE) | [link](https://ga-students.slack.com/files/UHLQV4JE8/FKR24RPNJ/let_it_rise.key) | [link](https://trello.com/b/EsG8KODt/get-that-dough-hackathon) |  |
 | Team 8 (ATX):<br>Crysta & Hayden | Code Drink | [link](https://github.com/crystadavis1119/CodeDrink) |  | [link](https://trello.com/b/3QguWhbZ/unit-3-code-drink) |  |
 | Team 1 (SF):<br>Forrest, Mike & Tanya | Vintour |  | [link](https://docs.google.com/presentation/d/1BFXMDt7YnvX5yl8E61Y58ps3oBS0ez_jZMLkkng9lX0/edit#slide=id.p) | [link](https://trello.com/b/7cPSjQvB/project-3) |  |
 | Team 2 (SF):<br>Alvin, Tatty & Trent | The Exotic Pets Club |  | [link](https://docs.google.com/presentation/d/1Gr4AlebPRai8eFxScWeK3PNi12YbehMiB4harDjw-tg/edit#slide=id.p) | [link](https://trello.com/b/xwxwrgMU/petslistdotorg) |  |
