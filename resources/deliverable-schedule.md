@@ -20,5 +20,6 @@ It is a requirement to complete at least **80%** of the following to to receive:
 | Tue 6/4 | [Python Control Flow Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w07/d2/03-04-control-flow-lab) |
 | Tue 6/10<br>(Due 6/17) | Finch Collector Django Lab |
 | Tue 6/25 | [React Floorplan Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w10/d2/04-react-floorplan-lab.md) |
+| Tue 6/27 | [Styling React Components Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w10/d4/04-styling-react-lab) |
 
 
