@@ -136,7 +136,7 @@
 	
 	printData();
 	```
-	The `await` operator causes the code to "pause" until the promise returns its resolved value.
+	The `await` operator causes the code in `printData` to "pause" until the promise returns its resolved value.
 
 ---
 #### Use ES2017's async/await to Handle Promises
@@ -197,7 +197,7 @@
 
 	```js
 	function show(req, res) {
-	  const movies = await Movie.findById(req.params.id);
+	  const movie = await Movie.findById(req.params.id);
 	  res.render('movies/show', { title: 'Movie Detail', movie });
 	}
 	```
@@ -225,6 +225,14 @@
 - Upon loading, a `<select>` will be pre-filled with the users' names.
 
 - Upon loading and when we select a different user, we'll have to fetch that user's todos and render them. 
+
+---
+#### Let's Build an Ugly Little SPA
+<br>
+
+- Unfortunately, the JSONPlaceholder fake API doesn't truly implement nested resource endpoints.  For example, a `GET https://jsonplaceholder.typicode.com/users/2/todos` request should only return the todos for the user with an id of 2, however, JSONPlaceholder always returns all todos instead :(
+
+- No worries, we can use the Network Devtools to verify that the proper request is being sent by our SPA.
 
 ---
 #### Let's Build an Ugly Little SPA
@@ -322,7 +330,7 @@
 	https://jsonplaceholder.typicode.com/users//todos
 	```
 	
-- Why doesn't `selUserEl.value` return the selected user's id?<br>Because functions that are declared with `async` are _asynchronous_ themselves so the `<option>` elements don't exist yet!
+- Why doesn't `selUserEl.value` return the selected user's id?<br>Because functions that are declared with `async` are _asynchronous_ themselves so the `<option>` elements don't exist yet...
 
 ---
 #### Let's Build an Ugly Little SPA
@@ -343,7 +351,7 @@
 #### Let's Build an Ugly Little SPA
 <br>
 
-- `async` functions return a promise, so we can use make the `init` function itself an async function:
+- `async` functions return a promise, so we can make the `init` function itself an async function:
 
 	```js
 	async function init() {
