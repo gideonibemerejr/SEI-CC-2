@@ -19,7 +19,7 @@ Please complete this lab in a React [CodeSandbox](https://codesandbox.io) named 
 
 ## Minimum Requirements
 
-1. Define each component in its own file. The naming convention to use for a component's file is UpperCamelCase, for example, a `<CodeSandbox>` component's file would be named `CodeSandbox.js`.
+1. Define each component in its own file. The naming convention to use for a component's file is UpperCamelCase, for example, a `<CodeSandbox>` component's file would be named `CodeSandbox.js` (`CodeSandbox.jsx` also works).
 
 2. Export each component from its module. For example:
 
