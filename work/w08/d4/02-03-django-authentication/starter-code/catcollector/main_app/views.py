@@ -14,8 +14,8 @@ from .models import Cat, Toy, Photo
 from .forms import FeedingForm, FullUserForm
 
 
-S3_BASE_URL = 'https://s3-us-west-1.amazonaws.com/'
-BUCKET = 'catcollector'
+BUCKET = 'httpleague'
+S3_BASE_URL = f'https://{BUCKET}.s3.amazonaws.com/'
 
 
 class CatCreate(LoginRequiredMixin, CreateView):
@@ -98,7 +98,7 @@ def add_photo(request, cat_id):
         try:
             s3.upload_fileobj(photo_file, BUCKET, key)
             # build the full url string
-            url = f"{S3_BASE_URL}{BUCKET}/{key}"
+            url = f"{S3_BASE_URL}{key}"
             # we can assign to cat_id or cat (if you have a cat object)
             photo = Photo(url=url, cat_id=cat_id)
             photo.save()

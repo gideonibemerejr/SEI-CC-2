@@ -16,7 +16,7 @@ class FullUserForm(UserCreationForm):
     first_name = forms.CharField(max_length=40)
     first_name = forms.CharField(max_length=40)
     email = forms.EmailField(max_length=75)
-
+    # occupation = forms.CharField(max_length=40)
     class Meta:
         model = User
-        fields = ['username', 'first_name', 'last_name', 'email']
+        fields = ['username', 'first_name', 'last_name', 'email',] # you will have to add 'occupation', here
