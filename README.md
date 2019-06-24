@@ -58,7 +58,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
     </tr>
     <tr>
       <td align="center">5</td>
-      <td>Consuming & Producing APIs<br>Web Sockets<br>Regular Expressions<br>Authentication using OAuth</td>
+      <td>Consuming & Producing APIs<br>Authentication using OAuth</td>
     </tr>
     <tr>
       <td align="center">6</td>
@@ -81,12 +81,12 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
     <tr>
       <td rowspan="3">Developing Single-page Apps</td>
       <td align="center">10</td>
-      <td>AJAX<br>SPA Architecture<br>ReactJS Library</td>
+      <td>AJAX<br>Web Sockets<br>Regular Expressions<br>SPA Architecture<br>ReactJS Library</td>
       <td rowspan="3">MERN-stack Application</td>
     </tr>
     <tr>
       <td align="center">11</td>
-      <td>Client-side Routing<br>Full-stack React<br>Token-based Authentication</td>
+      <td>Client-side Routing (React)<br>Full-stack React<br>Token-based Authentication (React)</td>
     </tr>
     <tr>
       <td align="center">12</td>

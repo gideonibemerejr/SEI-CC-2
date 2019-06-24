@@ -6,9 +6,14 @@ from .forms import FeedingForm
 
 
 class CatCreate(CreateView):
+<<<<<<< HEAD
     model = Cat
     fields = '__all__'
 
+=======
+  model = Cat
+  fields = ['name', 'breed', 'description', 'age']
+>>>>>>> 27d5090571ae10a368828f7493d9b0e257ea8b41
 
 class CatUpdate(UpdateView):
     model = Cat

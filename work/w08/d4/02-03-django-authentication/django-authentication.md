@@ -94,7 +94,7 @@ The functionality of Cat Collector is about to change!
 
 By the end of this lesson, with authentication implemented, all cats will belong to a user.
 
-Ordinarily, it's important to implement an app's authentication up front to avoid having to make the changes to the code we're going to have to make in Cat Collector, but teaching authentication before the basics just isn't possible.
+Ordinarily, it's important to implement an app's authentication up front to avoid having to make the changes to the code we're going to have to make in Cat Collector, but covering authentication before the basics just isn't possible.
 
 #### Update the `Cat` Model
 
@@ -102,7 +102,7 @@ Adding the relationship of<br>**_A User has many Cats; and a Cat belongs to a Us
 
 One of the Model's needs a _Foreign Key_ - **which one?**
 
-The `User` Model lives in the django.contrib.auth app, so the first thing we need to do is import it into **models.py**:
+The `User` Model lives in the `django.contrib.auth` app, so the first thing we need to do is import it into **models.py**:
 
 ```python
 from django.db import models
@@ -145,7 +145,7 @@ Please select a fix:
 Select an option:
 ```
 
-Option `1)` is our best option because it will allow us to enter the `id` of a user, which we created earlier this week.
+Option `1)` is our best option because it will allow us to enter the `id` of a user, which we created earlier this week (the superuser).
 
 Go ahead and press `1` and `[enter]`, which will then prompt us to enter the value:
 
@@ -171,26 +171,22 @@ Congrats, the 1:M relationship between User and Cat has been created and all exi
 
 As much as possible, we're going to use Django's built-in authentication features and default settings.
 
-Django provides several views that we can use for handling logging in and logging out.
+Django provides several class-based views that we can use for handling logging in and logging out.
 
 However, before we can use those views, we'll need URLs to map to them.
 
-Lucky for us, the `django.contrib.auth` module contains predefined URLS that we can simply `include` like this in **urls.py**:
+Lucky for us, the `django.contrib.auth` module contains predefined URLS that we can simply `include` like this in **catcollector/urls.py**:
 
 ```python
   ...
-  path('toys/<int:pk>/delete/', views.ToyDelete.as_view(), name='toys_delete'),
+  path('admin/', admin.site.urls),
+  path('', include('main_app.urls')),
   # include the built-in auth urls for the built-in views
   path('accounts/', include('django.contrib.auth.urls')),
 ]
 ```
 
-We won't need to import `django.contrib.auth.urls` because it's just a string, but we will need to import the `include` function by adding it after `path`:
-
-```python
-# Import include at the top of urls.py
-from django.urls import path, include
-```
+We won't need to import `django.contrib.auth.urls` because it's just a string.
 
 Including the built-in URLs has added the following URL patterns to the app:
 
@@ -223,7 +219,7 @@ Now let's implement logging in...
 
 As we just saw, the default `LoginView` is trying to render a **registration/login.html** template.
 
-Let's do some baby steps to get rid of the error by first creating the folder (make sure "registration" is spelled correctly):
+Let's get rid of the error by first creating the folder (make sure "registration" is spelled correctly):
 
 ```
 $ mkdir main_app/templates/registration
@@ -235,7 +231,7 @@ Now create **login.html**:
 $ touch main_app/templates/registration/login.html
 ```
 
-Let's put a little markup in **login.html** so that we can see things are working:
+Let's put a bit of markup in **login.html** so that we can see things are working:
 
 ```html
 {% extends 'base.html' %}
@@ -270,7 +266,9 @@ The
 <input type="hidden" name="next" value="{{ next }}">
 ```
 
-is really cool, it is part of the redirect implementation that will automatically redirect a user that tries to access a protected route back to that route after they log in!
+is really cool.  It is a feature of Django's authentication that will automatically redirect a user that tries to access a protected route back to that route after they log in!
+
+> Using hidden inputs in forms is a common technique in web apps for providing additional data to the server when the form is submitted.
 
 <img src="https://i.imgur.com/IpFNFRU.png">
 
@@ -280,7 +278,7 @@ You can log in now, but you'll get an error because by default, the login view r
 
 In Cat Collector, when a user logs in, we want them to see their cat _index_ page.
 
-The easiest way to make this happen is to add a new variable to the bottom of **settings.py**:
+The easiest way to make this happen is to add a new variable at the bottom of **settings.py**:
 
 ```python
 STATIC_URL = '/static/'
@@ -295,7 +293,7 @@ Test it out - sweet!
 
 ## 6. Updating the Nav Bar Dynamically
 
-In most applications, the links displayed in a nav bar usually depend upon whether there is a logged in user or not.
+In most applications, many of the links displayed in a nav bar usually depend upon whether there is a logged in user or not.
 
 In Cat Collector, if there's no user logged in, all we want is to show the following links:
 
@@ -312,7 +310,7 @@ Then, when there is a logged in user, we want to see:
 - View All My Cats
 - Log Out
 
-Thanks again to the built-in auth, we automatically have a `user` variable available in templates.
+Thanks again to the built-in auth, we automatically have a `user` variable available in every template!
 
 To check if the user is logged in, we simply use `user.is_authenticated`, which returns `True` when logged in and `False` otherwise.
 
@@ -378,10 +376,10 @@ class CatCreate(CreateView):
   model = Cat
   fields = ['name', 'breed', 'description', 'age']
   
-  # This method is called when a valid
-  # cat form has being submitted
+  # This inherited method is called when a
+  # valid cat form is being submitted
   def form_valid(self, form):
-    # Assign the logged in user
+    # Assign the logged in user (self.request.user)
     form.instance.user = self.request.user
     # Let the CreateView do its job as usual
     return super().form_valid(form)
@@ -407,10 +405,11 @@ Unfortunately, Django's built-in auth does not provide a URL or view for signing
 
 #### Add a URL
 
-First we'll add a new URL pattern for the sign up functionality in **urls.py**:
+First we'll add a new URL pattern for the sign up functionality in **main_app/urls.py**:
 
 ```python
-path('accounts/', include('django.contrib.auth.urls')),
+path('toys/<int:pk>/delete/', views.ToyDelete.as_view(), name='toys_delete'),
+
 # New url pattern below
 path('accounts/signup', views.signup, name='signup'),
 ```
@@ -421,9 +420,9 @@ There's no generic view available to help us out, so we're going to write the ne
 
 #### Add the `signup` View Function
 
-The `signup` view function will be our first view that performs two different behaviors based upon whether it was called via a GET or POST request:
+The `signup` view function will be the first view we've coded that performs two different behaviors based upon whether it was called via a GET or POST request:
 
-- If it's a **GET request**: The function should render a template with a form for the user to enter their info.
+- If it's a **GET request**: The view function should render a template with a form for the user to enter their info.
 - If it's a **POST request**: The user has submitted their info and the function should create the user and redirect.
 
 
@@ -442,7 +441,7 @@ from django.contrib.auth.forms import UserCreationForm
 ...
 ```
 
-Now let's add the `signup` view function - we'll review as we type it in:
+Now let's code the `signup` view function - we'll review as we type it in:
 
 ```python
 def signup(request):
@@ -458,7 +457,7 @@ def signup(request):
       login(request, user)
       return redirect('index')
     else:
-      error_message = 'Invalid credentials - try again'
+      error_message = 'Invalid sign up - try again'
   # A bad POST or a GET request, so render signup.html with an empty form
   form = UserCreationForm()
   context = {'form': form, 'error_message': error_message}
@@ -557,9 +556,11 @@ Now that authentication has been implemented, the last step is to protect the ro
 
 Yes, the dynamic nav bar helps prevent access, but users can still type something like `localhost:8000/cats` in the address bar when nobody is logged in, which will raise an error.
 
-Of course Django provides an easy way to protect both function can class-based views.
+Of course Django provides an easy way to protect both function and class-based views...
 
-To protect function views, we use the `login_required` decorator.
+#### Implement Authorization on View Functions
+
+To protect view functions, we use the `login_required` decorator.
 
 First we need to import it near the top of **views.py**:
 
@@ -588,7 +589,9 @@ Be sure to add the `@login_required` to these remaining view functions:
 - `assoc_toy`
 - `unassoc_toy`
 
-Protecting class-based views is slightly different, it uses what's called a mixin, which is another class to inherit from.
+#### Implement Authorization on Class-based Views
+
+Protecting class-based views is slightly different, it uses what's called a mixin, which is another class to inherit from - in OOP, we call this _multiple inheritance_.
 
 As usual, we'll need to import it:
 
@@ -606,7 +609,7 @@ class CatCreate(LoginRequiredMixin, CreateView):
   ...
 ```
 
-Not all OOP languages support the concept of _multiple inheritance_, but Python does.
+Not all OOP languages support the concept of multiple inheritance, but Python does.
 
 Be sure to add `LoginRequiredMixin` to these remaining classes:
 

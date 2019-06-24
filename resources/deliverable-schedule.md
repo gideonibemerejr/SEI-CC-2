@@ -18,5 +18,9 @@ It is a requirement to complete at least **80%** of the following to to receive:
 | Tue 5/14 | [Express Dev Skills Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w04/d2/04-dev-skills-lab-part-2.md) |
 | Tue 5/21 | [Producing an API Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w05/d2/04-producing-api-lab/producing-api-lab.md) |
 | Tue 6/4 | [Python Control Flow Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w07/d2/03-04-control-flow-lab) |
+| Tue 6/10<br>(Due 6/17) | Finch Collector Django Lab |
+| Tue 6/25 | [React Floorplan Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/blob/master/work/w10/d2/04-react-floorplan-lab.md) |
+| Tue 6/27 | [Styling React Components Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w10/d4/04-styling-react-lab) |
+| Tue 7/2 | ["Star Wars" - React AJAX Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-2/tree/master/work/w11/d2/04-react-ajax-lab) |
 
 
