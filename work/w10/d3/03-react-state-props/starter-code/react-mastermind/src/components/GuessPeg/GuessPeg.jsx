@@ -1,9 +1,5 @@
-import React from 'react';
+import React from 'react'
 
-const GuessPeg = (props) => (
-  <div>
-    GuessPeg
-  </div>
-);
+const GuessPeg = props => <div>{props.color}</div>
 
-export default GuessPeg;
+export default GuessPeg

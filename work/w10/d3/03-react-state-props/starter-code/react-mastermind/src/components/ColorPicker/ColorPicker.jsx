@@ -1,9 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-const ColorPicker = (props) => (
+const ColorPicker = props => (
   <div>
-    ColorPicker
+    {props.colors.map(color => (
+      <button color={color} key={color}>
+        {color}
+      </button>
+    ))}
   </div>
-);
+)
 
-export default ColorPicker;
+export default ColorPicker

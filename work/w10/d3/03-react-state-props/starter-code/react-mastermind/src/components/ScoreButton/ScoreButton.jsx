@@ -1,9 +1,5 @@
-import React from 'react';
+import React from 'react'
 
-const ScoreButton = (props) => (
-  <button>
-    Score Guess
-  </button>
-);
+const ScoreButton = props => <button>Score Guess</button>
 
-export default ScoreButton;
+export default ScoreButton
