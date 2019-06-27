@@ -34,7 +34,7 @@ When finished, the react-mastermind app should look something like this:
 ## Hints
 
 - The `<GameTimer>` has:
-	- A font family of "Roboto Mono"
+	- A font family of [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 	- A size of 20px
 	- A color of grey
 	- A top & bottom margin of 30px
