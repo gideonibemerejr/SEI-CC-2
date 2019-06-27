@@ -330,7 +330,7 @@ That looks better!
 
 2. **What's wrong with the following code:**
 
-	```
+	```js
 	import styles from './SmallComponent.module.css';
 	
 	function SmallComponent(props) {
