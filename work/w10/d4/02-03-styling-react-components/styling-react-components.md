@@ -260,7 +260,7 @@ In a bit, when the `<div>`s for the individual scores are sized and styled, we w
 
 ## Importing CSS Modules
 
-CSS Modules have become available with the recent release of **create-react-app 2.0**, which has improved the configuration of Webpack.
+CSS Modules became available with the release of **create-react-app v2.0**, which improved the configuration of Webpack.
 
 With **CSS Modules**, a CSS file's classes can be dedicated to a single component - no more worrying about class name collisions!
 
