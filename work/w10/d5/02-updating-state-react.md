@@ -213,6 +213,51 @@ addNumber = () => {
 };
 ```
 
+#### Updating Nested Objects/Arrays
+
+
+Let's say you had the following `person` state property:
+
+```js
+constructor() {
+  this.state = {
+    person: {
+      name: 'Fred Flintstone',
+      address: {
+        street: '123 Dino Way',
+        city: 'Bedrock'
+      }
+    }
+  };
+}
+```
+
+If you wanted to update the `street` property, you _should_ replace both the `address` object and the `person` object.
+
+For example, here's one way:
+
+```js
+updateStreet(newStreet) {
+  const newAddress = {...this.state.person.address, street: newStreet};
+  const newPerson = {...this.state.person, address: newAddress};
+  this.setState({person: newPerson});
+}
+```
+
+Here's another (it's just JavaScript):
+
+```js
+updateStreet(newStreet) {
+  this.setState((curState) => ({   // implicit return of an object
+    person: {   // new person object
+      ...curState.person,
+      // new address object
+      address: {...curState.person.address, street: newStreet}
+    }
+  }));
+}
+```
+
 #### Why?
 
 There are two reasons to replace state instead of mutating it:
@@ -246,10 +291,6 @@ addNumber = () => {
 };
 ```
 Now, the very same code that worked before doesn't work anymore because it's been optimized to render only if a property on `state` has been replaced.
-
-#### Pair/Share
-
-**Take a minute with a pair to discuss - What if an object/array has a nested object/array that needs updating?**
 
 #### 2. Features
 
