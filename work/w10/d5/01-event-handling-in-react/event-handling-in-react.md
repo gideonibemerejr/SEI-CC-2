@@ -121,7 +121,7 @@ Click the 🌶 when done.
 
 ---
 
-Now that each `<GuessPeg>` as a `currentGuess` prop, we can add another property to the `style` object to set the CSS `cursor` property:
+Now that each `<GuessPeg>` has a `currentGuess` prop, we can add another property to the `style` object to set the CSS `cursor` property:
 
 ```js
 style={{
