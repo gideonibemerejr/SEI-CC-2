@@ -188,7 +188,7 @@ However, when the state property is a reference type, such as an Object or Array
 addNumber = () => {
   // Don't do this
   this.state.numbers.push(Math.random());
-  this.setState(states => ({numbers: state.numbers}));
+  this.setState((state) => ({numbers: state.numbers}));
 };
 ```
 
