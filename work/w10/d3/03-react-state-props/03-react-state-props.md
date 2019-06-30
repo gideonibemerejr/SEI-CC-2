@@ -301,7 +301,7 @@ Let's use the `colors` prop inside of `<ColorPicker>` to render a button for eac
 const ColorPicker = (props) => (
   <div>
     {props.colors.map(color =>
-      <button color={color} key={color}>{color}</button>
+      <button key={color}>{color}</button>
     )}
   </div>
 );
