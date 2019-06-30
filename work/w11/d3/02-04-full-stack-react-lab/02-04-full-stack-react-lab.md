@@ -4,7 +4,7 @@
 
 You enjoy challenges - you've come to the right place!
 
-Now that we've taken Mastermind full-stack, you're ready to get some practice using a backend's API by persisting high-scores!
+Now that we've taken Mastermind full-stack, you're ready to get some practice interacting with a backend's API by persisting high-scores!
 
 #### Hints:
 
