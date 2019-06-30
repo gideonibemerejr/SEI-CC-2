@@ -5,7 +5,6 @@ const ColorPicker = (props) => (
   <div className={styles.ColorPicker}>
     {props.colors.map((color, idx) =>
       <button
-        color={color}
         key={color}
         className={styles.button}
         style={{
