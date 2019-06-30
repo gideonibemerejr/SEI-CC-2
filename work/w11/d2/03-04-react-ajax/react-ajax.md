@@ -150,11 +150,11 @@ After all, we've already seen how to use `fetch` to make AJAX calls.
 
 #### CORS Restrictions
 
-It's always recommended that you make calls to APIs from your server, not the browser.
+**It's always recommended that you make calls to APIs from your server, not the browser.**
 
 Doing so avoids exposing API keys in the browser and avoids the [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) security restrictions that can prevent a browser from being able to access an API if the server does not participate in CORS.
 
-However, in this lesson, we don't have a backend to act as a "passthrough", so we will be using `fetch` to make calls to an API directly.
+However, we don't have a backend to act as a "passthrough", so we will be using `fetch` to make calls to an API directly.
 
 To make `fetch` send the correct CORS headers to the server, we need to include an options object with a `mode: "cors"` property like the following:
 
@@ -229,7 +229,7 @@ Oh so lovely - we have errors...
 
 #### Refactoring `<Map>` into a Class Component
 
-Unfortunately, we're receiving errors because there are now coordinates being provided, however, the component has not been yet mounted, thus the ref does not reference a DOM element - making the Google Maps library sad.
+Unfortunately, we're receiving errors because there are now coordinates being provided, however, the component has not been mounted yet, thus the ref does not reference a DOM element - making the Google Maps library sad.
 
 We took a shot at writing `<Map>` as a Function Component but now find ourselves needing to tap into lifecycle methods, e.g., `componentDidMount`.
 
