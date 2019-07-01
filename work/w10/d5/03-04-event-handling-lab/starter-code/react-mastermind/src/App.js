@@ -29,6 +29,73 @@ class App extends Component {
     this.setState(this.initializeState())
   }
 
+  handleScoreClick = () => {
+    // index of current guess object
+    let currentGuessIdx = this.state.guesses.length - 1
+
+    let guessCodeCopy = [...this.state.guesses[currentGuessIdx].code]
+    let secretCodeCopy = [...this.state.code]
+
+    let perfect = 0,
+      almost = 0
+
+    guessCodeCopy.forEach((code, idx) => {
+      if (secretCodeCopy[idx] === code) {
+        perfect++
+        guessCodeCopy[idx] = secretCodeCopy[idx] = null
+      }
+    })
+
+    guessCodeCopy.forEach((code, idx) => {
+      if (code === null) return
+      let foundIdx = secretCodeCopy.indexOf(code)
+      if (foundIdx > -1) {
+        almost++
+
+        secretCodeCopy[foundIdx] = null
+      }
+    })
+
+    let guessesCopy = [...this.state.guesses]
+    let guessCopy = { ...guessesCopy[currentGuessIdx] }
+    let scoreCopy = { ...guessCopy.score }
+
+    scoreCopy.perfect = perfect
+    scoreCopy.almost = almost
+
+    guessCopy.score = scoreCopy
+
+    guessesCopy[currentGuessIdx] = guessCopy
+
+    if (perfect !== 4) guessesCopy.push(this.getNewGuess())
+
+    this.setState({
+      guesses: guessesCopy
+    })
+  }
+  handlePegClick = pegIdx => {
+    // Get index of last guess object
+    let currentGuessIdx = this.state.guesses.length - 1
+
+    // Always replace objects/arrays with NEW ones
+    let guessesCopy = [...this.state.guesses]
+    let guessCopy = { ...guessesCopy[currentGuessIdx] }
+    let codeCopy = [...guessCopy.code]
+
+    // Update the NEW code array with the currently selected color
+    codeCopy[pegIdx] = this.state.selColorIdx
+
+    // Update the NEW guess object
+    guessCopy.code = codeCopy
+
+    // Update the NEW guesses array
+    guessesCopy[currentGuessIdx] = guessCopy
+
+    // Update state with the NEW guesses array
+    this.setState({
+      guesses: guessesCopy
+    })
+  }
   getNewGuess() {
     return {
       code: [null, null, null, null],
@@ -44,7 +111,6 @@ class App extends Component {
   }
 
   getWinTries() {
-    // if winner, return num guesses, otherwise 0 (no winner)
     let lastGuess = this.state.guesses.length - 1
     return this.state.guesses[lastGuess].score.perfect === 4 ? lastGuess + 1 : 0
   }
@@ -61,7 +127,12 @@ class App extends Component {
           R E A C T &nbsp;&nbsp;&nbsp; M A S T E R M I N D
         </header>
         <div className="flex-h align-flex-end">
-          <GameBoard colors={colors} guesses={this.state.guesses} />
+          <GameBoard
+            colors={colors}
+            guesses={this.state.guesses}
+            handlePegClick={this.handlePegClick}
+          handleScoreClick={this.handleScoreClick}
+          />
           <div className="App-controls">
             <ColorPicker
               colors={colors}

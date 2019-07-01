@@ -1,15 +1,16 @@
-import React from 'react';
-import styles from './GuessPeg.module.css';
+import React from 'react'
+import styles from './GuessPeg.module.css'
 
-const GuessPeg = (props) => (
+const GuessPeg = props => (
   <div
     className={styles.peg}
     style={{
       backgroundColor: props.color,
-      border: props.color ? `1px solid ${props.color}`: '1px dashed grey',
+      border: props.color ? `1px solid ${props.color}` : '1px dashed grey',
       cursor: props.currentGuess && 'pointer'
     }}
+    onClick={props.currentGuess ? props.handlePegClick : null}
   />
-);
+)
 
-export default GuessPeg;
+export default GuessPeg

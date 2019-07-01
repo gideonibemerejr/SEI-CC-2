@@ -17,7 +17,7 @@ const GuessRow = (props) => (
       code={props.guess.code}
       currentGuess={props.currentGuess}
       handlePegClick={props.handlePegClick}
-    />
+    />x
     {
       props.currentGuess && props.guess.score.perfect !== 4 ?
         <ScoreButton
