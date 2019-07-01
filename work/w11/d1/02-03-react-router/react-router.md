@@ -400,7 +400,7 @@ export default GamePage;
 
 <img src="https://i.imgur.com/Ayx9Mlt.png">
 
-Although the app is back to where it was, the classes defined in **App.css** are being used in **GamePage.jsx** which doesn't feel right. Refactoring the CSS will be part of the lab.
+Although the app is back to where it was, the CSS classes defined in **App.css** are being used in **GamePage.jsx** which doesn't feel right. Refactoring the CSS will be part of the lab.
 
 ## The `Switch` Component
 

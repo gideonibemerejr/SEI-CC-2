@@ -512,11 +512,11 @@ Nice!
 
 Take a minute to review the following questions:
 
-1. **Where does a "controlled" input get its value from?**
+1. **Where does a "controlled" `<input>` get its value from?**
 
 2. **True or False: All input-related components must be wrapped by a `<form>` component.**
 
-3. **A React "controlled" input requires the input to have both a `value` and an `________` prop.**
+3. **A React "controlled" `<input>` requires both a `value` and an `________` prop.**
 
 
 ## References

@@ -82,7 +82,7 @@ With that done, the pegs will no longer have any visual representation (but the 
 
 <img src="https://i.imgur.com/JKWBtLC.png">
 
-Instead of an invisible `<div>`, we want to render an "null" peg with a dashed grey border.
+Instead of an invisible `<div>`, we want to render a "null" peg with a dashed grey border.
 
 To accomplish this, let's update the object being assigned to the `style` prop in **GuessPeg.jsx** as follows:
 
@@ -121,7 +121,7 @@ Click the 🌶 when done.
 
 ---
 
-Now that each `<GuessPeg>` as a `currentGuess` prop, we can add another property to the `style` object to set the CSS `cursor` property:
+Now that each `<GuessPeg>` has a `currentGuess` prop, we can add another property to the `style` object to set the CSS `cursor` property:
 
 ```js
 style={{
@@ -131,7 +131,7 @@ style={{
 }}
 ```
 
-> Refresher: JS's logical `AND` operator returns the first value if it's falsey. Otherwise, the second value (`'pointer'`) is returned.
+> Refresher: JS's logical `&&` (and) operator returns the first value if it's falsey. Otherwise, the second value (`'pointer'`) is returned.
 
 Note that React does not complain if we assign `false` to the `cursor` property - it just ignores it!
 
@@ -164,6 +164,7 @@ const ColorPicker = (props) => (
           backgroundColor: props.selColorIdx === idx ? 'white' : color,
           borderColor: color
         }}
+        {/* add the click handler below */}
         onClick={() => alert('clicked!')}
       />
     )}
@@ -214,9 +215,9 @@ setState()
 
 <details>
 	<summary>Where do we need to write the code to call that method?</summary>
-<p>
-**From within the component that owns the state that being updated**
-</p>
+<p><strong>
+From within the component that owns the state that being updated
+</strong></p>
 </details>
 
 #### Defining a Method for Event Handling
@@ -300,7 +301,7 @@ Can it really be this easy? In most cases, the answer is "No" due to the reasons
 
 We often need to pass arguments to method calls.
 
-In regards to clicking a color in `<ColorPicker>`, we want to pass the newly selected color's index as an argument to the `handleColorSelection` method so that we can use it to update `selColorIdx` appropriately.
+In regards to clicking a color in `<ColorPicker>`, we want to pass the newly selected color's index as an argument to the `handleColorSelection` method so that we can use it to update `selColorIdx` accordingly.
 
 Let's update the `handleColorSelection` method in **App.js** to accept the index as an argument and test it by alerting the value:
 
@@ -346,7 +347,7 @@ handleColorSelection(colorIdx) {
 
 However, testing it out reveals that it doesn't work and there's an error in the browser's console telling us why: `Uncaught TypeError: this.setState is not a function`.
 
-We know that the component has a `setState` method on it, so what gives? The problem is that `this` is not bound to the `<App>` component!
+We know that the component has a `setState` method on it, so what gives? The problem is that `this` is not bound to the instance of the `<App>` component!
 
 Logging out `this` from within the `handleColorSelection` method in **App.js** will verify that it's actually bound to `<ColorPicker>`'s `props` object - not `<App>` where the `handleColorSelection` method lives!
 
@@ -389,7 +390,7 @@ There's a better way to fix our `this` binding issue using the bleeding edge **P
 
 _Property Initializer Syntax_ allow properties to be written within the body of a class in a way similar to how methods are defined.
 
-Here's how property initializer syntax can be used to initialize a `sweet` and an `eat` property (which happens to be a method because it is being assigned a function):
+Here's how property initializer syntax can be used to initialize a `sweet` property and an `eat` property (assigned a function making it a "method"):
 
 ```js
 class Candy {
@@ -413,7 +414,7 @@ class Candy {
 }
 ```
 
-Note that because _class fields_ (as they are also called) are actually being initialized within the `constructor` method, an arrow function assigned to a property will have `this` bound to the object being instantiated, which when it comes to callbacks, is what you want!
+Note that because _class fields_ are actually being initialized within the `constructor` method and since arrow functions always bind `this` to the value of its enclosing function, `constructor` in this case, methods defined using property initializer syntax will always be properly bound to the instance of the component!
 
 Now let's fix the `handleColorSelection` problem using property initializer syntax.
 

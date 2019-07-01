@@ -118,7 +118,7 @@ Adoption = Jobs !!!
 
 ### React in Action - A Minimal Example
 
-The React team has developed a wonderful CLI for starting a new app. The command will be `create-react-app <app name>` - think of it as `rails new...` or `express ...`.
+The React team has developed a wonderful CLI for starting a new React app. The command will be `create-react-app <app name>` - think of it as the express-generator for React apps.
 
 However, before we use `create-react-app` we will use a most excellent code playground, [CodeSandbox](https://codesandbox.io/) to take a first look at how React works...
 
@@ -158,7 +158,7 @@ Let's briefly read through the code in **index.js** and I'll describe how the vi
 
 At this point, the takeaway should be that:
 
-- React apps consist of **components** that we code using JavaScript (and a special syntax known as JSX). You will not be creating any *.html files in a React app!
+- React apps consist of **components** that we code using JavaScript (and a special syntax known as JSX). You will not be creating any *.html files when developing a React app.
 - The line of code that causes all of the components to be rendered for the first time is:
 
 	```js
@@ -197,9 +197,9 @@ Let's briefly review some key concepts of React. We'll dig deeper in future less
 
 #### State and Props
 
-- Like most web applications, a React component may have **state** (data/information).
+- Like most applications, a React component may have **state** (data/information).
 - State can only be changed by the component that "owns" that state.
-- When a component's state is changed, the **entire** component is re-rendered, including all of its child components.
+- When a component's state is changed, that **entire** component is re-rendered, including all of its child components.
 - A "stateful" component passes any state needed by child components as **props**.
 - Props are accessible as key/value pairs on a **props** object. This props object is passed to the component every time it is rendered.
 - **Props** in a component are always read-only.

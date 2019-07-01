@@ -126,16 +126,18 @@ After building, examining our project's structure reveals a new **build** folder
 
 This **build** folder of production-ready goodness is ready to be served up by an Express backend...
 
-## Code the Express App (Backend)
+## Code the Express App
 
 We're going to code our own Express app from scratch. This will be easier than using `express-generator` since we're starting with a fully-built React app and want to build a server app "around" it within the same project.
 
-In a MERN-stack SPA, the backend Express app only does two things:
+In a MERN-stack app, the backend Express app only does two things:
 
 1. Serves static assets, such as `index.html`, to the browser, and
 2. Responds to AJAX requests from the React app running in the browser
 
-When the user browses to the app using the address bar, the Express backend will simply respond by to delivering the **production-ready** `index.html`, which will in turn request the **production-ready** scripts, etc., that were built using `$ npm run build`.
+The Express server will never access any of the source code for the **React project**.
+
+It simply needs to deliver the **production-ready** `index.html`, which will in turn request the **production-ready** scripts, etc., that were built using `$ npm run build`.
 
 > Note: The `build` folder is git ignored because we will configure `package.json` to make Heroku build the React app in the cloud.
 
@@ -259,7 +261,7 @@ Now that you've checked out the what the production code will look like when it'
 $ npm start
 ```
 
-#### Backend Development
+#### IMPORTANT REMINDER - Backend Development
 
 Just to be clear, the Express backend is fully configured and ready for additional backend functionality to be coded.
 

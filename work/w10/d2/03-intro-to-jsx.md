@@ -54,7 +54,7 @@ We type our preprocessed code on the left and the pane on the right will show th
 const student = <Student>Jose<br />jose@email.com</Student>;
 ```
 
-You will see the above compiled into this JS:
+You will see the above transpiled into this JS:
 
 
 ```js
@@ -72,9 +72,9 @@ const student = React.createElement(
 Okay, we have the following observations regarding the JS for a component:
 
 - There's a call to the `React.createElement` method that creates an element used internally by React.
-- The first argument is the component's type (function or class). In the case of a React Element, it will be a string.
+- The first argument is a reference to the component's type (function or class). In the case of a React Element, it will be a string.
 - The second argument seems to be `null` so far - more on this next.
-- Any arguments after the second define the children of the component. In the case of the `<br />`, React recognized this as its built-in component for an HTML `<br>` element and knowing that it cannot have children, its `createElement` method was only passed two arguments.
+- Any arguments after the second define the children of the component. In the case of the `<br />`, as an "empty" React Element, it cannot contain any children and therefore only be passed two arguments.
 
 Now let's discuss that `null` second argument. It is for passing **props** to a component. You will learn about props in a later lesson, however, you can think of them as key/value pairs, much like the attributes we put within HTML elements.
 
@@ -96,13 +96,13 @@ const student = React.createElement(
 );
 ```
 
-So, I ask you - **Which is a more clear and concise way of defining a component's UI - JSX or JavaScript?**
-
 In summary, in React, JSX is just syntactic sugar for:
 
 ```js
 React.createElement(component, props, ...children);
 ```
+
+So, I ask you - **Which is a more clear and concise way of defining a component's UI - JSX or JavaScript?**
 
 ## Basic Syntax of JSX
 
@@ -206,7 +206,7 @@ There are a few other syntax rules, etc.:
 - There are built-in React components, called React Elements, that correspond to each HTML element we're familiar with. These components are **always lowercased** - like the `<h1>` component used in the `<Greeter />` component.
 	
 - Our app's user-defined components are **always uppercased** - like the `<Greeter />` component.
-- When rendering, a component must return a **single node or array of nodes**. However, usually we _compose_ components from multiple components. To return multiple components from the `render` method they must be wrapped by a single component (like a `<div>`). For example, let's update the `Greeter` component like this:
+- When rendering, a component must return a **single node or array of nodes**. However, usually we _compose_ components from multiple components. To return multiple components from the `render` method they can be wrapped by a single component (like a `<div>`). For example, let's update the `Greeter` component like this:
 
 	```js
 	function Greeter(props) {
@@ -420,7 +420,7 @@ The `things` array would more commonly be held in the component's **state** or *
 
 Pretty cool. React automatically renders arrays of components in JSX expressions (`{listOfThings}`).
 
-Because `things.map(...)` is an expression (that returns a new array), it's possible to put it inline within the JSX like this:
+Because `things.map(...)` is an expression (it returns a new array), it's possible to put it inline within the JSX like this:
 
 ```js
 function Greeter(props) {
