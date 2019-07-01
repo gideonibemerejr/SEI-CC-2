@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const NewGameButton = (props) => (
-  <button className='btn btn-default'>
+const NewGameButton = props => (
+  <button className="btn btn-default" onClick={props.handleNewGameClick}>
     New Game
   </button>
-);
+)
 
-export default NewGameButton;
+export default NewGameButton
