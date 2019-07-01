@@ -1,0 +1,34 @@
+.Settings {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+}
+.Settings-row {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 2.5em;
+}
+.Settings-row button {
+  width: 7em;
+  margin: 0.5em;
+}
+
+.Settings-colors {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 1em;
+}
+
+.Settings-color {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  opacity: 0.85;
+}
+
+.Settings-cancel {
+  width: 10em;
+}

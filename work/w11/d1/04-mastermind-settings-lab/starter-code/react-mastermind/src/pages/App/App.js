@@ -6,8 +6,8 @@ import SettingsPage from '../SettingsPage/SettingsPage'
 
 const colors = {
   Easy: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD'],
-  Moderate: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD'],
-  Difficult: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD']
+  Moderate: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD', '#B6DB6D'],
+  Difficult: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD', '#B6DB6D', '#5D637C']
 }
 
 class App extends Component {
@@ -139,6 +139,10 @@ class App extends Component {
     })
   }
 
+  handleDifficultyChange = level => {
+    this.setState({ difficulty: level })
+  }
+
   render() {
     let winTries = this.getWinTries()
     return (
@@ -171,6 +175,8 @@ class App extends Component {
                 {...props}
                 colorsList={colors}
                 difficulty={this.state.difficulty}
+                handleDifficultyChange={this.handleDifficultyChange}
+                handleNewGameClick={this.handleNewGameClick}
               />
             )}
           />
