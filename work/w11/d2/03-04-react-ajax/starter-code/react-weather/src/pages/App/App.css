@@ -16,4 +16,14 @@
   font-size: 5vmin;
   color: var(--text-color);
   opacity: 0.85;
+  justify-content: space-between;
+}
+.App-header div {
+  color: white;
+  font-size: 8vmin;
+  font-weight: bold;
+}
+
+.App-header img {
+  height: 15vmin;
 }
