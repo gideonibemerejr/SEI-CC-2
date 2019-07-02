@@ -106,7 +106,7 @@ Take note on how the Google Maps library is being referenced on line 10 (and als
 const map = new window.google.maps.Map(
 ``` 
 
-Normally, as shown in the docs, you would access the global `google` object created by the library directly.  However, due to the way the module system works in React, `google` is not in scope and the app will fail to build if try to access `google` directly:
+Normally, as shown in the docs, you would access the global `google` object created by the library directly.  However, due to the way the module system works in React, `google` is not in scope and the app will fail to build if we try to access `google` directly:
 
 <img src="https://i.imgur.com/OGdPf7e.png">
 
@@ -120,7 +120,7 @@ The [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocati
 
 It is a best practice to organize general purpose, reusable functionality within utility/service modules.
 
-The project's starter code has a `service` folder for holding such modules.
+The project's starter code has a `services` folder for holding such modules.
 
 The **services/geolocation.js** module has a single named export, `getCurrentLatLng`.
 
@@ -154,7 +154,7 @@ After all, we've already seen how to use `fetch` to make AJAX calls.
 
 Doing so avoids exposing API keys in the browser and avoids the [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) security restrictions that can prevent a browser from being able to access an API if the server does not participate in CORS.
 
-However, we don't have a backend to act as a "passthrough", so we will be using `fetch` to make calls to an API directly.
+However, we currently don't have a backend to act as a "passthrough", so we will be using `fetch` to make calls to an API directly.
 
 To make `fetch` send the correct CORS headers to the server, we need to include an options object with a `mode: "cors"` property like the following:
 
@@ -166,13 +166,15 @@ fetch(someUrl, {mode: "cors"}).then(res => res.json())
 
 If you take a look at a React component, it's not easy to figure out where to put the AJAX code. You can't put it in `render` nor the `constructor` lifecycle methods because if the data comes back before the component's elements are mounted in the DOM, you won't be able to display the returned data.
 
-The answer, as you learned earlier in the Lifecycle lesson, is to initiate calls to asynchronous operations, such as making AJAX calls, from inside of the `componentDidMount` lifecycle method.
+The answer, as you learned earlier in the Lifecycle lesson, is to initiate calls to asynchronous operations, such as making AJAX calls, from inside of the `componentDidMount` and `componentDidUpdate` lifecycle methods.
 
-Since obtaining GPS coordinates is an asynchronous operation, we need to make the call to `getCurrentLatLng` from within `componentDidMount`.
+Although not an AJAX call, obtaining GPS coordinates is also an asynchronous operation, so we should make the call to `getCurrentLatLng` from within `componentDidMount`.
 
-First though, we will need to import the `getCurrentLatLng` function that's exported from our **geolocation.js** service module in **App.js**:
+First though, we will need to add an import inside of **App.js** to be able to access the `getCurrentLatLng` function that's being exported from the **geolocation.js** service module:
 
 ```js
+// App.js
+
 import { getCurrentLatLng } from '../../services/geolocation';
 ```
 
@@ -233,7 +235,7 @@ Unfortunately, we're receiving errors because there are now coordinates being pr
 
 We took a shot at writing `<Map>` as a Function Component but now find ourselves needing to tap into lifecycle methods, e.g., `componentDidMount`.
 
-This is a dandy of a refactor, so we'll do it together, without looking at the final version of the code below while we refactor:
+This is a dandy of a refactor:
 
 ```js
 class Map extends React.Component {
@@ -272,7 +274,7 @@ class Map extends React.Component {
 }
 ```
 
-Okay, I'm not sure how close we got to the above, but hopefully we got close and got it to display the map:
+Okay, assuming the refactor went well, the `<Map>` component will be displaying the map:
 
 <img src="https://i.imgur.com/ZnIwsAt.png">
 
@@ -361,7 +363,7 @@ Using the **geolocation.js** module as an example, create a **weather-api.js** s
 - The `getCurWeatherByLatLng` function should:
 
   - Define two parameters: `lat` & `lng`.
-  - Use `fetch` to make a call to the same endpoint as above, substituting the values of `lat` and `lng` passed as arguments. Be sure to assign `lng` to the `lon` query param that the API uses.
+  - Use `fetch` to make a call to the same endpoint as above, substituting the values of `lat` and `lng` passed as arguments. Be sure to assign our `lng` value to the `lon` query param that the API uses.
   - Be sure to provide the `{mode: 'cors'}` option object as a second argument to `fetch`.
   - Return the result of `fetch(...).then(res => res.json())` so that we can work with the promise that returns the actual data.
 
@@ -393,7 +395,7 @@ Cool.
 
 Now there's the `icon` property whose value is a short string that we can use to build out a URL for use as an `<img>` element's `src` attribute.
 
-**Figure out the data path like we just did for `temp` and I'll call on the first to raise their hand.**
+**Figure out the data path like we just did for `temp` and slack it in the lessons channel when you've got it.**
 
 Now that we know the data paths, let's add them to state:
 
@@ -443,9 +445,9 @@ Ignoring CSS for now, let's update the `<header>` in **App.js** as follows:
 
 The ["How to get icon URL" section](https://openweathermap.org/weather-conditions) of OpenWeatherMap's docs shows us how to form the URL that points to the current condition's icon. Be sure to always use `https` however.
 
-We're using the `&&` operator within a JSX expression to prevent the rendering of a "broken image" tag that would show until the data arrives.
+Note how we're using the `&&` operator within a JSX expression to prevent the rendering of a "broken image" tag that would show until the data arrives.
 
-Lastly, note that React will give a warning in the console if you don't include an `alt` prop in all `<img>` components.
+Lastly, React will give a warning in the console if you don't include an `alt` prop in all `<img>` components.
 
 #### Update the CSS for the `<header>`
 
@@ -479,9 +481,9 @@ Congrats!
 
 Take a moment to review the following questions:
 
-1. **What JS expression would you use to access the jQuery function in a React app?**
+1. **Assuming you loaded jQuery via a CDN in a React app's index.html, what object must you precede `$()` (jQuery function) with?**
 
-2. **What lifecycle method is typically where we make asynchronous calls from?**
+2. **What lifecycle method(s) do we typically initiate asynchronous calls from?**
 
 3. **Why is the following code not a best practice?**
 
