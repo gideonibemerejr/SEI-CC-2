@@ -3,6 +3,9 @@ import './App.css'
 import Map from '../../components/Map/Map'
 import { getCurrentLatLng } from '../../services/geolocation'
 import { getCurWeatherByLatLng } from '../../services/weather-api'
+
+
+
 class App extends Component {
   state = {
     lat: null,
