@@ -1,3 +1,37 @@
+# Star Wars API Practice
+
+## Component Hierarchy
+
+### Introduction
+
+The highest order component in this application is the App.js module. It imports some [Pages](#Pages) and [Components](#Components). The App.js file also takes care of a few things: 
+
+1. The file creates a baseline for global ideas in our app such as global CSS styles, global state, global components (i.e. site navigation).
+2. It also handles all of the routing using [React Router](https://reacttraining.com/react-router/web/guides/quick-start).
+
+### Pages
+
+#### Home
+
+The home page of the project is created as its own page level component instead of clouding the App.js file with lengthy JSX elements. In React, where any `path=` or `to=` props equal `"/"` the `/pages/Home/index.jsx` module is used. The application is making a `GET '/'` request here.
+
+When a user browses to `www.<websitename>.com/` this is what they will see.
+
+#### Starship Page (Detail)
+
+The detail page of the project is a single Starship.  In React, where any `path=` or `to=` props equal `"/starships/:id"` the `/pages/StarshipPage/StarshipPage.jsx` module is used. The application is making a `GET '/starships/:id'` request here.
+
+When a user browses to `www.<websitename>.com/` this is what they will see.
+
+The
+
+#### Starships Page
+
+The Starships page is where the list of starships is held.
+
+### Components
+
+#### 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
