@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom';
 class StarshipsPage extends Component {
   render() {
     return (
-      <div className=" d-flex justify-content-center">
+      <div
+        className=" d-flex flex-column justify-content-center align-items-center
+      "
+      >
+        <h2 className="m-5">Welcome to the First 10 Fleet Hangar</h2>
+
         <div>
           {this.props.starships ? (
             this.props.starships.map((starship, idx) => (
