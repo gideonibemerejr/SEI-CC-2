@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import GamePage from '../../pages/GamePage/GamePage';
 import { Route, Switch } from 'react-router-dom';
+import GamePage from '../../pages/GamePage/GamePage';
 import SettingsPage from '../SettingsPage/SettingsPage';
+import HighScoresPage from '../HighScoresPage/HighScoresPage';
+import { create } from '../../services/services';
 
 const colors = {
   Easy: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD'],
@@ -13,7 +15,7 @@ const colors = {
 class App extends Component {
   constructor() {
     super();
-    this.state = {...this.getInitialState(), difficulty: 'Easy'};
+    this.state = { ...this.getInitialState(), difficulty: 'Easy', scores: [] };
   }
 
   getInitialState() {
@@ -21,7 +23,6 @@ class App extends Component {
       selColorIdx: 0,
       guesses: [this.getNewGuess()],
       code: this.genCode(),
-      // new state coming in!
       elapsedTime: 0,
       isTiming: true
     };
@@ -40,38 +41,52 @@ class App extends Component {
   genCode() {
     let numColors = this.state && colors[this.state.difficulty].length;
     numColors = numColors || 4;
-    return new Array(4).fill().map(dummy => Math.floor(Math.random() * numColors));
+    return new Array(4)
+      .fill()
+      .map(dummy => Math.floor(Math.random() * numColors));
   }
 
   getWinTries() {
     // if winner, return num guesses, otherwise 0 (no winner)
     let lastGuess = this.state.guesses.length - 1;
-    return this.state.guesses[lastGuess].score.perfect === 4 ? lastGuess + 1 : 0;
+    return this.state.guesses[lastGuess].score.perfect === 4
+      ? lastGuess + 1
+      : 0;
   }
 
+  isHighScore = guessesCopy => {
+    let lastScore = this.state.scores[this.state.scores.length - 1];
+    return (
+      guessesCopy.length < lastScore.numGuesses ||
+      (guessesCopy.length === lastScore.numGuesses &&
+        this.state.elapsedTime < lastScore.seconds)
+    );
+  };
+
+  // Callbacks
   handleTimerUpdate = () => {
-    this.setState((curState) => ({elapsedTime: ++curState.elapsedTime}));
-  }
+    this.setState(curState => ({ elapsedTime: ++curState.elapsedTime }));
+  };
 
-  handleDifficultyChange = (level) => {
-    this.setState({difficulty: level});
-  }
+  handleDifficultyChange = level => {
+    this.setState({ difficulty: level });
+  };
 
-  handleColorSelection = (colorIdx) => {
-    this.setState({selColorIdx: colorIdx});
-  }
+  handleColorSelection = colorIdx => {
+    this.setState({ selColorIdx: colorIdx });
+  };
 
   handleNewGameClick = () => {
     this.setState(this.getInitialState());
-  }
+  };
 
-  handlePegClick = (pegIdx) => {
+  handlePegClick = pegIdx => {
     // Get index of last guess object
     let currentGuessIdx = this.state.guesses.length - 1;
 
     // Always replace objects/arrays with NEW ones
     let guessesCopy = [...this.state.guesses];
-    let guessCopy = {...guessesCopy[currentGuessIdx]};
+    let guessCopy = { ...guessesCopy[currentGuessIdx] };
     let codeCopy = [...guessCopy.code];
 
     // Update the NEW code array with the currently selected color
@@ -85,9 +100,9 @@ class App extends Component {
 
     // Update state with the NEW guesses array
     this.setState({
-        guesses: guessesCopy
+      guesses: guessesCopy
     });
-  }
+  };
 
   handleScoreClick = () => {
     // Need the index of the current guess object (last object in guesses array)
@@ -99,7 +114,8 @@ class App extends Component {
     let guessCodeCopy = [...this.state.guesses[currentGuessIdx].code];
     let secretCodeCopy = [...this.state.code];
 
-    let perfect = 0, almost = 0;
+    let perfect = 0,
+      almost = 0;
 
     // First pass computes number of "perfect"
     guessCodeCopy.forEach((code, idx) => {
@@ -124,55 +140,97 @@ class App extends Component {
     });
 
     // State must only be updated with NEW objects/arrays
-        // Always replace objects/arrays with NEW ones
+    // Always replace objects/arrays with NEW ones
     let guessesCopy = [...this.state.guesses];
-    let guessCopy = {...guessesCopy[currentGuessIdx]};
-    let scoreCopy = {...guessCopy.score};
+    let guessCopy = { ...guessesCopy[currentGuessIdx] };
+    let scoreCopy = { ...guessCopy.score };
 
     scoreCopy.perfect = perfect;
     scoreCopy.almost = almost;
     guessCopy.score = scoreCopy;
     guessesCopy[currentGuessIdx] = guessCopy;
 
-    if (perfect !== 4) guessesCopy.push(this.getNewGuess());
+    if (perfect === 4) {
+      // Chicken dinner - need to stop the timer!
+      this.setState(state => ({ isTiming: false }), async function() {
+        // Do high-score logic in this callback
+        if (this.state.scores.length < 20 || this.isHighScore(guessesCopy)) {
+          let initials = prompt(
+            'Congrats you have a top-20 score! Enter your initials: '
+          ).substr(0, 3);
+          await create({
+            initials,
+            numGuesses: guessesCopy.length,
+            seconds: this.state.elapsedTime
+          });
+          this.props.history.push('/high-scores');
+        }
+      });
+    } else {
+      guessesCopy.push(this.getNewGuess());
+    }
 
     this.setState({
       guesses: guessesCopy,
       // This is a great way to update isTiming
       isTiming: perfect !== 4
     });
-  }
+  };
+
+  handleUpdateScores = scores => {
+    this.setState({ scores });
+  };
 
   render() {
     let winTries = this.getWinTries();
     return (
       <div>
-        <header className='header-footer'>R E A C T &nbsp;&nbsp;&nbsp;  M A S T E R M I N D</header>
+        <header className="header-footer">
+          R E A C T &nbsp;&nbsp;&nbsp; M A S T E R M I N D
+        </header>
         <Switch>
-          <Route exact path='/' render={() =>
-            <GamePage
-              winTries={winTries}
-              colors={colors[this.state.difficulty]}
-              selColorIdx={this.state.selColorIdx}
-              guesses={this.state.guesses}
-              elapsedTime={this.state.elapsedTime}
-              isTiming={this.state.isTiming}
-              handleColorSelection={this.handleColorSelection}
-              handleNewGameClick={this.handleNewGameClick}
-              handlePegClick={this.handlePegClick}
-              handleScoreClick={this.handleScoreClick}
-              handleTimerUpdate={this.handleTimerUpdate}
-            />
-          } />
-          <Route exact path='/settings' render={props => 
-            <SettingsPage
-              {...props} 
-              colorsLookup={colors}
-              difficulty={this.state.difficulty}
-              handleDifficultyChange={this.handleDifficultyChange}
-              handleNewGameClick={this.handleNewGameClick}
-            />
-          } />
+          <Route
+            exact
+            path="/"
+            render={() => (
+              <GamePage
+                winTries={winTries}
+                colors={colors[this.state.difficulty]}
+                selColorIdx={this.state.selColorIdx}
+                guesses={this.state.guesses}
+                elapsedTime={this.state.elapsedTime}
+                isTiming={this.state.isTiming}
+                handleColorSelection={this.handleColorSelection}
+                handleNewGameClick={this.handleNewGameClick}
+                handlePegClick={this.handlePegClick}
+                handleScoreClick={this.handleScoreClick}
+                handleTimerUpdate={this.handleTimerUpdate}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/settings"
+            render={props => (
+              <SettingsPage
+                {...props}
+                colorsLookup={colors}
+                difficulty={this.state.difficulty}
+                handleDifficultyChange={this.handleDifficultyChange}
+                handleNewGameClick={this.handleNewGameClick}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/high-scores"
+            render={() => (
+              <HighScoresPage
+                scores={this.state.scores}
+                handleUpdateScores={this.handleUpdateScores}
+              />
+            )}
+          />
         </Switch>
       </div>
     );

@@ -7,3 +7,5 @@ router.get('/', scoresCtrl.getHighScores);
 
 /* POST High Score */
 router.post('/', scoresCtrl.create);
+
+module.exports = router;
